@@ -1,0 +1,26 @@
+<workflowactionscript scriptid="customscript_flo_make_join_wf_action">
+  <defaultfunction>workFloTrigger</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint Make Join WF</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <returnrecordtype></returnrecordtype>
+  <returntype></returntype>
+  <scriptfile>[/SuiteBundles/Bundle 297487/FLOCustDetailsSSWF.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_flo_make_join_wf_action">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <recordtype>RECORD</recordtype>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+    </scriptdeployment>
+  </scriptdeployments>
+</workflowactionscript>

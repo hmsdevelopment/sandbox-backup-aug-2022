@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_resendrensu2">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>hmsResendRenSU2.0</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Suitescript/Webbee Scripts/HmsResendRenSlCsSuWebbee.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_hmsresendrensu2">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>TESTING</status>
+      <title>hmsResendRenSU2.0</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

@@ -1,0 +1,26 @@
+<suitelet scriptid="customscript86">
+  <defaultfunction>bsrRequestPhoneFollowUp</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>BSR Request Phone Follow Up</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/bsrRequestPhoneFollowUp_v1.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy1">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>ERROR</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>BSR Request Phone Follow Up</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

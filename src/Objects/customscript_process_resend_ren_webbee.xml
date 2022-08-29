@@ -1,0 +1,45 @@
+<scheduledscript scriptid="customscript_process_resend_ren_webbee">
+  <defaultfunction>ScheduleREN</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Schdule REN Emails (24 Hours) - WebBee</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <scriptfile>[/SuiteScripts/Suitescript/Webbee Scripts/Schedule_REN_WebBee_SS.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_procs_ren_every_24_hour">
+      <isdeployed>F</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>REN Emails- WebBee - Every 24+Hours</title>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat></repeat>
+          <startdate>2016-10-23</startdate>
+          <starttime>12:00:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy_procs_resend_ren_every_hour">
+      <isdeployed>F</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>REN Emails- WebBee - Every Hour</title>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat>PT1H</repeat>
+          <startdate>2016-10-23</startdate>
+          <starttime>12:00:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+  <libraries>
+    <library>
+      <scriptfile>[/SuiteScripts/Suitescript/Webbee Scripts/Crypto/Crypto.js]</scriptfile>
+    </library>
+  </libraries>
+</scheduledscript>

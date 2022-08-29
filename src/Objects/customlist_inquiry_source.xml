@@ -1,0 +1,20 @@
+<customlist scriptid="customlist_inquiry_source">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Inquiry Source</name>
+  <customvalues>
+    <customvalue scriptid="val_211578_1309901_740">
+      <isinactive>F</isinactive>
+      <value>Phone</value>
+    </customvalue>
+    <customvalue scriptid="val_211579_1309901_372">
+      <isinactive>F</isinactive>
+      <value>Direct MLS Showing (Showing Assist/CSS)</value>
+    </customvalue>
+    <customvalue scriptid="val_211580_1309901_132">
+      <isinactive>F</isinactive>
+      <value>Email From Realtor Directly (NOT Showing Assist/CSS)</value>
+    </customvalue>
+  </customvalues>
+</customlist>

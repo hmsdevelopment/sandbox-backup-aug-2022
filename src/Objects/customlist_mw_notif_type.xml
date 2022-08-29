@@ -1,0 +1,20 @@
+<customlist scriptid="customlist_mw_notif_type">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Notification Type</name>
+  <customvalues>
+    <customvalue scriptid="val_290410_1309901_804">
+      <isinactive>F</isinactive>
+      <value>Sale</value>
+    </customvalue>
+    <customvalue scriptid="val_290411_1309901_754">
+      <isinactive>F</isinactive>
+      <value>Closing</value>
+    </customvalue>
+    <customvalue scriptid="val_422699_1309901_926">
+      <isinactive>F</isinactive>
+      <value>Incomplete</value>
+    </customvalue>
+  </customvalues>
+</customlist>

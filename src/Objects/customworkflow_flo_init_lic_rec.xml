@@ -1,0 +1,49 @@
+<workflow scriptid="customworkflow_flo_init_lic_rec">
+  <description>Initializes the License Record during Install/Update Bundle.</description>
+  <initcontexts></initcontexts>
+  <initeventtypes></initeventtypes>
+  <initlocalizationcontext></initlocalizationcontext>
+  <initoncreate>F</initoncreate>
+  <initonvieworupdate>F</initonvieworupdate>
+  <initsavedsearchcondition></initsavedsearchcondition>
+  <inittriggertype></inittriggertype>
+  <isinactive>F</isinactive>
+  <islogenabled>F</islogenabled>
+  <keephistory>ONLYWHENTESTING</keephistory>
+  <name>Strongpoint Initialize License Record</name>
+  <recordtypes>[scriptid=customrecord_flo_license]</recordtypes>
+  <releasestatus>NOTINITIATING</releasestatus>
+  <runasadmin>T</runasadmin>
+  <initcondition>
+    <formula></formula>
+    <type>VISUAL_BUILDER</type>
+  </initcondition>
+  <workflowstates>
+    <workflowstate scriptid="workflowstate415">
+      <description></description>
+      <donotexitworkflow>F</donotexitworkflow>
+      <name>Get License From Production</name>
+      <positionx>243</positionx>
+      <positiony>133</positiony>
+      <workflowactions triggertype="ONENTRY">
+        <customaction scriptid="workflowaction1235">
+          <conditionsavedsearch></conditionsavedsearch>
+          <contexttypes></contexttypes>
+          <eventtypes></eventtypes>
+          <isinactive>F</isinactive>
+          <resultfield></resultfield>
+          <scheduledelay></scheduledelay>
+          <schedulemode>DELAY</schedulemode>
+          <schedulerecurrence></schedulerecurrence>
+          <scheduletimeofday></scheduletimeofday>
+          <scheduletimeunit></scheduletimeunit>
+          <scripttype>[scriptid=customscript_flo_get_lic_from_prod]</scripttype>
+          <initcondition>
+            <formula></formula>
+            <type>VISUAL_BUILDER</type>
+          </initcondition>
+        </customaction>
+      </workflowactions>
+    </workflowstate>
+  </workflowstates>
+</workflow>

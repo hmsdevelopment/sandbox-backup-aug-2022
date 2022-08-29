@@ -1,0 +1,12 @@
+<emailtemplate scriptid="custemailtmpl_96_1309901_661">
+  <addcompanyaddress>T</addcompanyaddress>
+  <addunsubscribelink>T</addunsubscribelink>
+  <description></description>
+  <isinactive>F</isinactive>
+  <isprivate>F</isprivate>
+  <mediaitem></mediaitem>
+  <name>Case Response Received By notice</name>
+  <recordtype>EVENT</recordtype>
+  <subject></subject>
+  <usesmedia>F</usesmedia>
+</emailtemplate>

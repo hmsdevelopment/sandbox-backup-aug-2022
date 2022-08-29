@@ -1,0 +1,24 @@
+<customlist scriptid="customlist_survey_rank">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Survey Rank</name>
+  <customvalues>
+    <customvalue scriptid="value_1_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Top Choice</value>
+    </customvalue>
+    <customvalue scriptid="value_2_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Top 2</value>
+    </customvalue>
+    <customvalue scriptid="value_3_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Top 5</value>
+    </customvalue>
+    <customvalue scriptid="value_4_1309901_565">
+      <isinactive>F</isinactive>
+      <value>None of the Above</value>
+    </customvalue>
+  </customvalues>
+</customlist>

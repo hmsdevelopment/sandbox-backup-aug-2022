@@ -1,0 +1,114 @@
+<scheduledscript scriptid="customscript59">
+  <defaultfunction>sendClosingNotification</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>sendClosingNotification</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/sendClosingNotification_v1.js]</scriptfile>
+  <scriptcustomfields>
+    <scriptcustomfield scriptid="custscript_search_id">
+      <accesslevel>2</accesslevel>
+      <applyformatting>T</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <fieldtype>INTEGER</fieldtype>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <label>Search ID</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <setting></setting>
+      <storevalue>T</storevalue>
+    </scriptcustomfield>
+  </scriptcustomfields>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy3">
+      <custscript_search_id>190</custscript_search_id>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>TESTING</status>
+      <title>sendClosingNotification Testing</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2014-06-04</startdate>
+          <starttime>22:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy2">
+      <custscript_search_id>192</custscript_search_id>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>SCHEDULED</status>
+      <title>sendClosingNotification 2</title>
+      <recurrence>
+        <weekly>
+          <everyxweeks>1</everyxweeks>
+          <friday>F</friday>
+          <monday>F</monday>
+          <repeat></repeat>
+          <saturday>F</saturday>
+          <startdate>2012-10-17</startdate>
+          <starttime>12:00:00Z</starttime>
+          <sunday>F</sunday>
+          <thursday>F</thursday>
+          <tuesday>F</tuesday>
+          <wednesday>T</wednesday>
+        </weekly>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy1">
+      <custscript_search_id>190</custscript_search_id>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>SCHEDULED</status>
+      <title>sendClosingNotification</title>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat></repeat>
+          <startdate>2012-10-10</startdate>
+          <starttime>22:00:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy4">
+      <custscript_search_id>192</custscript_search_id>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>TESTING</status>
+      <title>sendClosingNotification Wednesday Test</title>
+      <recurrence>
+        <weekly>
+          <everyxweeks>1</everyxweeks>
+          <friday>F</friday>
+          <monday>F</monday>
+          <repeat></repeat>
+          <saturday>F</saturday>
+          <startdate>2012-10-17</startdate>
+          <starttime>12:00:00Z</starttime>
+          <sunday>F</sunday>
+          <thursday>F</thursday>
+          <tuesday>F</tuesday>
+          <wednesday>T</wednesday>
+        </weekly>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

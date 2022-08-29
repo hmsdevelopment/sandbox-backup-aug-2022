@@ -1,0 +1,26 @@
+<suitelet scriptid="customscript_mw_tes_date_format">
+  <defaultfunction>lookupPhoneBackendSuitelet</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Test Date Format</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Midware/testdateformat/SuiteletScripts/Router/TEstDAteFormatOld.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mw_tes_date_format">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>F</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole></runasrole>
+      <status>TESTING</status>
+      <title>Test date format</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

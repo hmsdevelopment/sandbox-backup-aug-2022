@@ -1,0 +1,12 @@
+<customlist scriptid="customlist367">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Subdivision Group</name>
+  <customvalues>
+    <customvalue scriptid="value_1_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Test Group</value>
+    </customvalue>
+  </customvalues>
+</customlist>

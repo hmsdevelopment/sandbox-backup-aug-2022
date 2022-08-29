@@ -1,0 +1,20 @@
+<customlist scriptid="customlist_mw_listing_amd_status">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Listing Amendment Status</name>
+  <customvalues>
+    <customvalue scriptid="val_291866_1309901_326">
+      <isinactive>F</isinactive>
+      <value>Pending</value>
+    </customvalue>
+    <customvalue scriptid="val_291867_1309901_122">
+      <isinactive>F</isinactive>
+      <value>Complete</value>
+    </customvalue>
+    <customvalue scriptid="val_291868_1309901_725">
+      <isinactive>F</isinactive>
+      <value>Error</value>
+    </customvalue>
+  </customvalues>
+</customlist>

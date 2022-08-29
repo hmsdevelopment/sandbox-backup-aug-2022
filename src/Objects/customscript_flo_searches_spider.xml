@@ -1,0 +1,82 @@
+<scheduledscript scriptid="customscript_flo_searches_spider">
+  <description>Spider for Saved Searches</description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint Searches Spider 2.0</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteBundles/Bundle 297487/FLOSearchesSpider2.js]</scriptfile>
+  <scriptcustomfields>
+    <scriptcustomfield scriptid="custscript_searchspider_lastid">
+      <accesslevel>2</accesslevel>
+      <applyformatting>T</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description>Saved search ID to continue spider</description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <fieldtype>INTEGER</fieldtype>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <label>Last ID</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <setting></setting>
+      <storevalue>T</storevalue>
+    </scriptcustomfield>
+    <scriptcustomfield scriptid="custscript_flo_isinitialspider_search">
+      <accesslevel>2</accesslevel>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description>Indicates whether the script is initiated from the first spider run of a new installation / initial spider</description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <fieldtype>CHECKBOX</fieldtype>
+      <help>True/Checked if the script is initiated from the first spider run of a new installation / initial spider</help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <label>From Initial Spider</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <setting></setting>
+      <storevalue>T</storevalue>
+    </scriptcustomfield>
+  </scriptcustomfields>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_flo_searches_spider_2">
+      <custscript_flo_isinitialspider_search>F</custscript_flo_isinitialspider_search>
+      <custscript_searchspider_lastid></custscript_searchspider_lastid>
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Strongpoint Searches Spider 2.0</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2017-04-05</startdate>
+          <starttime>22:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

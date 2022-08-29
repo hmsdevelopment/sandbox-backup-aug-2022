@@ -1,0 +1,26 @@
+<suitelet scriptid="customscript_hms_no_ghost_list_sl">
+  <defaultfunction>uploader</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>HMS NO Ghost Listing SL</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/HMS_Show_Property_NonGhost.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_hms_no_ghost_list_sl">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>HMS NO Ghost Listing SL</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

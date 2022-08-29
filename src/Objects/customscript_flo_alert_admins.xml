@@ -1,0 +1,31 @@
+<workflowactionscript scriptid="customscript_flo_alert_admins">
+  <defaultfunction>alertAdmins</defaultfunction>
+  <description>Sends an email alert to administrators after spider finishes</description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint Alert Admins</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <returnrecordtype></returnrecordtype>
+  <returntype></returntype>
+  <scriptfile>[/SuiteBundles/Bundle 297487/FLOAlertAdmins.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy1">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <recordtype>[scriptid=customrecord_flo_spider_configuration]</recordtype>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+    </scriptdeployment>
+  </scriptdeployments>
+  <libraries>
+    <library>
+      <scriptfile>[/SuiteBundles/Bundle 297487/FlashlightPortlet_Library.js]</scriptfile>
+    </library>
+  </libraries>
+</workflowactionscript>

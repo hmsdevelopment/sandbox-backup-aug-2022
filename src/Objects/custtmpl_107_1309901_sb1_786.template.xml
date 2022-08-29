@@ -1,0 +1,108 @@
+<?xml version="1.0"?><!DOCTYPE pdf PUBLIC "-//big.faceless.org//report" "report-1.1.dtd">
+<pdf>
+<head>
+	<link name="NotoSans" type="font" subtype="truetype" src="${nsfont.NotoSans_Regular}" src-bold="${nsfont.NotoSans_Bold}" src-italic="${nsfont.NotoSans_Italic}" src-bolditalic="${nsfont.NotoSans_BoldItalic}" bytes="2" />
+	<#if .locale == "zh_CN">
+		<link name="NotoSansCJKsc" type="font" subtype="opentype" src="${nsfont.NotoSansCJKsc_Regular}" src-bold="${nsfont.NotoSansCJKsc_Bold}" bytes="2" />
+	<#elseif .locale == "zh_TW">
+		<link name="NotoSansCJKtc" type="font" subtype="opentype" src="${nsfont.NotoSansCJKtc_Regular}" src-bold="${nsfont.NotoSansCJKtc_Bold}" bytes="2" />
+	<#elseif .locale == "ja_JP">
+		<link name="NotoSansCJKjp" type="font" subtype="opentype" src="${nsfont.NotoSansCJKjp_Regular}" src-bold="${nsfont.NotoSansCJKjp_Bold}" bytes="2" />
+	<#elseif .locale == "ko_KR">
+		<link name="NotoSansCJKkr" type="font" subtype="opentype" src="${nsfont.NotoSansCJKkr_Regular}" src-bold="${nsfont.NotoSansCJKkr_Bold}" bytes="2" />
+	<#elseif .locale == "th_TH">
+		<link name="NotoSansThai" type="font" subtype="opentype" src="${nsfont.NotoSansThai_Regular}" src-bold="${nsfont.NotoSansThai_Bold}" bytes="2" />
+	</#if>
+    <style type="text/css">table { font-size: 9pt; table-layout: fixed; width: 100%; }
+th { font-weight: bold; font-size: 8pt; vertical-align: middle; padding: 5px 6px 3px; background-color: #e3e3e3; color: #333333; padding-bottom: 10px; padding-top: 10px; }
+td { padding: 4px 6px; }
+b { font-weight: bold; color: #333333; }
+</style>
+</head>
+<body padding="0.5in 0.5in 0.5in 0.5in" size="Letter">
+    <table><#list results as result><#if result_index == 0>
+<thead>
+	<tr>
+	<th>${result.internalId@label}</th>
+	<th>${result.created@label}</th>
+	<th>${result.name@label}</th>
+	<th>${result.id@label}</th>
+	<th>${result.lastmodifiedby@label}</th>
+	<th>${result.lastmodified@label}</th>
+	<th>${result.custrecord_lot_number@label}</th>
+	<th>${result.custrecord_construction_status_listing@label}</th>
+	<th>${result.custrecord_estimated_under_roof_date@label}</th>
+	<th>${result.custrecord_estimated_completion_date@label}</th>
+	<th>${result.custrecord_listing_date_mls_region1@label}</th>
+	<th>${result.custrecord_listing_date_mls_region2@label}</th>
+	<th>${result.custrecord_purchase_contract@label}</th>
+	<th>${result.custrecord_buyers_last_name@label}</th>
+	<th>${result.custrecord_estimated_closing_date@label}</th>
+	<th>${result.custrecord_construction_status_contract@label}</th>
+	<th>${result.custrecord_pending_date_mls_region1@label}</th>
+	<th>${result.custrecord_pending_date_mls_region2@label}</th>
+	<th>${result.custrecord_hud1@label}</th>
+	<th>${result.custrecord_actual_closing_date@label}</th>
+	<th>${result.custrecord_expiration_date@label}</th>
+	<th>${result.custrecord_list_date@label}</th>
+	<th>${result.custrecord_house_number@label}</th>
+	<th>${result.custrecordcustrecordsubdname@label}</th>
+	<th>${result.custrecord_state@label}</th>
+	<th>${result.custrecord_zip_code@label}</th>
+	<th>${result.custrecord_city@label}</th>
+	<th>${result.custrecord10@label}</th>
+	<th>${result.custrecord11@label}</th>
+	<th>${result.custrecord12@label}</th>
+	<th>${result.custrecord13@label}</th>
+	<th>${result.custrecord15@label}</th>
+	<th>${result.custrecord16@label}</th>
+	<th>${result.custrecord23@label}</th>
+	<th>${result.custrecord_entered_mls@label}</th>
+	<th>${result.custrecord_current_list_price@label}</th>
+	<th>${result.custrecord_property_photos@label}</th>
+	<th>${result.custrecord_financing_type@label}</th>
+	</tr>
+</thead>
+</#if><tr>
+	<td>${result.internalId}</td>
+	<td>${result.created}</td>
+	<td>${result.name}</td>
+	<td>${result.id}</td>
+	<td>${result.lastmodifiedby}</td>
+	<td>${result.lastmodified}</td>
+	<td>${result.custrecord_lot_number}</td>
+	<td>${result.custrecord_construction_status_listing}</td>
+	<td>${result.custrecord_estimated_under_roof_date}</td>
+	<td>${result.custrecord_estimated_completion_date}</td>
+	<td>${result.custrecord_listing_date_mls_region1}</td>
+	<td>${result.custrecord_listing_date_mls_region2}</td>
+	<td>${result.custrecord_purchase_contract}</td>
+	<td>${result.custrecord_buyers_last_name}</td>
+	<td>${result.custrecord_estimated_closing_date}</td>
+	<td>${result.custrecord_construction_status_contract}</td>
+	<td>${result.custrecord_pending_date_mls_region1}</td>
+	<td>${result.custrecord_pending_date_mls_region2}</td>
+	<td>${result.custrecord_hud1}</td>
+	<td>${result.custrecord_actual_closing_date}</td>
+	<td>${result.custrecord_expiration_date}</td>
+	<td>${result.custrecord_list_date}</td>
+	<td>${result.custrecord_house_number}</td>
+	<td>${result.custrecordcustrecordsubdname}</td>
+	<td>${result.custrecord_state}</td>
+	<td>${result.custrecord_zip_code}</td>
+	<td>${result.custrecord_city}</td>
+	<td>${result.custrecord10}</td>
+	<td>${result.custrecord11}</td>
+	<td>${result.custrecord12}</td>
+	<td>${result.custrecord13}</td>
+	<td>${result.custrecord15}</td>
+	<td>${result.custrecord16}</td>
+	<td>${result.custrecord23}</td>
+	<td>${result.custrecord_entered_mls}</td>
+	<td>${result.custrecord_current_list_price}</td>
+	<td>${result.custrecord_property_photos}</td>
+	<td>${result.custrecord_financing_type}</td>
+	</tr>
+	</#list></table>
+</body>
+</pdf>

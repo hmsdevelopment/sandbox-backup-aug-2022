@@ -1,0 +1,228 @@
+<!-- Do not modify the contents of the SDF XML definition structure located under "CDATA" section of this XML, as this may corrupt the Workbook/Dataset data when you deploy the modified object to your NetSuite account. !-->
+<dataset scriptid="custdataset1">
+  <name>Builder</name>
+  <dependencies>
+  </dependencies>
+  <definition><![CDATA[<root>
+<_T_>dataSet</_T_>
+<id type="null"/>
+<scriptId type="null"/>
+<applicationId type="null"/>
+<version type="string">0.1</version>
+<name>
+  <translationScriptId>0d957386-1569-443c-9a94-13290336d6ae</translationScriptId>
+</name>
+<audience>
+  <AudienceItems type="array"/>
+  <isPublic type="boolean">false</isPublic>
+</audience>
+<ownerId>3</ownerId>
+<description>
+  <translationScriptId>7746b43a-3813-41b7-ab66-e07419bef676</translationScriptId>
+</description>
+<baseRecord>
+  <id>customer</id>
+  <label>Builder</label>
+</baseRecord>
+<columns type="array">
+  <_ITEM_>
+    <columnId>3</columnId>
+    <label type="null"/>
+    <field>
+      <_T_>fieldReference</_T_>
+      <id>parent</id>
+      <label>Parent</label>
+      <joinTrail>
+        <baseRecord>
+          <id>customer</id>
+          <label>Builder</label>
+        </baseRecord>
+        <joins type="array"/>
+      </joinTrail>
+      <uniqueId>search.field.parent</uniqueId>
+    </field>
+    <alias>parent</alias>
+  </_ITEM_>
+  <_ITEM_>
+    <columnId>1</columnId>
+    <label type="null"/>
+    <field>
+      <_T_>fieldReference</_T_>
+      <id>companyname</id>
+      <label>Company Name</label>
+      <joinTrail>
+        <baseRecord>
+          <id>customer</id>
+          <label>Builder</label>
+        </baseRecord>
+        <joins type="array"/>
+      </joinTrail>
+      <uniqueId>search.field.companyname</uniqueId>
+    </field>
+    <alias>companyname</alias>
+  </_ITEM_>
+  <_ITEM_>
+    <columnId>4</columnId>
+    <label type="null"/>
+    <field>
+      <_T_>dataSetFormula</_T_>
+      <formula>
+        <_T_>formula</_T_>
+        <id>formula_1</id>
+        <uniqueId>search.formula.formula_1</uniqueId>
+        <label>
+          <translationScriptId>29a3a208-926f-4c5f-a62b-e4f881ce77d9</translationScriptId>
+        </label>
+        <formulaSQL>CASE WHEN {parent} = null THEN {companyname} ELSE CONCAT({parent#display}, ' : ', {companyname}) END</formulaSQL>
+        <dataType>STRING</dataType>
+      </formula>
+      <fields type="array">
+        <_ITEM_>
+          <_T_>fieldReference</_T_>
+          <id>parent</id>
+          <label>Parent</label>
+          <joinTrail>
+            <baseRecord>
+              <id>customer</id>
+              <label>Builder</label>
+            </baseRecord>
+            <joins type="array"/>
+          </joinTrail>
+          <uniqueId>parent</uniqueId>
+          <fieldValidityState>REMOVED</fieldValidityState>
+        </_ITEM_>
+        <_ITEM_>
+          <_T_>fieldReference</_T_>
+          <id>companyname</id>
+          <label>Company Name</label>
+          <joinTrail>
+            <baseRecord>
+              <id>customer</id>
+              <label>Builder</label>
+            </baseRecord>
+            <joins type="array"/>
+          </joinTrail>
+          <uniqueId>companyname</uniqueId>
+          <fieldValidityState>REMOVED</fieldValidityState>
+        </_ITEM_>
+        <_ITEM_>
+          <_T_>fieldReference</_T_>
+          <id>parent</id>
+          <label>Parent</label>
+          <joinTrail>
+            <baseRecord>
+              <id>customer</id>
+              <label>Builder</label>
+            </baseRecord>
+            <joins type="array"/>
+          </joinTrail>
+          <uniqueId>parent</uniqueId>
+          <fieldValidityState>REMOVED</fieldValidityState>
+        </_ITEM_>
+        <_ITEM_>
+          <_T_>fieldReference</_T_>
+          <id>companyname</id>
+          <label>Company Name</label>
+          <joinTrail>
+            <baseRecord>
+              <id>customer</id>
+              <label>Builder</label>
+            </baseRecord>
+            <joins type="array"/>
+          </joinTrail>
+          <uniqueId>companyname</uniqueId>
+          <fieldValidityState>REMOVED</fieldValidityState>
+        </_ITEM_>
+      </fields>
+    </field>
+    <alias>formula_1</alias>
+  </_ITEM_>
+</columns>
+<criteria>
+  <_T_>condition</_T_>
+  <operator>
+    <code>AND</code>
+  </operator>
+  <children type="array"/>
+  <meta type="null"/>
+  <field type="null"/>
+  <targetFieldContext>
+    <name>DEFAULT</name>
+  </targetFieldContext>
+  <fieldStateName type="null"/>
+</criteria>
+<formulas type="array">
+  <_ITEM_>
+    <_T_>dataSetFormula</_T_>
+    <formula>
+      <_T_>formula</_T_>
+      <id>formula_1</id>
+      <uniqueId>search.formula.formula_1</uniqueId>
+      <label>
+        <translationScriptId>14bc323c-2a78-4e0e-b20e-1a34d58bad31</translationScriptId>
+      </label>
+      <formulaSQL>CASE WHEN {parent} = null THEN {companyname} ELSE CONCAT({parent#display}, ' : ', {companyname}) END</formulaSQL>
+      <dataType>STRING</dataType>
+    </formula>
+    <fields type="array">
+      <_ITEM_>
+        <_T_>fieldReference</_T_>
+        <id>parent</id>
+        <label>Parent</label>
+        <joinTrail>
+          <baseRecord>
+            <id>customer</id>
+            <label>Builder</label>
+          </baseRecord>
+          <joins type="array"/>
+        </joinTrail>
+        <uniqueId>parent</uniqueId>
+        <fieldValidityState>REMOVED</fieldValidityState>
+      </_ITEM_>
+      <_ITEM_>
+        <_T_>fieldReference</_T_>
+        <id>companyname</id>
+        <label>Company Name</label>
+        <joinTrail>
+          <baseRecord>
+            <id>customer</id>
+            <label>Builder</label>
+          </baseRecord>
+          <joins type="array"/>
+        </joinTrail>
+        <uniqueId>companyname</uniqueId>
+        <fieldValidityState>REMOVED</fieldValidityState>
+      </_ITEM_>
+      <_ITEM_>
+        <_T_>fieldReference</_T_>
+        <id>parent</id>
+        <label>Parent</label>
+        <joinTrail>
+          <baseRecord>
+            <id>customer</id>
+            <label>Builder</label>
+          </baseRecord>
+          <joins type="array"/>
+        </joinTrail>
+        <uniqueId>parent</uniqueId>
+        <fieldValidityState>REMOVED</fieldValidityState>
+      </_ITEM_>
+      <_ITEM_>
+        <_T_>fieldReference</_T_>
+        <id>companyname</id>
+        <label>Company Name</label>
+        <joinTrail>
+          <baseRecord>
+            <id>customer</id>
+            <label>Builder</label>
+          </baseRecord>
+          <joins type="array"/>
+        </joinTrail>
+        <uniqueId>companyname</uniqueId>
+        <fieldValidityState>REMOVED</fieldValidityState>
+      </_ITEM_>
+    </fields>
+  </_ITEM_>
+</formulas>
+</root>]]></definition>
+</dataset>

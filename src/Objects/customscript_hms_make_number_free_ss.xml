@@ -1,0 +1,70 @@
+<scheduledscript scriptid="customscript_hms_make_number_free_ss">
+  <defaultfunction>findCurrentStatus</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>HMS Make Number free SS</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <scriptfile>[/SuiteScripts/HMS_update_number_ss.js]</scriptfile>
+  <scriptcustomfields>
+    <scriptcustomfield scriptid="custscript_skipids">
+      <accesslevel>2</accesslevel>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <fieldtype>TEXT</fieldtype>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <label>oldids</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <setting></setting>
+      <storevalue>T</storevalue>
+    </scriptcustomfield>
+  </scriptcustomfields>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy2">
+      <custscript_skipids></custscript_skipids>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>TESTING</status>
+      <title>HMS Make Number free SS 2</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2015-08-31</startdate>
+          <starttime>22:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy_hms_make_number_free_ss">
+      <custscript_skipids></custscript_skipids>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>SCHEDULED</status>
+      <title>HMS Make Number free SS</title>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat>PT15M</repeat>
+          <startdate>2015-08-31</startdate>
+          <starttime>16:30:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

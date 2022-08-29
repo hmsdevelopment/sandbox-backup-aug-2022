@@ -1,0 +1,20 @@
+<clientscript scriptid="customscript_hms_bsr_csc_cs_temp">
+  <description></description>
+  <fieldchangedfunction>disableFields</fieldchangedfunction>
+  <isinactive>F</isinactive>
+  <lineinitfunction></lineinitfunction>
+  <name>BSR Change Sales Counselor CS - TEMP</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <pageinitfunction>disableOnInit</pageinitfunction>
+  <postsourcingfunction></postsourcingfunction>
+  <recalcfunction></recalcfunction>
+  <saverecordfunction>onSaveAlert</saverecordfunction>
+  <scriptfile>[/SuiteScripts/bsrChangeSalesCounselor_v1/bsrChangeSalesCounselor_v1.js]</scriptfile>
+  <validatedeletefunction></validatedeletefunction>
+  <validatefieldfunction></validatefieldfunction>
+  <validateinsertfunction></validateinsertfunction>
+  <validatelinefunction></validatelinefunction>
+</clientscript>

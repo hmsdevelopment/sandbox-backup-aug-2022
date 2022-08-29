@@ -1,0 +1,69 @@
+<scheduledscript scriptid="customscript_flo_fix_stdrecord_names">
+  <defaultfunction>cleanStandardRecordNames</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint Fix Standard Record Names</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteBundles/Bundle 297487/CleanStandardRecordNames.js]</scriptfile>
+  <scriptcustomfields>
+    <scriptcustomfield scriptid="custscript_flo_stdrecord_id">
+      <accesslevel>2</accesslevel>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth>40</displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <fieldtype>TEXT</fieldtype>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <label>Last Rec ID</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <setting></setting>
+      <storevalue>T</storevalue>
+    </scriptcustomfield>
+  </scriptcustomfields>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_flo_clean_stdnames2">
+      <custscript_flo_stdrecord_id></custscript_flo_stdrecord_id>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Strongpoint Handle Duplicate Standard Records</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2017-11-12</startdate>
+          <starttime>23:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy_flo_clean_stdnames1">
+      <custscript_flo_stdrecord_id></custscript_flo_stdrecord_id>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Strongpoint Fix Standard Record Names</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2017-11-12</startdate>
+          <starttime>23:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

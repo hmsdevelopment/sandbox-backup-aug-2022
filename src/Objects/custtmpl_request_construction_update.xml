@@ -1,0 +1,10 @@
+<advancedpdftemplate scriptid="custtmpl_request_construction_update" standard="STDTMPLCR_BSR_TEAM">
+  <description>Email the Builder&apos;s Subdivision Administrative Contact to request for a construction status update.  This email will contain a list of up to 10 of their current properties and link to a Suitelet that provides the user to easily update the status</description>
+  <displaysourcecode>T</displaysourcecode>
+  <isinactive>F</isinactive>
+  <preferred>F</preferred>
+  <printtype>CUSTOMRECORD</printtype>
+  <recordtype>[scriptid=customrecord_bsr_team]</recordtype>
+  <title>Request Construction Update</title>
+  <trantype>CUSTOM</trantype>
+</advancedpdftemplate>

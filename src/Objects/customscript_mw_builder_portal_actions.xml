@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_mw_builder_portal_actions">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Builder Portal Builder Actions</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Midware/BuilderPortal/SuiteletScripts/BuilderActions/Routers/MWBuilderActionsRouter.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mw_builder_portal_actions_d">
+      <allemployees>T</allemployees>
+      <allpartners>T</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>Builder Portal Builder Actions</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

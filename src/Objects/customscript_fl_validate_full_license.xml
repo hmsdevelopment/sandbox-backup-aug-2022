@@ -1,0 +1,26 @@
+<workflowactionscript scriptid="customscript_fl_validate_full_license">
+  <defaultfunction>validateFullLicense</defaultfunction>
+  <description>Validate if the user created can have a full access license</description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint Validate Full License</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <returnrecordtype></returnrecordtype>
+  <returntype>INTEGER</returntype>
+  <scriptfile>[/SuiteBundles/Bundle 297487/FLOValidateLicense.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy1">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <recordtype>RECORD</recordtype>
+      <runasrole></runasrole>
+      <status>RELEASED</status>
+    </scriptdeployment>
+  </scriptdeployments>
+</workflowactionscript>

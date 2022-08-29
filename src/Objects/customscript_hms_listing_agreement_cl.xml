@@ -1,0 +1,16 @@
+<clientscript scriptid="customscript_hms_listing_agreement_cl">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Listing Agreement CL</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Projects/hms-listing-contract/hms_listing_contract_cl.js]</scriptfile>
+  <buttons>
+    <button>
+      <buttonfunction>generateListingAgreement</buttonfunction>
+      <buttonlabel>PDF Filler - LA</buttonlabel>
+    </button>
+  </buttons>
+</clientscript>

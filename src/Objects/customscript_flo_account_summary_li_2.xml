@@ -1,0 +1,25 @@
+<portlet scriptid="customscript_flo_account_summary_li_2">
+  <defaultfunction>showAccountSummary</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint Flashlight Account Summary</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails>leo.lacava@strongpoint.io</notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <portlettype>HTML</portlettype>
+  <scriptfile>[/SuiteBundles/Bundle 297487/StrongpointLightWelcomePortlet.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_flo_account_summary_light">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>Strongpoint Account Summary</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</portlet>

@@ -1,0 +1,16 @@
+<customlist scriptid="customlist_inbound_outbound">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Inbound/Outbound</name>
+  <customvalues>
+    <customvalue scriptid="value_1_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Inbound</value>
+    </customvalue>
+    <customvalue scriptid="value_2_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Outbound</value>
+    </customvalue>
+  </customvalues>
+</customlist>

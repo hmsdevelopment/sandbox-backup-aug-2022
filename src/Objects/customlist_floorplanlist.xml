@@ -1,0 +1,28 @@
+<customlist scriptid="customlist_floorplanlist">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Floorplan List</name>
+  <customvalues>
+    <customvalue scriptid="value_1_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Test 1</value>
+    </customvalue>
+    <customvalue scriptid="value_2_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Test 2</value>
+    </customvalue>
+    <customvalue scriptid="value_3_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Test 3</value>
+    </customvalue>
+    <customvalue scriptid="value_4_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Test 4</value>
+    </customvalue>
+    <customvalue scriptid="value_5_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Blake</value>
+    </customvalue>
+  </customvalues>
+</customlist>

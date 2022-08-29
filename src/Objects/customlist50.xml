@@ -1,0 +1,24 @@
+<customlist scriptid="customlist50">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Showing Confirmation List</name>
+  <customvalues>
+    <customvalue scriptid="value_4_1309901_565">
+      <isinactive>F</isinactive>
+      <value>No, I Tried But Was Unable to Reach the Agent</value>
+    </customvalue>
+    <customvalue scriptid="value_1_1309901_565">
+      <isinactive>F</isinactive>
+      <value>No - Cancelled, Not Rescheduled</value>
+    </customvalue>
+    <customvalue scriptid="value_2_1309901_565">
+      <isinactive>F</isinactive>
+      <value>No - Rescheduled</value>
+    </customvalue>
+    <customvalue scriptid="value_3_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Yes</value>
+    </customvalue>
+  </customvalues>
+</customlist>

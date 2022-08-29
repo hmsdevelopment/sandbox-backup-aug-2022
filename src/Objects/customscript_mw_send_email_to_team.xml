@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_mw_send_email_to_team">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Send Email To Team Case Closed - Appt</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Midware/ManagementEmailsAppointments/SuiteletScripts/SendEmailToTeamCaseClosed.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mw_send_email_to_team_d">
+      <allemployees>T</allemployees>
+      <allpartners>T</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>Send Email To Team Case Closed - Appt</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

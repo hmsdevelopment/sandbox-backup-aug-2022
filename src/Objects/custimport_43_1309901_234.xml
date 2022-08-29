@@ -1,0 +1,62 @@
+<savedcsvimport scriptid="custimport_43_1309901_234">
+  <charencoding>windows-1252</charencoding>
+  <columndelimiter>COMMA</columndelimiter>
+  <datahandling>UPDATE</datahandling>
+  <decimaldelimiter>PERIOD</decimaldelimiter>
+  <entryform>[scriptid=custform_7_1309901_378]</entryform>
+  <ignorereadonly>T</ignorereadonly>
+  <importname>DRH Personnel Import</importname>
+  <logsystemnotescustfields>F</logsystemnotescustfields>
+  <multiselectdelimiter>^</multiselectdelimiter>
+  <overwritemissingfields>F</overwritemissingfields>
+  <overwritesublists>F</overwritesublists>
+  <preventduplicates>F</preventduplicates>
+  <recordtype>PARTNER</recordtype>
+  <runserversuitescript>F</runserversuitescript>
+  <usemultithread>F</usemultithread>
+  <validatemandatorycustfields>T</validatemandatorycustfields>
+  <audience>
+    <allemployees>F</allemployees>
+    <allpartners>F</allpartners>
+    <allroles>F</allroles>
+    <globaledit>F</globaledit>
+    <ispublic>F</ispublic>
+    <roles></roles>
+  </audience>
+  <filemappings>
+    <filemapping>
+      <file>PARTNER</file>
+    </filemapping>
+  </filemappings>
+  <recordmappings>
+    <recordmapping>
+      <record>PARTNER</record>
+      <fieldmappings>
+        <fieldmapping>
+          <field>[scriptid=custentity1]</field>
+          <columnreference>
+            <column>Belongs to Which Builder Group?</column>
+            <file>PARTNER</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=custentity_immediate_supervisor]</field>
+          <columnreference>
+            <column>Immediate Supervisor</column>
+            <file>PARTNER</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>ID</field>
+          <columnreference>
+            <column>Internal ID</column>
+            <file>PARTNER</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+      </fieldmappings>
+    </recordmapping>
+  </recordmappings>
+</savedcsvimport>

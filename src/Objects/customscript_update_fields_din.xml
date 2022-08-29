@@ -1,0 +1,10 @@
+<clientscript scriptid="customscript_update_fields_din">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Update Form Fields Dinamically</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails>hms@midware.net</notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Midware/SearchAndUpdateProperty/ClientScripts/UpdateFormFieldsDinamicallyCS.js]</scriptfile>
+</clientscript>

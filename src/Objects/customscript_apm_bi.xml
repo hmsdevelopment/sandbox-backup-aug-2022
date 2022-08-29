@@ -1,0 +1,28 @@
+<bundleinstallationscript scriptid="customscript_apm_bi">
+  <afterinstallfunction>afterInstall</afterinstallfunction>
+  <afterupdatefunction>afterUpdate</afterupdatefunction>
+  <beforeinstallfunction>beforeInstall</beforeinstallfunction>
+  <beforeuninstallfunction></beforeuninstallfunction>
+  <beforeupdatefunction>beforeUpdate</beforeupdatefunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>APM Bundle Installation</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteBundles/Bundle 67350/src/apm/ns/bundle/apm_bi.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_apm_bi">
+      <isdeployed>T</isdeployed>
+      <loglevel>ERROR</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>APM Bundle Installation</title>
+    </scriptdeployment>
+  </scriptdeployments>
+  <libraries>
+    <library>
+      <scriptfile>[/SuiteBundles/Bundle 67350/src/apm/ns/lib/apm_ss_library.js]</scriptfile>
+    </library>
+  </libraries>
+</bundleinstallationscript>

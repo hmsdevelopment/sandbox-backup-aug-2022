@@ -1,0 +1,23 @@
+<massupdatescript scriptid="customscript_mw_create_twilio_user_mu">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>MW Create Twilio User</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Midware/BuilderPortal/MassUpdateScripts/CreateTwilioUser.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mw_create_twilio_user_mu">
+      <allemployees>T</allemployees>
+      <allpartners>T</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <recordtype>PARTNER</recordtype>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>TESTING</status>
+    </scriptdeployment>
+  </scriptdeployments>
+</massupdatescript>

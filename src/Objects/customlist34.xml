@@ -1,0 +1,48 @@
+<customlist scriptid="customlist34">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <name>Agent Type</name>
+  <customvalues>
+    <customvalue scriptid="value_10_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Appraiser</value>
+    </customvalue>
+    <customvalue scriptid="value_1_1309901_565">
+      <isinactive>T</isinactive>
+      <value>Appraiser/Inspector</value>
+    </customvalue>
+    <customvalue scriptid="val_178118_1309901_377">
+      <isinactive>T</isinactive>
+      <value>Broker Office</value>
+    </customvalue>
+    <customvalue scriptid="value_4_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Individual</value>
+    </customvalue>
+    <customvalue scriptid="value_3_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Inspector</value>
+    </customvalue>
+    <customvalue scriptid="val_193547_1309901_410">
+      <isinactive>T</isinactive>
+      <value>Internet Web Leads</value>
+    </customvalue>
+    <customvalue scriptid="value_2_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Real Estate Agent</value>
+    </customvalue>
+    <customvalue scriptid="val_364368_1309901_652">
+      <isinactive>T</isinactive>
+      <value>Real Estate Broker</value>
+    </customvalue>
+    <customvalue scriptid="value_8_1309901_565">
+      <isinactive>T</isinactive>
+      <value>Web Lead</value>
+    </customvalue>
+    <customvalue scriptid="value_7_1309901_565">
+      <isinactive>T</isinactive>
+      <value>Web Site</value>
+    </customvalue>
+  </customvalues>
+</customlist>

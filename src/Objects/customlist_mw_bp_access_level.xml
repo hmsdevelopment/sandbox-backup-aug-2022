@@ -1,0 +1,24 @@
+<customlist scriptid="customlist_mw_bp_access_level">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Builder Portal Access Level</name>
+  <customvalues>
+    <customvalue scriptid="val_274420_1309901_sb1_300">
+      <isinactive>F</isinactive>
+      <value>NONE</value>
+    </customvalue>
+    <customvalue scriptid="val_274421_1309901_sb1_851">
+      <isinactive>F</isinactive>
+      <value>VIEW</value>
+    </customvalue>
+    <customvalue scriptid="val_274422_1309901_sb1_684">
+      <isinactive>F</isinactive>
+      <value>CREATE</value>
+    </customvalue>
+    <customvalue scriptid="val_274461_1309901_sb1_962">
+      <isinactive>F</isinactive>
+      <value>EDIT</value>
+    </customvalue>
+  </customvalues>
+</customlist>

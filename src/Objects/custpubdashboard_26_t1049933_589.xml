@@ -1,0 +1,17 @@
+<publisheddashboard scriptid="custpubdashboard_26_t1049933_589">
+  <center>BASIC</center>
+  <locknewbar>F</locknewbar>
+  <lockshortcuts>F</lockshortcuts>
+  <name>Strongpoint Flashlight</name>
+  <roles>
+    <role>
+      <role>ADMINISTRATOR</role>
+    </role>
+    <role>
+      <role>[scriptid=customrole_flo_flashlight]</role>
+    </role>
+    <role>
+      <role>[scriptid=customrole_flo_developer_role]</role>
+    </role>
+  </roles>
+</publisheddashboard>

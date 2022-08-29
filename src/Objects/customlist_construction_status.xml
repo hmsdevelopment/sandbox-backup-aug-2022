@@ -1,0 +1,56 @@
+<customlist scriptid="customlist_construction_status">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <name>Construction Status</name>
+  <customvalues>
+    <customvalue scriptid="value_10_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Complete</value>
+    </customvalue>
+    <customvalue scriptid="value_6_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Drywall Complete</value>
+    </customvalue>
+    <customvalue scriptid="value_5_1309901_565">
+      <isinactive>T</isinactive>
+      <value>Existing Structure</value>
+    </customvalue>
+    <customvalue scriptid="value_2_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Foundation</value>
+    </customvalue>
+    <customvalue scriptid="value_9_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Framed</value>
+    </customvalue>
+    <customvalue scriptid="value_3_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Paper</value>
+    </customvalue>
+    <customvalue scriptid="value_12_1309901_565">
+      <isinactive>T</isinactive>
+      <value>Paper_Old</value>
+    </customvalue>
+    <customvalue scriptid="value_7_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Permit Filed</value>
+    </customvalue>
+    <customvalue scriptid="value_4_1309901_565">
+      <isinactive>F</isinactive>
+      <value>To Be Built</value>
+    </customvalue>
+    <customvalue scriptid="value_8_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Trim Stage</value>
+    </customvalue>
+    <customvalue scriptid="value_1_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Under Roof</value>
+    </customvalue>
+    <customvalue scriptid="value_11_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Vacant Lot</value>
+    </customvalue>
+  </customvalues>
+</customlist>

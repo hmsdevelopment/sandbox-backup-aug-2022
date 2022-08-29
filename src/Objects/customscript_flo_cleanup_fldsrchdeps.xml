@@ -1,0 +1,25 @@
+<scheduledscript scriptid="customscript_flo_cleanup_fldsrchdeps">
+  <defaultfunction>FLOCleanFieldsFromSearches</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint Cleanup-Field search depend.</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteBundles/Bundle 297487/FLOCleanupTools.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_flo_cleanup_fldsrchdeps">
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Strongpoint Cleanup-Field search depend.</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2016-09-20</startdate>
+          <starttime>22:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

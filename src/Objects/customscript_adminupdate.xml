@@ -1,0 +1,25 @@
+<scheduledscript scriptid="customscript_adminupdate">
+  <defaultfunction>adminUpdate</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>adminUpdate</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/adminUpdate.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_adminupdate">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>adminUpdate</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2012-03-29</startdate>
+          <starttime>22:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

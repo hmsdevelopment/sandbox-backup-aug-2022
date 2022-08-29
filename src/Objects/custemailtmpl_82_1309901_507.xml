@@ -1,0 +1,12 @@
+<emailtemplate scriptid="custemailtmpl_82_1309901_507">
+  <addcompanyaddress>T</addcompanyaddress>
+  <addunsubscribelink>T</addunsubscribelink>
+  <description></description>
+  <isinactive>F</isinactive>
+  <isprivate>F</isprivate>
+  <mediaitem></mediaitem>
+  <name>Webbee-REN-Header (Converted)</name>
+  <recordtype>EVENT</recordtype>
+  <subject>Webbee-REN-Header (Converted)</subject>
+  <usesmedia>F</usesmedia>
+</emailtemplate>

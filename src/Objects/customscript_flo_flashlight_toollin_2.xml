@@ -1,0 +1,25 @@
+<portlet scriptid="customscript_flo_flashlight_toollin_2">
+  <defaultfunction>displayKeyToolsList</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint Flashlight Tools Links</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <portlettype>LINKS</portlettype>
+  <scriptfile>[/SuiteBundles/Bundle 297487/FLOFlashLightLinksPortlet.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_flo_flashlight_toollinks">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>F</allroles>
+      <audslctrole>ADMINISTRATOR|[scriptid=customrole_flo_developer_role]|[scriptid=customrole_flo_flashlight]</audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <runasrole></runasrole>
+      <status>RELEASED</status>
+      <title>Strongpoint Flashlight Tools Links</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</portlet>

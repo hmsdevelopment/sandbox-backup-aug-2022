@@ -1,0 +1,431 @@
+<?xml version="1.0"?><!DOCTYPE pdf PUBLIC "-//big.faceless.org//report" "report-1.1.dtd"><pdfset><#if results?size != 0><#list results as result>
+<pdf>
+<head>
+	<link name="NotoSans" type="font" subtype="truetype" src="${nsfont.NotoSans_Regular}" src-bold="${nsfont.NotoSans_Bold}" src-italic="${nsfont.NotoSans_Italic}" src-bolditalic="${nsfont.NotoSans_BoldItalic}" bytes="2" />
+	<#if .locale == "zh_CN">
+		<link name="NotoSansCJKsc" type="font" subtype="opentype" src="${nsfont.NotoSansCJKsc_Regular}" src-bold="${nsfont.NotoSansCJKsc_Bold}" bytes="2" />
+	<#elseif .locale == "zh_TW">
+		<link name="NotoSansCJKtc" type="font" subtype="opentype" src="${nsfont.NotoSansCJKtc_Regular}" src-bold="${nsfont.NotoSansCJKtc_Bold}" bytes="2" />
+	<#elseif .locale == "ja_JP">
+		<link name="NotoSansCJKjp" type="font" subtype="opentype" src="${nsfont.NotoSansCJKjp_Regular}" src-bold="${nsfont.NotoSansCJKjp_Bold}" bytes="2" />
+	<#elseif .locale == "ko_KR">
+		<link name="NotoSansCJKkr" type="font" subtype="opentype" src="${nsfont.NotoSansCJKkr_Regular}" src-bold="${nsfont.NotoSansCJKkr_Bold}" bytes="2" />
+	<#elseif .locale == "th_TH">
+		<link name="NotoSansThai" type="font" subtype="opentype" src="${nsfont.NotoSansThai_Regular}" src-bold="${nsfont.NotoSansThai_Bold}" bytes="2" />
+	</#if>
+    <style type="text/css">* {
+						<#if .locale == "zh_CN">
+							font-family: NotoSans, NotoSansCJKsc, sans-serif;
+						<#elseif .locale == "zh_TW">
+							font-family: NotoSans, NotoSansCJKtc, sans-serif;
+						<#elseif .locale == "ja_JP">
+							font-family: NotoSans, NotoSansCJKjp, sans-serif;
+						<#elseif .locale == "ko_KR">
+							font-family: NotoSans, NotoSansCJKkr, sans-serif;
+						<#elseif .locale == "th_TH">
+							font-family: NotoSans, NotoSansThai, sans-serif;
+						<#else>
+							font-family: NotoSans, sans-serif;
+						</#if>
+					}
+					td p { align:left }
+</style>
+</head>
+<body padding="0.5in 0.5in 0.5in 0.5in" size="Letter">
+    </body></pdf></#list><#else><pdf><head></head><body size="Letter">&nbsp;
+<table><tr>
+	<th>
+	<center>LISTING CONTRACT</center>
+	</th>
+	</tr>
+	<tr>
+	<th>(EXCLUSIVE RIGHT TO SELL)</th>
+	</tr>
+	<tr>
+	<th>1</th>
+	<td>Date:</td>
+	</tr>
+	<tr>
+	<th>2</th>
+	<th>&nbsp;</th>
+	</tr>
+	<tr>
+	<th>3 4 5 6 7 8 9 10</th>
+	<td>In consideration of services to be performed by (Broker/Company, hereinafter referred to as &quot;Broker&quot;) for Seller appoints Broker as Seller&#39;s broker with irrevocable and known as County, (zip code) legally described as:</td>
+	<td>HMS Real Estate, LLC(&quot;Seller&quot;), exclusive right to sell, exchange, option, or lease the real property in Township , , Indiana</td>
+	</tr>
+	<tr>
+	<th>11 12</th>
+	<td>&nbsp;</td>
+	<th>&nbsp;</th>
+	<td>(the &quot;Property&quot;).</td>
+	</tr>
+	<tr>
+	<th>13 14 15</th>
+	<td>This contract begins on subject to the following terms and conditions:</td>
+	<th>, and expires at midnight</th>
+	<td>&nbsp;</td>
+	</tr>
+	<tr>
+	<th>16</th>
+	<td>List Price: $</td>
+	<th>Possession:</th>
+	<td>&nbsp;</td>
+	</tr>
+	<tr>
+	<th>17 18 19</th>
+	<td>Seller represents that Seller is not delinquent on any loans which could constitute a lien on the Property and the total loans affecting theProperty do not exceed the list price and costs of sale. Also, Seller has the capacity to convey the Property by a general Warranty Deed or by . N/A</td>
+	</tr>
+	<tr>
+	<th>20</th>
+	<th>&nbsp;</th>
+	</tr>
+	<tr>
+	<th>21 22 23 24 25</th>
+	<td>Terms of Sale: The Property may be sold for cash or any of the following methods indicated below: Conventional Mortgage Conditional Sales Contract Insured Conventional Mortgage FHA Assumption of Existing Mortgage Balance VA Other X</td>
+	</tr>
+	<tr>
+	<th>26 27 28 29 30</th>
+	<td>Seller agrees to pay costs associated with financing not to exceed . Property Offered for Sale: The above list price includes the Property and all improvements and fixtures permanently installed and affixed thereto, except Items of Personal Property included in the sale: No ExceptionsNoneNA</td>
+	</tr></table>
+
+<table><tr>
+	<th>33</th>
+	</tr>
+	<tr>
+	<th>34 35 36 37</th>
+	<th>(A) EXCLUSIVE LISTING. The parties understand and agree that this is an exclusive right to sell, option, exchange or lease listing, and Broker shall be entitled to the commission hereinafter established which shall be payable upon the occurrence of any of the. following events:</th>
+	</tr>
+	<tr>
+	<th>38 39 40 41 42 43 44 45 46 47 48 49 50 51</th>
+	<th>(1) (2) (3) (4) (5)</th>
+	<td>at the time the Property is sold, optioned, exchanged or leased by any person, including the Seller, to any person during the term of this contract or any renewal or extension thereof, at the time Seller, Broker, or any other real estate licensee secures a buyer or lessee ready, willing and able to purchase, option, exchange or lease the Property for such price and terms as specified, or such other price or terms as Seller may accept, at the time an agreement is entered into to sell, exchange, option or lease during the term of this contract or any renewal or extension thereof, and ultimately completed after the termination of this contract, the Property is sold, optioned, leased, or exchanged by Seller or any other person within days after termination of this Listing Contract to any person procured in whole or in part by the efforts of Broker, any cooperating broker, or Seller, provided, however, this extension clause shall not apply if this Exclusive Listing Contract terminates and the Property is listed exclusively with another licensed broker, or at the time of default by Seller to any valid, fully executed, written agreement to sell, option, exchange, or lease the Property. 30</td>
+	</tr>
+	<tr>
+	<th>52 53 54 55 56</th>
+	<td>Any commission required to be paid under items (1), (3) and (4) above shall be due and payable at the closing of the transaction when title to or any interest in the Property is transferred to a buyer or lessee. Any commission required to be paid under items(2) and (5) above shall be due and payable upon demand by Broker. In the event that commission is not paid when due, then Broker shall be entitled to interest at the rate of % per annum until commission is paid. 5.000</td>
+	</tr>
+	<tr>
+	<th>57 58 59</th>
+	<th>If the Seller and a Buyer sign a Purchase Agreement, Option to Purchase Real Estate, Lease or the closing of the sale of the Property will nottake place until after the term of this contract, then this contract shall automatically be extended to coincide with the closing date or term of thelease.</th>
+	</tr></table>
+
+<p>, ,</p>
+
+<p>(Property Address)</p>
+
+<p>Page 1 of 4 (Listing Contract)</p>
+
+<p>DEMO DEMO DEMO 0 Phone: 0 Fax: 0 Exclusive Righ Jeff McDonald Produced with ZipForm&trade; by RE FormsNet, LLC 18025 Fifteen Mile Road, Clinton Township, Michigan 48035 www.zipform.com</p>
+
+<p>60 (B) BROKER&#39;S COMMISSION. The broker&#39;s commission charged by the listing Broker for services rendered, with respect to any 61 listing, is solely a matter of negotiation between Broker and Seller and is not fixed, controlled, suggested recommended or 62 maintained by the Indiana Association of REALTORS&reg;, Inc., the local Board/Association of REALTORS&reg;, the MLS (if 63 applicable) or any person not a party to the contract. Seller has been advised of Broker&#39;s cooperative compensation policy. 64 65 Seller shall pay in cash to Broker for services a total commission as follows: (Check appropriate paragraph number/numbers) 66 X67</p>
+
+<p>&nbsp;</p>
+
+<figure><imagedata src="images/IndianaBLANKListingFormfromZIP_img_0.jpg"> </imagedata></figure>
+1 . 6
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<figure><imagedata src="images/IndianaBLANKListingFormfromZIP_img_1.jpg"> </imagedata></figure>
+% of the selling/exchange price or option selling price, not less than $ N/A68
+
+<p>&nbsp;</p>
+
+<p>.</p>
+
+<p>69</p>
+
+<p>&nbsp;</p>
+
+<figure><imagedata src="images/IndianaBLANKListingFormfromZIP_img_2.jpg"> </imagedata></figure>
+2. In the event of a purchase option, the Seller agrees to compensate Broker %
+
+<p>&nbsp;</p>
+
+<p>70</p>
+
+<p>of the consideration paid for an Option to Purchase.</p>
+
+<p>71</p>
+
+<p>3. In the event of a lease, the Seller agrees to compensate Broker % of</p>
+
+<p>72 N/A</p>
+
+<p>all amounts paid by a lessee to Seller over the term of the lease.</p>
+
+<p>73 4. Other:</p>
+
+<p>74 .</p>
+
+<p>75 76 (C) COMMISSION IS LIEN; ATTORNEY FEES. For purposes of this contract, the parties understand and agree that Broker&#39;s 77 commission is deemed to be a share of the purchase money received by Seller, and Broker shall have a lien on the funds and 78 a lien upon the Property until the commission is paid. If any action is filed in relation to this Listing Contract, the unsuccessful 79 party shall pay to the successful party a reasonable sum for the successful party&#39;s attorney&#39;s fees and court costs. 80 81 (D) EARNEST MONEY. Broker is authorized to accept earnest money or any part of the purchase price and hold it in an 82 escrow/trust account. In the event that Seller is to receive any portion of the earnest money, Seller authorizes Broker to keep 83 any earnest money deposits up to the amount the commission would have been if the sale was completed in payment for 84 Broker&#39;s expenses, services and advertising. 85 86 (E) MLS INFO (IF APPLICABLE). It is understood that the Broker may rely on the validity of the data pertaining to this Listing87 Contract which has been provided by the Seller, and the Seller agrees that Broker may disclose the data to a Multiple88 Listing Service (&quot;MLS&quot;), Internet or any advertising media and that the Broker may furnish notice to a MLS or other provider of all 89 changes of information concerning the Property. 90 91 (F) INFORMATION REGARDING PROPERTY. Seller acknowledges that the information on the Listing Profile Sheet and Seller&#39;s 92 Residential Real Estate Sales Disclosure Form (if applicable) is true and correct, and that Seller is the owner of the Property 93 or is the authorized agent(s) of the true owner with complete and full authority to act on behalf of the owner(s). Seller further94 warrants that no other listing contract is now in force with any other broker. The Seller(s) or authorized agent(s) agree to 95 indemnify, actively defend and hold Broker, Company and its agents harmless from any damages, loss, liability and expenses including 96 attorney fees and costs, arising from incorrect information or failure to supply material information regarding the Property, 97 including, but not limited to the condition of appliances, heating, plumbing, electrical, sewage, major defects in structure, mold and/or other98 environmental conditions or hazards, location of property lines, public and private restrictions on the use of the Property, any loss or liability99 in conjunction with this agreement or with Broker or other licensees showing the Property including, but not limited to, injuries suffered by</p>
+
+<p>100 other licensees or prospective buyers. 101 102 (G) ENVIRONMENTAL CONTAMINANTS ADVISORY/RELEASE. Seller acknowledges that Listing Broker, Selling Broker and all 103 salespersons associated with Brokers are NOT experts and have NO special training, knowledge or experience with regard to the 104 evaluation or existence of possible lead-based paint, radon, mold and other biological contaminants (&quot;Environmental Contaminants&quot;) which 105 might exist and affect the Property. Environmental Contaminants at harmful levels may cause property damage and serious illness,106 including but not limited to, allergic and/or respiratory problems, particularly in persons with immune system problems, young children 107 and/or the elderly.108 109 Seller agrees to consult with appropriate experts and accepts all risks for Environmental Contaminants and releases and holds110 harmless all Brokers, their companies and sales associates from any and all liability, including attorney&#39;s fees and costs, arising111 out of or related to any inspection, inspection result, repair, disclosed defect or deficiency affecting the Property, including112 Environmental Contaminants. This release shall survive the closing. 113 114 (H) AGENCY DISCLOSURES. 115 116 1. Office Policy. Seller acknowledges receipt of a copy of the written office policy relating to agency. 117 118 2. Agency Relationship. I.C. 25-34.1-10-9.5 provides that a Licensee has an agency relationship with, and is 119 representing, the individual with whom the Licensee is working unless (1) there is a written agreement to the contrary; 120 or (2) the Licensee is merely assisting the individual as a customer. Licensee(Broker) represents the interests of the 121 Seller as Seller&#39;s agent to sell the Property. Licensee owes duties of trust, loyalty, confidentiality, accounting and 122 disclosure to the Seller. However, Licensee must deal honestly with a buyer and disclose to the buyer information 123 about the Property. All representations made by Licensee about the Property are made as the agent of the Seller.</p>
+
+<p>, ,</p>
+
+<p>(Property Address)</p>
+
+<p>Page 2 of 4 (Listing Contract)</p>
+
+<p>Produced with ZipForm&trade; by RE FormsNet, LLC 18025 Fifteen Mile Road, Clinton Township, Michigan 48035 www.zipform.comExclusive Righ</p>
+
+<p>124 Seller is advised that the Property may be sold with the assistance of other Licensees working as buyer agents and 125 that Licensee&#39;s company policy is to cooperate with and compensate buyer agents. Buyer agents are Licensees who126 show the Property to prospective buyers, but who represent only the interests of the buyer. Buyer agents owe duties 127 of trust, loyalty, confidentiality, accounting and disclosure to buyers. All representations made by buyer agents about 128 the Property are not made as the agent of the Seller. 129 130 3. Limited Agency Authorization. Licensee or the principal or managing broker may represent Buyer as a buyer agent. 131 If such a Buyer wishes to see the Property, Licensee has agency duties to both Seller and Buyer, and those duties 132 may be different or even adverse. Seller knowingly consents to Licensee acting as a limited agent for such showings. 133 134 If limited agency arises, Licensee shall not disclose the following without the informed consent, in writing, of both 135 Seller and Buyer: 136 137 (a) Any material or confidential information, except adverse material facts or risks actually known by Licensee 138 concerning the physical condition of the Property and facts required by statute, rule, or regulation to be 139 disclosed and that could not be discovered by a reasonable and timely inspection of the Property by the parties. 140 (b)That a Buyer will pay more than the offered purchase price for the Property. 141 (c)That Seller will accept less than the listed price for the Property. 142 (d)Other terms that would create a contractual advantage for one party over another party. 143 (e) What motivates a party to buy or sell the Property. 144 145 In a limited agency situation, the parties agree that there will be no imputation of knowledge or information between any party and 146 the limited agent or among Licensees. 147 148 Seller acknowledges that Limited Agency Authorization has been read and understood. Seller understands that Seller does not 149 have to consent to Licensee(s) acting as limited agent(s), but gives informed consent voluntarily to limited agency and waives 150 any claims, damages, losses, expenses, including attorneys&#39; fees and costs, against Licensee(s) arising from Licensee&#39;s(s&#39;) role 151 of limited agent(s). 152 153 (I) SELLER AUTHORIZATION AND COOPERATION. Seller agrees to provide Broker with the required information necessary 154 for entry into a MLS, Internet or other advertising media, to include electronic media and the use of any exterior/interior photos, if 155 applicable. Seller will cooperate with Broker by permitting the Property to be shown at reasonable times and authorizes Broker to place and 156 remove &quot;For Sale&quot; and other signs on the Property. 157 158 1. Seller authorizes Broker and cooperating brokers, buyer brokers, Broker&#39;s personal assistants, contractors, inspectors, 159 appraisers and others reasonably necessary to market the Property to enter the Property. Seller acknowledges that a buyer may 160 enter the Property with contractors, inspectors or appraisers without being accompanied by Broker. Buyer or Buyer&#39;s broker may 161 take videos, photos and electronic images of the Property.162 2. Seller will provide Broker with key(s) necessary to access the Property. 163 3. Seller authorizes Broker to have duplicate keys made. 164 4. Seller agrees not to rent or lease the Property during the term of this Listing Contract without written notification to 165 Broker. 166 5. Seller agrees that Broker may work with buyer brokers to assist in performing Broker&#39;s duties according to the 167 terms of this Listing Contract. 168 6. Seller authorizes Broker to disseminate all listing information as well as the price and terms of financing on a closed 169 sale to members of the Indiana Association of REALTORS&reg;, Inc., to other brokers upon request and to a MLS, Internet or 170 any advertising media, if applicable, for publication. 171 7. Seller authorizes its utility companies to divulge all utility information to Broker and to provide copies of utility 172 statements, if requested. Seller&#39;s utility companies are as follows: N/A</p>
+
+<p>173 . 174 8. Seller authorizes its lending institution to divulge all mortgage information to Broker and to provide copies of the 175 note and mortgage, if requested. Seller&#39;s lending institution is176 and the mortgage loan number is N/AN/A</p>
+
+<p>.</p>
+
+<p>178 179 If Seller&#39;s mortgage is subject to a pre-payment penalty, Seller agrees to give timely written notice to Seller&#39;s lender 180 that the mortgage is to be pre-paid from the sale proceeds of the Property. It is acknowledged that Seller&#39;s failure to 181 give this notice may result in a pre-payment penalty to be paid by Seller. 182 (J) 183 LOCKBOX/KEY AUTHORIZATION/USE. To facilitate access to the Property, a lockbox installation</p>
+
+<p>&nbsp;</p>
+
+<figure><imagedata src="images/IndianaBLANKListingFormfromZIP_img_3.jpg"> </imagedata></figure>
+is X
+
+<p>&nbsp;</p>
+<part>
+<h5>&nbsp;</h5>
+
+<figure><imagedata src="images/IndianaBLANKListingFormfromZIP_img_4.jpg"> </imagedata></figure>
+is not
+
+<p>184 authorized, subject to the following acknowledgments/conditions: 185</p>
+
+<figure><imagedata src="images/IndianaBLANKListingFormfromZIP_img_5.jpg"> 177 9. Seller does does not authorize Broker to disclose the existence of multiple offers to Buyer. X</imagedata></figure>
+
+<p>186 1. Seller will safeguard valuables. Seller accepts responsibility for preparing the Property to minimize the likelihood of injury, damage 187 and/or loss of personal property. 188 2. Seller acknowledges Broker is not an insurer of Seller&#39;s real estate and personal property and waives claims against 189 Broker and Broker&#39;s authorized persons for loss and/or damage. Seller further agrees to indemnify and hold harmless Broker 190 and all authorized persons from claims by third parties from all loss and/or damage.</p>
+
+<p>, ,</p>
+
+<p>(Property Address)</p>
+</part> <part>
+<h5>Page 3 of 4 (Listing Contract)</h5>
+
+<p>Produced with ZipForm&trade; by RE FormsNet, LLC 18025 Fifteen Mile Road, Clinton Township, Michigan 48035 www.zipform.com Exclusive Righ</p>
+
+<figure><imagedata src="images/IndianaBLANKListingFormfromZIP_img_6.jpg"> X</imagedata></figure>
+
+<table><tr>
+	<th>191 192 193 194</th>
+	<th>&nbsp;</th>
+	<th>4. 5.</th>
+	<th>Seller instructs Broker to make reasonable efforts to notify Seller of showing requests. If Seller cannot be contacted to schedule a showing, Seller wants does not want Broker to use the lockbox/key for access to the Property. Where a tenant/lessee occupies the Property, it is Seller&#39;s full responsibility to obtain tenant/lessee consent to allow the use of a lockbox/key.</th>
+	</tr>
+	<tr>
+	<th>195 196 197</th>
+	<th>(K)</th>
+	<th>FAIR HOUSING. The parties acknowledge that the Fair Housing Act prohibits discrimination in housing because ofcolor, national origin, religion, sex, familial status, and handicap.</th>
+	<th>race,</th>
+	</tr>
+	<tr>
+	<th>198</th>
+	<th>&nbsp;</th>
+	<th>&nbsp;</th>
+	</tr>
+	<tr>
+	<th>199</th>
+	<th>(L)</th>
+	<th>ADDITIONAL PROVISIONS.</th>
+	</tr>
+	<tr>
+	<th>200</th>
+	<th>&nbsp;</th>
+	<th>&nbsp;</th>
+	</tr>
+	<tr>
+	<th>201</th>
+	<th>&nbsp;</th>
+	<th>1.</th>
+	<th>Seller understands the terms of this Listing Contract and has received a copy.</th>
+	</tr>
+	<tr>
+	<th>202</th>
+	<th>&nbsp;</th>
+	<th>2.</th>
+	<th>The parties to this contract agree that it contains the entire agreement of the parties and cannot be changed except</th>
+	</tr>
+	<tr>
+	<th>203</th>
+	<th>&nbsp;</th>
+	<th>&nbsp;</th>
+	<th>by their written consent.</th>
+	</tr>
+	<tr>
+	<th>204</th>
+	<th>&nbsp;</th>
+	<th>3.</th>
+	<th>The parties to this contract agree that it is binding upon the parties&#39; heirs, administrators, executors, successors and</th>
+	</tr>
+	<tr>
+	<th>205</th>
+	<th>&nbsp;</th>
+	<th>&nbsp;</th>
+	<th>assigns.</th>
+	</tr>
+	<tr>
+	<th>206</th>
+	<th>&nbsp;</th>
+	<th>4.</th>
+	<th>Seller acknowledges receipt of an estimate of selling expenses.</th>
+	</tr>
+	<tr>
+	<th>207</th>
+	<th>&nbsp;</th>
+	<th>5.</th>
+	<th>Seller acknowledges there are homeowner&#39;s association fees and/or assessments in the amount of $</th>
+	</tr>
+	<tr>
+	<th>208</th>
+	<th>&nbsp;</th>
+	<th>per</th>
+	<td>, which have been paid by Seller through N/A</td>
+	<th>,</th>
+	<th>.</th>
+	</tr>
+	<tr>
+	<th>209 210 211 212 213 214</th>
+	<th>&nbsp;</th>
+	<th>6. 7.</th>
+	<th>The parties to this contract agree that this contract may be executed simultaneously or in two or more counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument. The parties agree that this contract may be transmitted between them electronically or digitally. The parties intend thatelectronically or digitally transmitted signatures constitute original signatures and are binding on the parties. The original document shall be promptly delivered, if requested.Broker may refer Seller to other professionals, service providers or product vendors, including lenders, loan brokers,</th>
+	</tr>
+	<tr>
+	<th>215</th>
+	<th>&nbsp;</th>
+	<th>title</th>
+	<th>insurers,</th>
+	<th>escrow</th>
+	<th>companies, inspectors,</th>
+	<th>pest</th>
+	<th>control companies,</th>
+	<th>contractors</th>
+	<th>and</th>
+	<th>home</th>
+	<th>warranty</th>
+	<th>companies.</th>
+	</tr>
+	<tr>
+	<th>216 217 218 219 220 221 222</th>
+	<th>&nbsp;</th>
+	<th>8. 9.</th>
+	<th>Broker does not guarantee the performance of any service provider. Seller is free to select providers other than those referred or recommended to Seller by Broker. Broker is not and shall not be charged with the responsibility for the custody, management, care, maintenance, protection or repair of the Property nor for the protection or custody of any personal property located thereon, unless provided for in another written agreement. Seller consents to receive communications from Broker via telephone, U.S. mail, email and facsimile at the numbers/addresses provided to Broker unless Seller notifies Broker in writing to the contrary.</th>
+	</tr>
+	<tr>
+	<th>223</th>
+	<th>&nbsp;</th>
+	<th>10.</th>
+	<th>Where the word &quot;Broker&quot; appears, it shall mean &quot;Licensee&quot; as provided in I.C.25-34.1-10-6.8.</th>
+	</tr>
+	<tr>
+	<th>224</th>
+	<th>&nbsp;</th>
+	<th>11.</th>
+	<td>Seller discloses to Listing Broker that Seller is licensed and holds License # N/A</td>
+	<th>.</th>
+	</tr>
+	<tr>
+	<th>225</th>
+	<th>&nbsp;</th>
+	<th>&nbsp;</th>
+	</tr>
+	<tr>
+	<th>226</th>
+	<th>(M)</th>
+	<th>FURTHER CONDITIONS.</th>
+	</tr>
+	<tr>
+	<th>227</th>
+	<th>&nbsp;</th>
+	<td>N/A</td>
+	</tr></table>
+
+<p>231</p>
+
+<p>232</p>
+
+<p>233</p>
+
+<p>234</p>
+
+<p>235</p>
+
+<p>236</p>
+
+<p>237</p>
+
+<table><tr>
+	<th>238</th>
+	</tr>
+	<tr>
+	<th>239 240 241</th>
+	<th>SALESPERSON/AGENT</th>
+	<td>IN LICENSE #</td>
+	<td>SELLER&#39;S SIGNATURE</td>
+	<td>DATE</td>
+	</tr>
+	<tr>
+	<th>242</th>
+	<th>HMS Real Estate, LLC</th>
+	<td>&nbsp;</td>
+	<td>&nbsp;</td>
+	<td>&nbsp;</td>
+	</tr>
+	<tr>
+	<th>243</th>
+	<th>BROKER OR COMPANY NAME</th>
+	<th>LC10600010IN LICENSE #</th>
+	<td>PRINTED</td>
+	<td>&nbsp;</td>
+	</tr>
+	<tr>
+	<th>244</th>
+	<th>&nbsp;</th>
+	<td>&nbsp;</td>
+	<td>&nbsp;</td>
+	</tr>
+	<tr>
+	<th>245</th>
+	<th>&nbsp;</th>
+	<td>&nbsp;</td>
+	<td>&nbsp;</td>
+	</tr>
+	<tr>
+	<th>246</th>
+	<th>ACCEPTED BY: PRINCIPAL/MANAGING BROKER</th>
+	<td>SELLER&#39;S SIGNATURE</td>
+	<td>DATE</td>
+	</tr>
+	<tr>
+	<th>247</th>
+	<th>&nbsp;</th>
+	<td>&nbsp;</td>
+	<td>&nbsp;</td>
+	</tr>
+	<tr>
+	<th>248</th>
+	<th>&nbsp;</th>
+	<td>&nbsp;</td>
+	<td>&nbsp;</td>
+	</tr>
+	<tr>
+	<th>249</th>
+	<th>&nbsp;</th>
+	<td>PRINTED</td>
+	<td>&nbsp;</td>
+	</tr></table>
+
+<figure><imagedata src="images/IndianaBLANKListingFormfromZIP_img_7.jpg"> Approved by and restricted to use by members of the Indiana Association of REALTORS&reg;, Inc. This is a legally binding contract, if not understood seek legal advice. Form #01. Copyright IAR 2005 </imagedata></figure>
+
+<p>, ,</p>
+
+<p>(Property Address)</p>
+
+<p>Page 4 of 4 (Listing Contract)</p>
+
+<p>Produced with ZipForm&trade; by RE FormsNet, LLC 18025 Fifteen Mile Road, Clinton Township, Michigan 48035 www.zipform.com Exclusive Righ</p>
+</part>
+</body>
+</pdf></#if></pdfset>

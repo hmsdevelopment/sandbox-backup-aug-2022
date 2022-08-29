@@ -1,0 +1,26 @@
+<suitelet scriptid="customscript_changecurrentlistprice">
+  <defaultfunction>changeCurrentListPrice</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Change Current List Price</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/changeCurrentListPrice.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy1">
+      <allemployees>T</allemployees>
+      <allpartners>T</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>Change Current List Price</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

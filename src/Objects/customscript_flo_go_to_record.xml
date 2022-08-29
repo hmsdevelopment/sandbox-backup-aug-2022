@@ -1,0 +1,26 @@
+<suitelet scriptid="customscript_flo_go_to_record">
+  <defaultfunction>goToCustomization</defaultfunction>
+  <description>Open the status report in a new window</description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint GoToReport</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteBundles/Bundle 297487/FLOGoToReport.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_flo_go_record">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>AUDIT</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>Strongpoint GoToReport Deployment</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

@@ -1,0 +1,26 @@
+<suitelet scriptid="customscript_test_send_ren_sl">
+  <defaultfunction>createSuitlet</defaultfunction>
+  <description></description>
+  <isinactive>T</isinactive>
+  <name>Test Send REN SL</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/hms_send_ren_email_SL_UE.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_test_send_ren_sl">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>Test Send REN SL</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

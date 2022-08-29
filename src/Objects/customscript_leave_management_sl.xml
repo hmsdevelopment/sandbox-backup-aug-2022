@@ -1,0 +1,26 @@
+<suitelet scriptid="customscript_leave_management_sl">
+  <defaultfunction>leaveManagement</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Leave Management Suitelet</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Suitescript/abhi/hms_leave_management_system.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_leave_management_sl">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>Leave Management Suitelet</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

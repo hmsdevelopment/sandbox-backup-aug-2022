@@ -1,0 +1,28 @@
+<customlist scriptid="customlist_flo_spider_status">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Spider Status</name>
+  <customvalues>
+    <customvalue scriptid="val_117979_t1049933_278">
+      <isinactive>F</isinactive>
+      <value>Run Spider</value>
+    </customvalue>
+    <customvalue scriptid="val_117980_t1049933_237">
+      <isinactive>F</isinactive>
+      <value>Parse File</value>
+    </customvalue>
+    <customvalue scriptid="val_117981_t1049933_239">
+      <isinactive>F</isinactive>
+      <value>Make Join</value>
+    </customvalue>
+    <customvalue scriptid="val_117982_t1049933_367">
+      <isinactive>F</isinactive>
+      <value>Complete</value>
+    </customvalue>
+    <customvalue scriptid="val_128231_t1049933_660">
+      <isinactive>F</isinactive>
+      <value>Set Form Fields</value>
+    </customvalue>
+  </customvalues>
+</customlist>

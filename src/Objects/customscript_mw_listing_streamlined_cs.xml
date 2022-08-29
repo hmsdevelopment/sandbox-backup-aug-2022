@@ -1,0 +1,10 @@
+<clientscript scriptid="customscript_mw_listing_streamlined_cs">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>New Listing Streamlined Process Client</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Midware/NewListingStreamlinedProcess/ClientScripts/NewListingStreamlinedProcessClientFirstPage.js]</scriptfile>
+</clientscript>

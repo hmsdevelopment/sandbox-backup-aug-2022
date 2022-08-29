@@ -1,0 +1,12 @@
+<emailtemplate scriptid="custemailtmpl_117_1309901_740">
+  <addcompanyaddress>T</addcompanyaddress>
+  <addunsubscribelink>T</addunsubscribelink>
+  <description></description>
+  <isinactive>F</isinactive>
+  <isprivate>F</isprivate>
+  <mediaitem></mediaitem>
+  <name>Survey - BSR Confirmation v2</name>
+  <recordtype>EVENT</recordtype>
+  <subject></subject>
+  <usesmedia>F</usesmedia>
+</emailtemplate>

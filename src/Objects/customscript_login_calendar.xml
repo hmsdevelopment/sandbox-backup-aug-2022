@@ -1,0 +1,26 @@
+<suitelet scriptid="customscript_login_calendar">
+  <defaultfunction>login</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Login Calendar</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Webbee Scripts/OpenHouses/loginCalendar.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_login_calendar">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>Login Calendar</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

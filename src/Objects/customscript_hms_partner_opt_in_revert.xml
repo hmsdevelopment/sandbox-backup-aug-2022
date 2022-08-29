@@ -1,0 +1,26 @@
+<suitelet scriptid="customscript_hms_partner_opt_in_revert">
+  <defaultfunction>optInReverse</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>HMS Partner Opt In Revert</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/hms_copy_case_for_builders.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_hms_partner_opt_in_revert">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>HMS Partner Opt In Revert</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

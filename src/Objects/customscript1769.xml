@@ -1,0 +1,31 @@
+<suitelet scriptid="customscript1769">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>property-change-summary</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/property-change-summary/Router/Router.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_property_changes">
+      <allemployees>T</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>F</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole></runasrole>
+      <status>TESTING</status>
+      <title>property-change-summary</title>
+      <links>
+        <link>
+          <linkcategory>BASICLISTSCUSTOM</linkcategory>
+          <linklabel>Property Change Summary</linklabel>
+        </link>
+      </links>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

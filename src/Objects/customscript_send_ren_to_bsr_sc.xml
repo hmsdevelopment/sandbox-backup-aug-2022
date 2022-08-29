@@ -1,0 +1,31 @@
+<scheduledscript scriptid="customscript_send_ren_to_bsr_sc">
+  <defaultfunction>sendRenToBSR</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Send REN to BSR (webbee)</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <scriptfile>[/SuiteScripts/Suitescript/RenToBsr/send_ren_to_bsr_sc.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_send_ren_to_bsr_sc">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>SCHEDULED</status>
+      <title>Send REN to BSR (webbee)</title>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat>PT1H</repeat>
+          <startdate>2017-07-27</startdate>
+          <starttime>12:00:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+  <libraries>
+    <library>
+      <scriptfile>[/SuiteScripts/Suitescript/Webbee Scripts/Crypto/Crypto.js]</scriptfile>
+    </library>
+  </libraries>
+</scheduledscript>

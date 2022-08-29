@@ -1,0 +1,25 @@
+<suitelet scriptid="customscriptmw_build_info_gath_test">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>MW Builder Info  Gath Suitelet Test</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Midware/GhostList/Suitelet/Routers/MWBuilderInformationGatheringRouter.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mw_build_info_gath_rel_d">
+      <allemployees>T</allemployees>
+      <allpartners>T</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>MW Builder Info  Gath Suitelet Test</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

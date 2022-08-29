@@ -1,0 +1,44 @@
+<scheduledscript scriptid="customscript_flo_cleanup_custs">
+  <defaultfunction>cleanupCustomizations</defaultfunction>
+  <description>Deletes inactive Customization records</description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint Cleanup Inactive Custs SS</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails>nic.cano@flodocs.com</notifyemails>
+  <notifyowner>F</notifyowner>
+  <scriptfile>[/SuiteBundles/Bundle 297487/FLOCleanupCustomizations.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_flo_cleanup_cu">
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Strongpoint Cleanup Customizations</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2016-01-15</startdate>
+          <starttime>23:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy_flo_cust_clean_customizatio">
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <status>SCHEDULED</status>
+      <title>Strongpoint Cleanup Inactive Customizations SS</title>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat></repeat>
+          <startdate>2016-01-18</startdate>
+          <starttime>07:00:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+  <libraries>
+    <library>
+      <scriptfile>[/SuiteBundles/Bundle 297487/FLOTimeWindow.js]</scriptfile>
+    </library>
+  </libraries>
+</scheduledscript>

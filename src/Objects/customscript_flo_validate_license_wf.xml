@@ -1,0 +1,26 @@
+<workflowactionscript scriptid="customscript_flo_validate_license_wf">
+  <defaultfunction>validateLinceseUserRecord</defaultfunction>
+  <description>Validate if the user trying to access a record or tool have a valid license associated to the tool or record tried to be access.</description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint Validate User License</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <returnrecordtype></returnrecordtype>
+  <returntype>TEXT</returntype>
+  <scriptfile>[/SuiteBundles/Bundle 297487/FLOlicenseRestWA.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_flo_validate_license_wf">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <recordtype>RECORD</recordtype>
+      <runasrole></runasrole>
+      <status>RELEASED</status>
+    </scriptdeployment>
+  </scriptdeployments>
+</workflowactionscript>

@@ -1,0 +1,55 @@
+<scheduledscript scriptid="customscript_flo_repair_cust_schedule">
+  <defaultfunction>repairCusts</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint Repair Custs SLT Schedule</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteBundles/Bundle 297487/FLOrepairCustsSchedule.js]</scriptfile>
+  <scriptcustomfields>
+    <scriptcustomfield scriptid="custscript_last_id_processed">
+      <accesslevel>2</accesslevel>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <fieldtype>TEXT</fieldtype>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <label>Last ID Processed</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <setting></setting>
+      <storevalue>T</storevalue>
+    </scriptcustomfield>
+  </scriptcustomfields>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_flo_repair_cust_schedule">
+      <custscript_last_id_processed></custscript_last_id_processed>
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Strongpoint Repair Custs SLT Schedule</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2016-02-22</startdate>
+          <starttime>23:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

@@ -1,0 +1,26 @@
+<suitelet scriptid="customscript_hms_send_closing_notify_sl">
+  <defaultfunction>sendEmail</defaultfunction>
+  <description></description>
+  <isinactive>T</isinactive>
+  <name>HMS Send Closing Notify SL</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/HMS_Send_Closing_Document.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_hms_send_closing_notify_sl">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>HMS Send Closing Notify SL</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

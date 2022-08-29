@@ -1,0 +1,26 @@
+<scheduledscript scriptid="customscript42">
+  <defaultfunction>agentFeedbackNoResponse</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Survey - Agent Feedback No Response</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/agentFeedbackNoResponse.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy1">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>SCHEDULED</status>
+      <title>Survey - Agent Feedback No Response</title>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat>PT1H</repeat>
+          <startdate>2012-03-27</startdate>
+          <starttime>10:00:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

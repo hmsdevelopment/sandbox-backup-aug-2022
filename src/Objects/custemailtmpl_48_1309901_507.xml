@@ -1,0 +1,12 @@
+<emailtemplate scriptid="custemailtmpl_48_1309901_507">
+  <addcompanyaddress>T</addcompanyaddress>
+  <addunsubscribelink>T</addunsubscribelink>
+  <description></description>
+  <isinactive>F</isinactive>
+  <isprivate>F</isprivate>
+  <mediaitem></mediaitem>
+  <name>BSR Confirmation (Converted)</name>
+  <recordtype>EVENT</recordtype>
+  <subject>${case.custevent_builder_sales_rep_subd}</subject>
+  <usesmedia>F</usesmedia>
+</emailtemplate>

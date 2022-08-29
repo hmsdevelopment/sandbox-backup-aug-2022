@@ -1,0 +1,28 @@
+<customlist scriptid="customlist42">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Caller List</name>
+  <customvalues>
+    <customvalue scriptid="value_1_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Agent</value>
+    </customvalue>
+    <customvalue scriptid="value_2_1309901_565">
+      <isinactive>F</isinactive>
+      <value>BSR</value>
+    </customvalue>
+    <customvalue scriptid="value_5_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Sales Manager</value>
+    </customvalue>
+    <customvalue scriptid="value_9_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Division Manager</value>
+    </customvalue>
+    <customvalue scriptid="value_6_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Other</value>
+    </customvalue>
+  </customvalues>
+</customlist>

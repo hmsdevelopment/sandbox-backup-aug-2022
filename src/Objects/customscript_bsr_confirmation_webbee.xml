@@ -1,0 +1,26 @@
+<suitelet scriptid="customscript_bsr_confirmation_webbee">
+  <defaultfunction>BSRApptConfirmation</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>BSR Confirmation Webbee</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Suitescript/Webbee Scripts/bsrConfirmAppt_v2_webbee.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_bsr_confirmation_webbee">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>BSR Confirmation Webbee</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

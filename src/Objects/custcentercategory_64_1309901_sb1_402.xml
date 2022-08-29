@@ -1,0 +1,13 @@
+<centercategory scriptid="custcentercategory_64_1309901_sb1_402">
+  <center>BASIC</center>
+  <centertab>[scriptid=custcentertab20]</centertab>
+  <label>Things in Progress</label>
+  <links>
+    <link>
+      <linklabel></linklabel>
+      <linkobject>[scriptid=custlink_33_1309901_sb1_350]</linkobject>
+      <linktasktype>LINK</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+  </links>
+</centercategory>

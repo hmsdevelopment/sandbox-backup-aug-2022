@@ -1,0 +1,26 @@
+<scheduledscript scriptid="customscript_flo_deployment_bundle_clean">
+  <defaultfunction>setBundleToDeployment</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint Deployment Bundle Cleanup</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteBundles/Bundle 297487/FLODeploymentWithoutBundleSS.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_flo_deployment_bundle_clean">
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <status>SCHEDULED</status>
+      <title>Strongpoint Deployment Bundle Cleanup</title>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat></repeat>
+          <startdate>2017-10-05</startdate>
+          <starttime>05:00:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

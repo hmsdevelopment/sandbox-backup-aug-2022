@@ -1,0 +1,12 @@
+<emailtemplate scriptid="custemailtmpl_131_1309901_653">
+  <addcompanyaddress>T</addcompanyaddress>
+  <addunsubscribelink>T</addunsubscribelink>
+  <description></description>
+  <isinactive>F</isinactive>
+  <isprivate>F</isprivate>
+  <mediaitem></mediaitem>
+  <name>New User Setup (New Version)</name>
+  <recordtype></recordtype>
+  <subject>New User Setup (New Version)</subject>
+  <usesmedia>F</usesmedia>
+</emailtemplate>

@@ -1,0 +1,12 @@
+<emailtemplate scriptid="custemailtmpl_mw_leave_as_is">
+  <addcompanyaddress>T</addcompanyaddress>
+  <addunsubscribelink>T</addunsubscribelink>
+  <description>Notification to send when a client uses the Leave As Is Button on form 411 (Leave as Is Option)</description>
+  <isinactive>F</isinactive>
+  <isprivate>F</isprivate>
+  <mediaitem></mediaitem>
+  <name>Leave As Is Notification</name>
+  <recordtype>CUSTOM</recordtype>
+  <subject>Ghost Listing set to Leave as Is ${customrecord.custrecord_simple_name}</subject>
+  <usesmedia>F</usesmedia>
+</emailtemplate>

@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_mw_send_email_cancel_act">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Send Email Cancel Action Appointment</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Midware/ManagementEmailsAppointments/SuiteletScripts/SendEmailCancelActionRouter.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mw_send_email_cancel_act_d">
+      <allemployees>T</allemployees>
+      <allpartners>T</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>Send Email Cancel Action Appointment</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

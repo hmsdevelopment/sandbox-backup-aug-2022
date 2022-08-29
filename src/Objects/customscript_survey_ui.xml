@@ -1,0 +1,26 @@
+<suitelet scriptid="customscript_survey_ui">
+  <defaultfunction>surveyPage</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Create Survey UI</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/hms/Survey/CreateSurvey.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_survey_ui">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>Create Survey UI</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

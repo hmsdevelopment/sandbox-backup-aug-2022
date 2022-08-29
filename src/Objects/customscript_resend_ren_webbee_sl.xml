@@ -1,0 +1,31 @@
+<suitelet scriptid="customscript_resend_ren_webbee_sl">
+  <defaultfunction>CreateRENPage</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Resend REN SL - WebBee</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Suitescript/Webbee Scripts/HMS_ReSend_REN_SL_CS_UE_WebBee.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_resend_ren_webbee_sl">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>Resend REN SL - WebBee</title>
+    </scriptdeployment>
+  </scriptdeployments>
+  <libraries>
+    <library>
+      <scriptfile>[/SuiteScripts/Suitescript/Webbee Scripts/Crypto/Crypto.js]</scriptfile>
+    </library>
+  </libraries>
+</suitelet>

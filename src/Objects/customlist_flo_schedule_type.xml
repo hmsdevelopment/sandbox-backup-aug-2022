@@ -1,0 +1,28 @@
+<customlist scriptid="customlist_flo_schedule_type">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Deployment Schedule Type</name>
+  <customvalues>
+    <customvalue scriptid="value_1_t1049933_417">
+      <isinactive>F</isinactive>
+      <value>Daily</value>
+    </customvalue>
+    <customvalue scriptid="value_2_t1049933_417">
+      <isinactive>F</isinactive>
+      <value>Monthly</value>
+    </customvalue>
+    <customvalue scriptid="value_3_t1049933_417">
+      <isinactive>F</isinactive>
+      <value>Weekly</value>
+    </customvalue>
+    <customvalue scriptid="value_4_t1049933_417">
+      <isinactive>F</isinactive>
+      <value>On Time</value>
+    </customvalue>
+    <customvalue scriptid="val_144952_t1049933_463">
+      <isinactive>F</isinactive>
+      <value>Yearly</value>
+    </customvalue>
+  </customvalues>
+</customlist>

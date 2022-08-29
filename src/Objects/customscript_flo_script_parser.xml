@@ -1,0 +1,254 @@
+<scheduledscript scriptid="customscript_flo_script_parser">
+  <defaultfunction>spiderScriptFilesSS</defaultfunction>
+  <description>This scheduled script checks for new and updated scripts and gathers metadata about them.</description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint Script File Parser SS</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails>nic.cano@flodocs.com</notifyemails>
+  <notifyowner>F</notifyowner>
+  <scriptfile>[/SuiteBundles/Bundle 297487/FLOScriptfileParserSS.js]</scriptfile>
+  <scriptcustomfields>
+    <scriptcustomfield scriptid="custscript_flo_script_archive_folderss">
+      <accesslevel>2</accesslevel>
+      <applyformatting>T</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue>1060</defaultvalue>
+      <description>This is the internalid of the folder used to store archives of script versions detected during spidering.  If not set, no scripts are archived.</description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <fieldtype>INTEGER</fieldtype>
+      <help>This is the internalid of the folder used to store archives of script versions detected during spidering.  If not set, no scripts are archived.</help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <label>Script Archive Folder</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <setting></setting>
+      <storevalue>T</storevalue>
+    </scriptcustomfield>
+    <scriptcustomfield scriptid="custscript_flo_script_parser_search">
+      <accesslevel>2</accesslevel>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <fieldtype>TEXT</fieldtype>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <label>Saved Search ID</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <setting></setting>
+      <storevalue>T</storevalue>
+    </scriptcustomfield>
+    <scriptcustomfield scriptid="custscript_last_script_process">
+      <accesslevel>2</accesslevel>
+      <applyformatting>T</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <fieldtype>INTEGER</fieldtype>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <label>Last Script Process</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <setting></setting>
+      <storevalue>T</storevalue>
+    </scriptcustomfield>
+    <scriptcustomfield scriptid="custscript_flo_script_parser_starttime">
+      <accesslevel>2</accesslevel>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <fieldtype>TIMEOFDAY</fieldtype>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <label>Start Time</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <setting></setting>
+      <storevalue>T</storevalue>
+    </scriptcustomfield>
+    <scriptcustomfield scriptid="custscript_flo_script_parser_endtime">
+      <accesslevel>2</accesslevel>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <fieldtype>TIMEOFDAY</fieldtype>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <label>End Time</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <setting></setting>
+      <storevalue>T</storevalue>
+    </scriptcustomfield>
+    <scriptcustomfield scriptid="custscript_flo_parser_lastlib_index">
+      <accesslevel>2</accesslevel>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <fieldtype>TEXT</fieldtype>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <label>Last Lib Processed</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <setting></setting>
+      <storevalue>T</storevalue>
+    </scriptcustomfield>
+  </scriptcustomfields>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_flo_script_parser">
+      <custscript_flo_parser_lastlib_index></custscript_flo_parser_lastlib_index>
+      <custscript_flo_script_archive_folderss></custscript_flo_script_archive_folderss>
+      <custscript_flo_script_parser_endtime></custscript_flo_script_parser_endtime>
+      <custscript_flo_script_parser_search></custscript_flo_script_parser_search>
+      <custscript_flo_script_parser_starttime></custscript_flo_script_parser_starttime>
+      <custscript_last_script_process></custscript_last_script_process>
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Strongpoint Script File Parser</title>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat>PT12H</repeat>
+          <startdate>2014-12-11</startdate>
+          <starttime>23:00:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy_flo_script_parser_od">
+      <custscript_flo_parser_lastlib_index></custscript_flo_parser_lastlib_index>
+      <custscript_flo_script_archive_folderss>400</custscript_flo_script_archive_folderss>
+      <custscript_flo_script_parser_endtime>09:00:00</custscript_flo_script_parser_endtime>
+      <custscript_flo_script_parser_search></custscript_flo_script_parser_search>
+      <custscript_flo_script_parser_starttime>06:00:00</custscript_flo_script_parser_starttime>
+      <custscript_last_script_process></custscript_last_script_process>
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Strongpoint Script File Parser SS - OD</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2014-06-23</startdate>
+          <starttime>22:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy_flo_script_file_parser_rs">
+      <custscript_flo_parser_lastlib_index></custscript_flo_parser_lastlib_index>
+      <custscript_flo_script_archive_folderss></custscript_flo_script_archive_folderss>
+      <custscript_flo_script_parser_endtime></custscript_flo_script_parser_endtime>
+      <custscript_flo_script_parser_search></custscript_flo_script_parser_search>
+      <custscript_flo_script_parser_starttime></custscript_flo_script_parser_starttime>
+      <custscript_last_script_process></custscript_last_script_process>
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Strongpoint Script File Parser SS Respider</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2015-12-10</startdate>
+          <starttime>23:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+  <libraries>
+    <library>
+      <scriptfile>[/SuiteBundles/Bundle 297487/FLOValidateLicense.js]</scriptfile>
+    </library>
+    <library>
+      <scriptfile>[/SuiteBundles/Bundle 297487/FLOTimeWindow.js]</scriptfile>
+    </library>
+    <library>
+      <scriptfile>[/SuiteBundles/Bundle 297487/sha1.js]</scriptfile>
+    </library>
+    <library>
+      <scriptfile>[/SuiteBundles/Bundle 297487/supportedrecords.js]</scriptfile>
+    </library>
+    <library>
+      <scriptfile>[/SuiteBundles/Bundle 297487/esprima.js]</scriptfile>
+    </library>
+    <library>
+      <scriptfile>[/SuiteBundles/Bundle 297487/estraverse.browser.js]</scriptfile>
+    </library>
+  </libraries>
+</scheduledscript>

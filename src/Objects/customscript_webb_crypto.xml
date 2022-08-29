@@ -1,0 +1,30 @@
+<scheduledscript scriptid="customscript_webb_crypto">
+  <defaultfunction>Secreat</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>WebBee Crypto</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/Suitescript/Webbee Scripts/Crypto/WebBee_Secreat.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_webb_crypto">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>TESTING</status>
+      <title>WebBee Crypto</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2016-11-11</startdate>
+          <starttime>23:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+  <libraries>
+    <library>
+      <scriptfile>[/SuiteScripts/Suitescript/Webbee Scripts/Crypto/Crypto.js]</scriptfile>
+    </library>
+  </libraries>
+</scheduledscript>

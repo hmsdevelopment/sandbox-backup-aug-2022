@@ -1,0 +1,26 @@
+<scheduledscript scriptid="customscript43">
+  <defaultfunction>updateBuilderPersonnelFromSubToProperty</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>updateBuilderPersonnelFromSubToProperty</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/updateBuilderPersonnelFromSubdivisionToProperty.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy1">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>updateBuilderPersonnelFromSubToProperty</title>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat></repeat>
+          <startdate>2012-08-16</startdate>
+          <starttime>02:00:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

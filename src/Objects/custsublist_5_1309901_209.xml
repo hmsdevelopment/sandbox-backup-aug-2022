@@ -1,0 +1,13 @@
+<sublist scriptid="custsublist_5_1309901_209">
+  <contact>F</contact>
+  <customer>F</customer>
+  <employee>F</employee>
+  <field></field>
+  <job>F</job>
+  <label>Appointments</label>
+  <partner>T</partner>
+  <savedsearch>[scriptid=customsearch193]</savedsearch>
+  <sublisttype>ENTITY</sublisttype>
+  <tab>ENTITYSUPPORT</tab>
+  <vendor>F</vendor>
+</sublist>

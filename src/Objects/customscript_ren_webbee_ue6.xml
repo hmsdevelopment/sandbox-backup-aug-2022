@@ -1,0 +1,10 @@
+<usereventscript scriptid="customscript_ren_webbee_ue6">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Rapid Email Notification Webbee - UE2.0</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/HmsSendMailToPrimaryBsrRenUe.js]</scriptfile>
+</usereventscript>

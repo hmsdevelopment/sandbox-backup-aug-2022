@@ -1,0 +1,20 @@
+<clientscript scriptid="customscript_hms_update_field_cs">
+  <description></description>
+  <fieldchangedfunction>disablePriceField</fieldchangedfunction>
+  <isinactive>F</isinactive>
+  <lineinitfunction></lineinitfunction>
+  <name>HMS Update Field CS</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <pageinitfunction></pageinitfunction>
+  <postsourcingfunction></postsourcingfunction>
+  <recalcfunction></recalcfunction>
+  <saverecordfunction>setPriceMandatory</saverecordfunction>
+  <scriptfile>[/SuiteScripts/HMS_Update_Fields_Using_Suitelet.js]</scriptfile>
+  <validatedeletefunction></validatedeletefunction>
+  <validatefieldfunction></validatefieldfunction>
+  <validateinsertfunction></validateinsertfunction>
+  <validatelinefunction></validatelinefunction>
+</clientscript>

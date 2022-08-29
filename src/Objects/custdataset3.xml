@@ -1,0 +1,81 @@
+<!-- Do not modify the contents of the SDF XML definition structure located under "CDATA" section of this XML, as this may corrupt the Workbook/Dataset data when you deploy the modified object to your NetSuite account. !-->
+<dataset scriptid="custdataset3">
+  <name>Case</name>
+  <dependencies>
+    <dependency>[scriptid=custevent_builder]</dependency>
+  </dependencies>
+  <definition><![CDATA[<root>
+<_T_>dataSet</_T_>
+<id type="null"/>
+<scriptId type="null"/>
+<applicationId type="null"/>
+<version type="string">0.1</version>
+<name>
+  <translationScriptId>d7d0bd56-97ea-4446-a4d1-1f96b3408052</translationScriptId>
+</name>
+<audience>
+  <AudienceItems type="array"/>
+  <isPublic type="boolean">false</isPublic>
+</audience>
+<ownerId>3</ownerId>
+<description>
+  <translationScriptId>6885a98a-9a41-471a-97c4-7662f9bf5a59</translationScriptId>
+</description>
+<baseRecord>
+  <id>supportcase</id>
+  <label>Case</label>
+</baseRecord>
+<columns type="array">
+  <_ITEM_>
+    <columnId>8</columnId>
+    <label type="null"/>
+    <field>
+      <_T_>fieldReference</_T_>
+      <id>custevent_builder</id>
+      <label>Builder</label>
+      <joinTrail>
+        <baseRecord>
+          <id>supportcase</id>
+          <label>Case</label>
+        </baseRecord>
+        <joins type="array"/>
+      </joinTrail>
+      <uniqueId>custevent_builder</uniqueId>
+    </field>
+    <alias>custevent_builder</alias>
+  </_ITEM_>
+  <_ITEM_>
+    <columnId>9</columnId>
+    <label type="null"/>
+    <field>
+      <_T_>fieldReference</_T_>
+      <id>casenumber</id>
+      <label>ID</label>
+      <joinTrail>
+        <baseRecord>
+          <id>supportcase</id>
+          <label>Case</label>
+        </baseRecord>
+        <joins type="array"/>
+      </joinTrail>
+      <uniqueId>casenumber</uniqueId>
+    </field>
+    <alias>casenumber</alias>
+  </_ITEM_>
+</columns>
+<criteria>
+  <_T_>condition</_T_>
+  <operator>
+    <code>AND</code>
+  </operator>
+  <children type="array"/>
+  <meta type="null"/>
+  <field type="null"/>
+  <targetFieldContext>
+    <name>DEFAULT</name>
+  </targetFieldContext>
+  <fieldStateName type="null"/>
+</criteria>
+<formulas type="array"/>
+</root>]]></definition>
+</dataset>

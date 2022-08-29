@@ -1,0 +1,26 @@
+<suitelet scriptid="customscript_send_email_sl_for_rtan_ren">
+  <defaultfunction>createSuitlet</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Send Email Suitelet for RTan Ren</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/hms_send_ren_tran_email_SL_CS_UE.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_send_email_sl_for_rtan_ren">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>Send Email Suitelet for RTan Ren</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

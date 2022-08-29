@@ -1,0 +1,12 @@
+<emailtemplate scriptid="custemailtmpl_90_1309901_507">
+  <addcompanyaddress>T</addcompanyaddress>
+  <addunsubscribelink>T</addunsubscribelink>
+  <description></description>
+  <isinactive>F</isinactive>
+  <isprivate>F</isprivate>
+  <mediaitem></mediaitem>
+  <name>Reopening Case record</name>
+  <recordtype></recordtype>
+  <subject>Case record ${case.caseNumber} has been reopened. Click the link and go to the Communication&gt;Messages tab to find out why.</subject>
+  <usesmedia>F</usesmedia>
+</emailtemplate>

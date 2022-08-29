@@ -1,0 +1,25 @@
+<scheduledscript scriptid="customscript_flo_clean_fr_on_custrecflds">
+  <defaultfunction>FLOCleanFormsFromCustrecs</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint Clean Forms frm Cust Rec Fld</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteBundles/Bundle 297487/FLOCleanFormsFromCustrecs.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_flo_clean_fr_on_custrecflds">
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Strongpoint Clean Forms from Custom Record Field</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2016-06-24</startdate>
+          <starttime>22:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

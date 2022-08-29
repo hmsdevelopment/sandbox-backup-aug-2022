@@ -1,0 +1,16 @@
+<customlist scriptid="customlist_mw_personnel_login_tracking">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Personnel Login Tracking</name>
+  <customvalues>
+    <customvalue scriptid="val_517535_1309901_sb1_799">
+      <isinactive>F</isinactive>
+      <value>Navigator, Date, SO</value>
+    </customvalue>
+    <customvalue scriptid="val_517536_1309901_sb1_634">
+      <isinactive>F</isinactive>
+      <value>Navigator, Date, SO</value>
+    </customvalue>
+  </customvalues>
+</customlist>

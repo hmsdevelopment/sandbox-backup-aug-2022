@@ -1,0 +1,12 @@
+<emailtemplate scriptid="custemailtmpl_mw_gl_notification_cancelled">
+  <addcompanyaddress>T</addcompanyaddress>
+  <addunsubscribelink>T</addunsubscribelink>
+  <description>Partial Email to be sent as notification for the original Ghost Listing</description>
+  <isinactive>F</isinactive>
+  <isprivate>F</isprivate>
+  <mediaitem></mediaitem>
+  <name>Ghost Listing Sold Notification - Original Property</name>
+  <recordtype>CUSTOM</recordtype>
+  <subject>A Ghost Listing has been Cancelled</subject>
+  <usesmedia>F</usesmedia>
+</emailtemplate>

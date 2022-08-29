@@ -1,0 +1,19 @@
+<centercategory scriptid="custcentercategory_create_or_modify">
+  <center>[scriptid=custcenter3]</center>
+  <centertab>[scriptid=custcentertab_listings]</centertab>
+  <label>Create or Modify</label>
+  <links>
+    <link>
+      <linklabel>Create New Listing</linklabel>
+      <linkobject>[scriptid=custlink_31_1309901_758]</linkobject>
+      <linktasktype>LINK</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>Proce Changes</linklabel>
+      <linkobject>[scriptid=custlink_25_1309901_419]</linkobject>
+      <linktasktype>LINK</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+  </links>
+</centercategory>

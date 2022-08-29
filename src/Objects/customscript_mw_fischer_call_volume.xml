@@ -1,0 +1,10 @@
+<restlet scriptid="customscript_mw_fischer_call_volume">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Fischer Call Volume By Month</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Midware/FischerCallVolumeByMonth/RESTletScripts/FischerCallVolumeByMonth.js]</scriptfile>
+</restlet>

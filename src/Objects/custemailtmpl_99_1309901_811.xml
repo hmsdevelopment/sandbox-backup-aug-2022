@@ -1,0 +1,12 @@
+<emailtemplate scriptid="custemailtmpl_99_1309901_811">
+  <addcompanyaddress>T</addcompanyaddress>
+  <addunsubscribelink>T</addunsubscribelink>
+  <description></description>
+  <isinactive>F</isinactive>
+  <isprivate>F</isprivate>
+  <mediaitem></mediaitem>
+  <name>New Inquiry - Webbee (No Links)</name>
+  <recordtype>EVENT</recordtype>
+  <subject></subject>
+  <usesmedia>F</usesmedia>
+</emailtemplate>

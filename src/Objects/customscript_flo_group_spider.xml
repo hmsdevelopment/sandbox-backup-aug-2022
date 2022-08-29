@@ -1,0 +1,65 @@
+<scheduledscript scriptid="customscript_flo_group_spider">
+  <description>Create a scheduled script spider for Groups (found in Lists &amp;gt; Relationship &amp;gt; Groups).&#xd;
+The spider should create a Customization record for each group. Customization Type = Group&#xd;
+Get as much information you can get from the group record and store the information to the Customization record. &#xd;
+&#xd;
+Basic Fields to set in the Customization:&#xd;
+- Name&#xd;
+- Type&#xd;
+- Owner&#xd;
+- Internal Id&#xd;
+- Description (from Comments)&#xd;
+- Map the Group&apos;s &apos;Type’ field to FLO customizations’ Parent’ field. Find the equivalent Customization record of the parent by name and type is Standard Record.&#xd;
+- From the Group ’Saved Search’, set data source field with the search scriptid. Then find the equivalent Customization of the search and save in the custrecord_flo_searches of the Group Customization</description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint Group Spider</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteBundles/Bundle 297487/FLOGroupSpider.js]</scriptfile>
+  <scriptcustomfields>
+    <scriptcustomfield scriptid="custscript_flo_group_li">
+      <accesslevel>2</accesslevel>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <fieldtype>TEXT</fieldtype>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <label>FLO Group spider last index</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <setting></setting>
+      <storevalue>T</storevalue>
+    </scriptcustomfield>
+  </scriptcustomfields>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_flo_group_spider_dep">
+      <custscript_flo_group_li></custscript_flo_group_li>
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Strongpoint Group Spider Dep</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2017-06-01</startdate>
+          <starttime>22:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

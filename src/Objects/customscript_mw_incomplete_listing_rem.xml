@@ -1,0 +1,25 @@
+<scheduledscript scriptid="customscript_mw_incomplete_listing_rem">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Incomplete Listing Reminder</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/Midware/BuilderPortal/ScheduledScripts/IncompleteListingReminder.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mw_incomplete_listing_rem_d">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>SCHEDULED</status>
+      <title>Incomplete Listing Reminder</title>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat></repeat>
+          <startdate>2020-11-02</startdate>
+          <starttime>13:00:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

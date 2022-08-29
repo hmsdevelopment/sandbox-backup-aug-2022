@@ -1,0 +1,97 @@
+<workflow scriptid="customworkflow35">
+  <description></description>
+  <initcontexts>ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|MAPREDUCE|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKFLOW</initcontexts>
+  <initeventtypes></initeventtypes>
+  <initlocalizationcontext></initlocalizationcontext>
+  <initoncreate>T</initoncreate>
+  <initonvieworupdate>T</initonvieworupdate>
+  <initsavedsearchcondition></initsavedsearchcondition>
+  <inittriggertype></inittriggertype>
+  <isinactive>F</isinactive>
+  <islogenabled>F</islogenabled>
+  <keephistory>ONLYWHENTESTING</keephistory>
+  <name>CTB Inquiry Alert</name>
+  <recordtypes>SUPPORTCASE</recordtypes>
+  <releasestatus>RELEASED</releasestatus>
+  <runasadmin>F</runasadmin>
+  <initcondition>
+    <formula></formula>
+    <type>VISUAL_BUILDER</type>
+  </initcondition>
+  <workflowstates>
+    <workflowstate scriptid="workflowstate92">
+      <description></description>
+      <donotexitworkflow>F</donotexitworkflow>
+      <name>State 1</name>
+      <positionx>243</positionx>
+      <positiony>133</positiony>
+      <workflowactions triggertype="AFTERFIELDEDIT">
+        <showmessageaction scriptid="workflowaction206">
+          <clienttriggerfields>[scriptid=custevent_property]</clienttriggerfields>
+          <conditionsavedsearch></conditionsavedsearch>
+          <contexttypes>ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|MAPREDUCE|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKFLOW</contexttypes>
+          <isinactive>F</isinactive>
+          <messagetext>STOP! This is a CTB!&#xd;
+&#xd;
+Tell the agent, &quot;Our records indicate this home is pending, is that what you are seeing in MLS ?&quot;&#xd;
+&#xd;
+IF they indicate &quot;no, it&apos;s active&quot; then reply, &quot;Then something must be amiss, I&apos;ll look into it further. Are you still interested in pursuing this if it is under contract?&quot;&#xd;
+&#xd;
+IF this is an email inquiry, Showing Assist, CSS, etc see Kim or Al before proceeding</messagetext>
+          <initcondition>
+            <formula><![CDATA["Property:Listing Type" IN ("Listing Type1")]]></formula>
+            <type>VISUAL_BUILDER</type>
+            <parameters>
+              <parameter>
+                <name>Property:Listing Type</name>
+                <value>[scriptid=custevent_property]:[scriptid=customrecord_property_record.custrecord_listing_type]</value>
+              </parameter>
+              <parameter>
+                <name>Listing Type1</name>
+                <selectrecordtype>[scriptid=customlist_listing_type]</selectrecordtype>
+                <value>[scriptid=customlist_listing_type.val_174509_1309901_434]</value>
+              </parameter>
+            </parameters>
+          </initcondition>
+        </showmessageaction>
+        <setfieldvalueaction scriptid="workflowaction207">
+          <clienttriggerfields>[scriptid=custevent_caller_name]</clienttriggerfields>
+          <conditionsavedsearch></conditionsavedsearch>
+          <contexttypes>ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|MAPREDUCE|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKFLOW</contexttypes>
+          <eventtypes></eventtypes>
+          <field>[scriptid=custevent_bsr_assignment_note]</field>
+          <isinactive>T</isinactive>
+          <scheduledelay></scheduledelay>
+          <schedulemode>DELAY</schedulemode>
+          <schedulerecurrence></schedulerecurrence>
+          <scheduletimeofday></scheduletimeofday>
+          <scheduletimeunit></scheduletimeunit>
+          <valuechecked>F</valuechecked>
+          <valuedate></valuedate>
+          <valuefield></valuefield>
+          <valueformula>&apos;[&apos;+ date.getDate() + &apos;] \n&apos; +&#xd;
+&apos;{custevent_bsr_assignment_note}&apos;</valueformula>
+          <valuejoinfield></valuejoinfield>
+          <valueselect></valueselect>
+          <valuetext></valuetext>
+          <valuetype>FORMULA</valuetype>
+          <initcondition>
+            <formula><![CDATA["Property:Listing Type" IN ("Listing Type1")]]></formula>
+            <type>VISUAL_BUILDER</type>
+            <parameters>
+              <parameter>
+                <name>Property:Listing Type</name>
+                <value>[scriptid=custevent_property]:[scriptid=customrecord_property_record.custrecord_listing_type]</value>
+              </parameter>
+              <parameter>
+                <name>Listing Type1</name>
+                <selectrecordtype>[scriptid=customlist_listing_type]</selectrecordtype>
+                <value>[scriptid=customlist_listing_type.val_174509_1309901_434]</value>
+              </parameter>
+            </parameters>
+          </initcondition>
+        </setfieldvalueaction>
+      </workflowactions>
+    </workflowstate>
+  </workflowstates>
+</workflow>

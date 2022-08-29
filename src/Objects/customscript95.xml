@@ -1,0 +1,39 @@
+<scheduledscript scriptid="customscript95">
+  <defaultfunction>processEmailNotifications</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Process Email Notifications - 24+ Hours</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/processEmailNotifications24HoursOut_v2.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy2">
+      <isdeployed>F</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Process Email Notifications - 24+ Hours 2</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2015-10-22</startdate>
+          <starttime>22:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy1">
+      <isdeployed>F</isdeployed>
+      <loglevel>ERROR</loglevel>
+      <status>SCHEDULED</status>
+      <title>Process Email Notifications - 24+ Hours</title>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat>PT2H</repeat>
+          <startdate>2013-12-10</startdate>
+          <starttime>13:00:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

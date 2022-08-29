@@ -1,0 +1,25 @@
+<scheduledscript scriptid="customscript_export_survey_results_sc">
+  <defaultfunction>exportSurvey</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Export Survey Results SC</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <scriptfile>[/SuiteScripts/HMS_surveys/export_survey_results_sc.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_export_survey_results_sc">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Export Survey Results SC</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2018-04-19</startdate>
+          <starttime>22:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

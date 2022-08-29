@@ -1,0 +1,150 @@
+<savedcsvimport scriptid="custimport_56_1309901_965">
+  <charencoding>windows-1252</charencoding>
+  <columndelimiter>COMMA</columndelimiter>
+  <customrecord>[scriptid=customrecord_property_record]</customrecord>
+  <datahandling>UPDATE</datahandling>
+  <decimaldelimiter>PERIOD</decimaldelimiter>
+  <entryform>[scriptid=custform_2_1309901_378]</entryform>
+  <ignorereadonly>T</ignorereadonly>
+  <importname>Sapphire Project Closing Report Import</importname>
+  <logsystemnotescustfields>F</logsystemnotescustfields>
+  <multiselectdelimiter>^</multiselectdelimiter>
+  <overwritemissingfields>F</overwritemissingfields>
+  <overwritesublists>F</overwritesublists>
+  <recordtype>CUSTOMRECORD</recordtype>
+  <runserversuitescript>F</runserversuitescript>
+  <usemultithread>F</usemultithread>
+  <validatemandatorycustfields>T</validatemandatorycustfields>
+  <audience>
+    <allemployees>F</allemployees>
+    <allpartners>F</allpartners>
+    <allroles>F</allroles>
+    <globaledit>F</globaledit>
+    <ispublic>F</ispublic>
+    <roles></roles>
+  </audience>
+  <filemappings>
+    <filemapping>
+      <file>CUSTOMRECORD</file>
+    </filemapping>
+  </filemappings>
+  <recordmappings>
+    <recordmapping>
+      <record>CUSTOMRECORD</record>
+      <fieldmappings>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord50]</field>
+          <columnreference>
+            <column>Closing Price</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_actual_closing_date]</field>
+          <columnreference>
+            <column>Actual Closing Date</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_agent_involved_in_sale]</field>
+          <columnreference>
+            <column>Agent Involved in Sale</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_contract_approval_date]</field>
+          <columnreference>
+            <column>Cont Appr Dt</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_date_of_last_record_update]</field>
+          <columnreference>
+            <column>Date of Last Record Update (Experimental)</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_estimated_closing_date]</field>
+          <columnreference>
+            <column>Est Cls Dt</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_estimated_closing_price]</field>
+          <columnreference>
+            <column>Estimated Closing Price</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_financing_company]</field>
+          <columnreference>
+            <column>Financing Company</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_financing_type]</field>
+          <columnreference>
+            <column>Financing Type</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_job_number]</field>
+          <columnreference>
+            <column>Job Number</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_last_record_update_source]</field>
+          <columnreference>
+            <column>Last Record Update Source</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_last_record_update_type]</field>
+          <columnreference>
+            <column>Last Record Upate Type</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_user_entered_sales_status]</field>
+          <columnreference>
+            <column>User Entered Sales Status</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>ID</field>
+          <columnreference>
+            <column>Internal ID</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+      </fieldmappings>
+    </recordmapping>
+  </recordmappings>
+</savedcsvimport>

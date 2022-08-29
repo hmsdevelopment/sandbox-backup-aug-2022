@@ -1,0 +1,26 @@
+<workflowactionscript scriptid="customscript_flo_validate_license">
+  <defaultfunction>licenseManager</defaultfunction>
+  <description>Validate that exist a valid license to access Strongpoint record or tool.</description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint Validate License</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <returnrecordtype></returnrecordtype>
+  <returntype>INTEGER</returntype>
+  <scriptfile>[/SuiteBundles/Bundle 297487/FLOValidateLicense.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_flo_validate_license">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <recordtype>RECORD</recordtype>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+    </scriptdeployment>
+  </scriptdeployments>
+</workflowactionscript>

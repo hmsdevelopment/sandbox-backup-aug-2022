@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_mw_agent_congra_emailsend_s">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Agent Congrats Recent Sale Email Sender</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Midware/AgentEmailCongratsRecentSale/SuiteletScripts/Routers/AgentEmailCongratsRecentSaleRouter.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mw_agent_congra_emailsend_d">
+      <allemployees>T</allemployees>
+      <allpartners>T</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>Agent Congrats Recent Sale Email Sender</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

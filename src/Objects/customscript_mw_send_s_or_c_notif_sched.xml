@@ -1,0 +1,25 @@
+<scheduledscript scriptid="customscript_mw_send_s_or_c_notif_sched">
+  <description>Sends a notification to the created by Personnel on the property records</description>
+  <isinactive>F</isinactive>
+  <name>SaleClosingScheduledNotification</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails>esteban.gonzalez@midware.net</notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/Midware/BuilderPortal/ScheduledScripts/SaleClosingScheduledNotification.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mw_s_or_c_notif_email_sched">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>SCHEDULED</status>
+      <title>SaleClosingScheduledNotification</title>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat></repeat>
+          <startdate>2020-07-14</startdate>
+          <starttime>12:00:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

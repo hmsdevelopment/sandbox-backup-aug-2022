@@ -1,0 +1,34 @@
+<role scriptid="customrole_flo_developer_role">
+  <centertype>BASIC</centertype>
+  <coreadminpermission>F</coreadminpermission>
+  <employeerestriction>NONE</employeerestriction>
+  <employeeselectionunrestricted>F</employeeselectionunrestricted>
+  <isinactive>F</isinactive>
+  <ispartnerrole>F</ispartnerrole>
+  <issalesrole>F</issalesrole>
+  <issinglesignononly>F</issinglesignononly>
+  <issupportrole>F</issupportrole>
+  <iswebserviceonlyrole>F</iswebserviceonlyrole>
+  <name>Strongpoint Developer Role</name>
+  <restrictbydevice>F</restrictbydevice>
+  <restricttimeandexpenses>F</restricttimeandexpenses>
+  <tfaduration>0</tfaduration>
+  <tfarequired>OFF</tfarequired>
+  <permissions>
+    <permission>
+      <permkey>[scriptid=customrecord_flo_spider_configuration]</permkey>
+      <permlevel>FULL</permlevel>
+      <restriction></restriction>
+    </permission>
+    <permission>
+      <permkey>[scriptid=customrecord_flo_customization]</permkey>
+      <permlevel>FULL</permlevel>
+      <restriction></restriction>
+    </permission>
+    <permission>
+      <permkey>[scriptid=customrecord_flo_spider_log]</permkey>
+      <permlevel>VIEW</permlevel>
+      <restriction></restriction>
+    </permission>
+  </permissions>
+</role>

@@ -1,0 +1,29 @@
+<div style="font-size: 8pt; text-align: center; "><font face="comic sans ms" size="4"><b>HMS Real Estate</b></font></div>
+
+<div style="font-size: 8pt; text-align: center; "><span style="font-family: 'comic sans ms'; "><font size="4">Request Sales of a Market Home</font></span></div>
+
+<div style="font-size: 8pt; text-align: center; ">&nbsp;</div>
+
+<div style="text-align: center; "><span style="font-family: 'comic sans ms'; "><font size="2">Address: ${customRecord.CUSTRECORD_HOUSE_NUMBER}&nbsp;${customRecord.CUSTRECORD_STREET_TEXT}</font></span></div>
+
+<div style="text-align: center; "><span style="font-family: 'comic sans ms'; "><font size="2">Lot Number:&nbsp;${customRecord.CUSTRECORD_LOT_NUMBER}</font></span></div>
+
+<div style="text-align: center; "><span style="font-family: 'comic sans ms'; "><font size="2">Subdivision: ${customRecord.CUSTRECORD_SUBDIVISION_TEXT}</font></span></div>
+
+<div style="text-align: center; ">&nbsp;</div>
+
+<div style="text-align: center; "><span style="font-family: 'comic sans ms'; "><font size="2">Please click on the link below to submit the requested information to HMS Real Estate</font></span></div>
+
+<div style="font-size: 8pt; text-align: center; ">&nbsp;</div>
+
+<div style="font-size: 8pt; text-align: center; font-family: Tahoma, Geneva, sans-serif; ">&nbsp;</div>
+
+<div style="font-size: 8pt; text-align: center; "><#--FM:BEGIN--><a href="https://1309901.extforms.netsuite.com/app/site/hosting/scriptlet.nl?script=50&deploy=1&compid=1309901&h=19fa98edfd2a79296183&custrecord_property=<#if (customRecord.internalId)?has_content>${customRecord.internalId}<#elseif (transaction.internalId)?has_content>${transaction.internalId}<#elseif (case.internalId)?has_content>${case.internalId}<#elseif (entity.internalId)?has_content>${entity.internalId}<#else>${company.internalId}</#if>&amp;lotnumber=${customRecord.CUSTRECORD_LOT_NUMBER}" target="_self">Click here to complete the form</a><#--FM:END--><#--FM:BEGIN--><a href="https://1309901.extforms.netsuite.com/app/site/hosting/scriptlet.nl?script=50&deploy=1&compid=1309901&h=19fa98edfd2a79296183&custrecord_property=<#if (customRecord.internalId)?has_content>${customRecord.internalId}<#elseif (transaction.internalId)?has_content>${transaction.internalId}<#elseif (case.internalId)?has_content>${case.internalId}<#elseif (entity.internalId)?has_content>${entity.internalId}<#else>${company.internalId}</#if>&amp;lotnumber=${customRecord.CUSTRECORD_LOT_NUMBER}" target="_self"></a><#--FM:END--><#--FM:BEGIN--><a href="https://1309901.extforms.netsuite.com/app/site/hosting/scriptlet.nl?script=50&deploy=1&compid=1309901&h=19fa98edfd2a79296183&custrecord_property=<#if (customRecord.internalId)?has_content>${customRecord.internalId}<#elseif (transaction.internalId)?has_content>${transaction.internalId}<#elseif (case.internalId)?has_content>${case.internalId}<#elseif (entity.internalId)?has_content>${entity.internalId}<#else>${company.internalId}</#if>" target="_self"></a><#--FM:END--></div>
+
+<div style="font-size: 8pt; text-align: center; font-family: Tahoma, Geneva, sans-serif; ">&nbsp;</div>
+
+<div style="font-size: 8pt; text-align: center; font-family: Tahoma, Geneva, sans-serif; ">Thanks,</div>
+
+<div style="font-size: 8pt; text-align: center; font-family: Tahoma, Geneva, sans-serif; ">&nbsp;</div>
+
+<div style="font-size: 8pt; text-align: center; font-family: Tahoma, Geneva, sans-serif; ">HMS Marketing Services</div>

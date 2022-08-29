@@ -1,0 +1,26 @@
+<suitelet scriptid="customscript_hms_subdivision_calender">
+  <defaultfunction>subDivisionCalender</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>HMS Subdivision Calender</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/HMS_Subdivision_Calender.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_hms_subdivision_calender">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>HMS Subdivision Calender</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

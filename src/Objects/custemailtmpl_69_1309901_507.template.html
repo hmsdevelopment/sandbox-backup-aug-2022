@@ -1,0 +1,23 @@
+Contract Approval Date: &nbsp;${customRecord.CUSTRECORD_CONTRACT_APPROVAL_DATE}<br />
+Estimated Closing Date: &nbsp;${customRecord.CUSTRECORD_ESTIMATED_CLOSING_DATE}<br />
+Construction Status at Contract: &nbsp;${customRecord.CUSTRECORD_CONSTRUCTION_STATUS_CONTRACT}<br />
+Brokerage Name: &nbsp;${customRecord.CUSTRECORD_BROKERAGE_NAME_SN}<br />
+Agent Name: &nbsp;${customRecord.CUSTRECORD_AGENT_NAME_SN}<br />
+MLS Region 1:&nbsp;${customRecord.CUSTRECORD15}<br />
+MLS Number 1:&nbsp;${customRecord.CUSTRECORD_MLS_NUMBER_REGION1}<br />
+MLS Region 2:&nbsp;${customRecord.CUSTRECORD16}<br />
+MLS Number 2:&nbsp;${customRecord.CUSTRECORD_MLS_NUMBER_REGION2}<br />
+Builder: &nbsp;${customRecord.CUSTRECORD_TOP_LEVEL_BUILDER}<br />
+Builder Division:&nbsp;${customRecord.CUSTRECORD12}<br />
+Subdivision: &nbsp;${customRecord.CUSTRECORDCUSTRECORDSUBDNAME}<br />
+Lot Number: &nbsp;${customRecord.CUSTRECORD_LOT_NUMBER}<br />
+Listing Type:&nbsp;${customrecord.custrecord_listing_type}<br />
+Sale Notes: ${customrecord.custrecord_sale_notes}<br />
+<br />
+Date Property Record Created:&nbsp;${customrecord.created}<br />
+<br />
+Please go to the property record and fill in the selling agent and brokerage based on the information given to us by the builder. This will all be found in the Sale Details tab.<br />
+<br />
+<#--FM:BEGIN--><a href="https://1309901.app.netsuite.com/app/common/custom/custrecordentry.nl?rectype=18&id=<#if (customRecord.internalId)?has_content>${customRecord.internalId}<#elseif (transaction.internalId)?has_content>${transaction.internalId}<#elseif (case.internalId)?has_content>${case.internalId}<#elseif (entity.internalId)?has_content>${entity.internalId}<#else>${company.internalId}</#if>" target="_self">Property Record</a><#--FM:END--><br />
+<br />
+<#--FM:BEGIN--><a href="https://1309901.extforms.netsuite.com/app/site/hosting/scriptlet.nl?script=52&deploy=1&compid=1309901&h=9233986caf5cd99a9de5&custrecord_property=<#if (customRecord.internalId)?has_content>${customRecord.internalId}<#elseif (transaction.internalId)?has_content>${transaction.internalId}<#elseif (case.internalId)?has_content>${case.internalId}<#elseif (entity.internalId)?has_content>${entity.internalId}<#else>${company.internalId}</#if>" target="_self">Click here to set the Pending Notification Date on the property record</a><#--FM:END-->

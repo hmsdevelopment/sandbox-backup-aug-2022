@@ -1,0 +1,30 @@
+<scheduledscript scriptid="customscript_flashlight_alert_admins_ss">
+  <defaultfunction>alertAdmins</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint Alert Admins SS</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteBundles/Bundle 297487/FLOAlertAdminsSS.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_flashlight_alert_admins_ss">
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Strongpoint Alert Admins SS</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2019-06-03</startdate>
+          <starttime>22:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+  <libraries>
+    <library>
+      <scriptfile>[/SuiteBundles/Bundle 297487/FlashlightPortlet_Library.js]</scriptfile>
+    </library>
+  </libraries>
+</scheduledscript>

@@ -1,0 +1,12 @@
+<emailtemplate scriptid="custemailtmpl_mw_gl_property_relocated_notif">
+  <addcompanyaddress>T</addcompanyaddress>
+  <addunsubscribelink>T</addunsubscribelink>
+  <description>Email to be sent as notification when a property is relocated using script (422 )</description>
+  <isinactive>F</isinactive>
+  <isprivate>F</isprivate>
+  <mediaitem></mediaitem>
+  <name>Ghost Listing Property Relocated Notification</name>
+  <recordtype>CUSTOM</recordtype>
+  <subject>Ghost Listing Property Relocated ${customrecord.custrecord_simple_name}</subject>
+  <usesmedia>F</usesmedia>
+</emailtemplate>

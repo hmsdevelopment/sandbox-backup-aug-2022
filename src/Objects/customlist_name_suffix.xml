@@ -1,0 +1,28 @@
+<customlist scriptid="customlist_name_suffix">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Name Suffix</name>
+  <customvalues>
+    <customvalue scriptid="value_1_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Jr.</value>
+    </customvalue>
+    <customvalue scriptid="value_2_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Sr.</value>
+    </customvalue>
+    <customvalue scriptid="value_3_1309901_565">
+      <isinactive>F</isinactive>
+      <value>II</value>
+    </customvalue>
+    <customvalue scriptid="value_4_1309901_565">
+      <isinactive>F</isinactive>
+      <value>III</value>
+    </customvalue>
+    <customvalue scriptid="value_5_1309901_565">
+      <isinactive>F</isinactive>
+      <value>IV</value>
+    </customvalue>
+  </customvalues>
+</customlist>

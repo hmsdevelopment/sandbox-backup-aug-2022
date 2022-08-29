@@ -1,0 +1,45 @@
+<div style="font-family: 'Times New Roman'; font-size: 8pt; text-align: center;"><font face="arial" size="4"><b>HMS Real Estate</b></font></div>
+
+<div style="font-family: 'Times New Roman'; font-size: 8pt; text-align: center;"><font face="arial" size="4">Request Sale of a Market Home</font></div>
+
+<div style="font-family: 'Times New Roman'; font-size: 8pt; text-align: center;">&nbsp;</div>
+
+<div style="font-family: 'Times New Roman'; font-size: 8pt; text-align: center;"><font face="arial" size="4">We have been informed that the following property has recently sold, congratulations!</font></div>
+
+<div style="font-family: 'Times New Roman'; font-size: 8pt; text-align: center;">&nbsp;</div>
+
+<div style="font-family: 'Times New Roman'; text-align: center;"><font face="arial" size="2">Address: ${customRecord.CUSTRECORD_HOUSE_NUMBER}&nbsp;${customRecord.CUSTRECORD_STREET_TEXT}</font></div>
+
+<div style="font-family: 'Times New Roman'; text-align: center;"><font face="arial" size="2">Lot Number:&nbsp;${customRecord.CUSTRECORD_LOT_NUMBER}</font></div>
+
+<div style="font-family: 'Times New Roman'; text-align: center;"><font face="arial" size="2">Subdivision: ${customRecord.CUSTRECORD_SUBDIVISION_TEXT}</font></div>
+
+<div style="font-family: 'Times New Roman'; text-align: center;">&nbsp;</div>
+
+<div style="font-family: 'Times New Roman'; text-align: center;"><font face="arial" size="2">Please click on the link below to submit the requested information to HMS Real Estate</font></div>
+
+<div style="font-family: 'Times New Roman'; font-size: 8pt; text-align: center;">&nbsp;</div>
+
+<div style="font-family: 'Times New Roman'; font-size: 8pt; text-align: center;">&nbsp;</div>
+
+<div style="font-family: 'Times New Roman'; font-size: 8pt; text-align: center;"><font face="arial"><#--FM:BEGIN--><a href="https://1309901.extforms.netsuite.com/app/site/hosting/scriptlet.nl?script=50&deploy=1&compid=1309901&h=19fa98edfd2a792961833&custrecord_property=<#if (customRecord.internalId)?has_content>${customRecord.internalId}<#elseif (transaction.internalId)?has_content>${transaction.internalId}<#elseif (case.internalId)?has_content>${case.internalId}<#elseif (entity.internalId)?has_content>${entity.internalId}<#else>${company.internalId}</#if>&amp;lotnumber=${customRecord.CUSTRECORD_LOT_NUMBER}" target="_self">Click here to complete the form</a><#--FM:END--><#--FM:BEGIN--><a href="https://1309901.extforms.netsuite.com/app/site/hosting/scriptlet.nl?script=50&deploy=1&compid=1309901&h=19fa98edfd2a79296183&custrecord_property=<#if (customRecord.internalId)?has_content>${customRecord.internalId}<#elseif (transaction.internalId)?has_content>${transaction.internalId}<#elseif (case.internalId)?has_content>${case.internalId}<#elseif (entity.internalId)?has_content>${entity.internalId}<#else>${company.internalId}</#if>&amp;lotnumber=${customRecord.CUSTRECORD_LOT_NUMBER}" target="_self"></a><#--FM:END--><#--FM:BEGIN--><a href="https://forms.netsuite.com/app/site/hosting/scriptlet.nl?script=50&deploy=1&compid=1309901&h=19fa98edfd2a79296183&custrecord_property=<#if (customRecord.internalId)?has_content>${customRecord.internalId}<#elseif (transaction.internalId)?has_content>${transaction.internalId}<#elseif (case.internalId)?has_content>${case.internalId}<#elseif (entity.internalId)?has_content>${entity.internalId}<#else>${company.internalId}</#if>" target="_self"></a><#--FM:END--></font></div>
+
+<div style="font-family: 'Times New Roman'; font-size: 8pt; text-align: center;">&nbsp;</div>
+
+<div style="font-family: 'Times New Roman'; font-size: 8pt; text-align: center;"><font face="arial">Alternatively, please choose from the following options:</font></div>
+
+<div style="font-family: 'Times New Roman'; font-size: 8pt; text-align: center;">&nbsp;</div>
+
+<div style="font-family: 'Times New Roman'; font-size: 8pt; text-align: center;"><font face="arial">The purchase agreement has not been finalized. Click here to choose a date to be reminded in the future.</font></div>
+
+<div style="font-family: 'Times New Roman'; font-size: 8pt; text-align: center;">&nbsp;</div>
+
+<div style="font-family: 'Times New Roman'; font-size: 8pt; text-align: center;"><font face="arial">This purchase agreement has not materialized. Click here to have this home placed back on the market and to disregard this sale.</font></div>
+
+<div style="font-family: 'Times New Roman'; font-size: 8pt; text-align: center;">&nbsp;</div>
+
+<div style="font-family: 'Times New Roman'; font-size: 8pt; text-align: center;"><font face="arial">Thank, you,</font></div>
+
+<div style="font-family: 'Times New Roman'; font-size: 8pt; text-align: center;">&nbsp;</div>
+
+<div style="font-family: 'Times New Roman'; font-size: 8pt; text-align: center;"><font face="arial">HMS Marketing Services</font></div>

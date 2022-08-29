@@ -1,0 +1,25 @@
+<portlet scriptid="customscriptcust_portlet">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>TestMe</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <portlettype>HTML</portlettype>
+  <scriptfile>[/SuiteScripts/Q_Test/TestPortlet.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploytest_form">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>F</allroles>
+      <audslctrole></audslctrole>
+      <dashboardapp>F</dashboardapp>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <runasrole></runasrole>
+      <status>TESTING</status>
+      <title>testform</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</portlet>

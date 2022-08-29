@@ -1,0 +1,80 @@
+<customlist scriptid="customlist31">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Sales Status</name>
+  <customvalues>
+    <customvalue scriptid="val_285694_1309901_563">
+      <isinactive>F</isinactive>
+      <value>Received</value>
+    </customvalue>
+    <customvalue scriptid="value_6_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Awaiting Entry Into MLS</value>
+    </customvalue>
+    <customvalue scriptid="value_1_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Available</value>
+    </customvalue>
+    <customvalue scriptid="value_11_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Available (Pending Contingency)</value>
+    </customvalue>
+    <customvalue scriptid="val_285695_1309901_844">
+      <isinactive>F</isinactive>
+      <value>Awaiting Pending</value>
+    </customvalue>
+    <customvalue scriptid="value_8_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Pending (Awaiting Contract)</value>
+    </customvalue>
+    <customvalue scriptid="value_2_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Pending</value>
+    </customvalue>
+    <customvalue scriptid="value_12_1309901_565">
+      <isinactive>T</isinactive>
+      <value>Pending (Comp/Marketing)</value>
+    </customvalue>
+    <customvalue scriptid="value_9_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Closed  (Awaiting HUD)</value>
+    </customvalue>
+    <customvalue scriptid="value_3_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Closed</value>
+    </customvalue>
+    <customvalue scriptid="value_10_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Sold/Canceled Before Listed</value>
+    </customvalue>
+    <customvalue scriptid="value_7_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Canceled</value>
+    </customvalue>
+    <customvalue scriptid="value_4_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Withdrawn</value>
+    </customvalue>
+    <customvalue scriptid="value_5_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Expired</value>
+    </customvalue>
+    <customvalue scriptid="value_13_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Temporary Status</value>
+    </customvalue>
+    <customvalue scriptid="val_188547_1309901_216">
+      <isinactive>F</isinactive>
+      <value>Released (MIBOR)</value>
+    </customvalue>
+    <customvalue scriptid="val_189210_1309901_357">
+      <isinactive>F</isinactive>
+      <value>Off Market Temporary</value>
+    </customvalue>
+    <customvalue scriptid="val_194214_1309901_537">
+      <isinactive>F</isinactive>
+      <value>In Process</value>
+    </customvalue>
+  </customvalues>
+</customlist>

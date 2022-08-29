@@ -1,0 +1,38 @@
+<suitelet scriptid="customscript_dataformsjs">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>data-forms-js</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/HMS/SS2.0/data-forms-js/dataforms-js-sl.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy2">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>ERROR</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>data-forms-js 2</title>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy1">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>ERROR</loglevel>
+      <runasrole></runasrole>
+      <status>RELEASED</status>
+      <title>data-forms-js</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

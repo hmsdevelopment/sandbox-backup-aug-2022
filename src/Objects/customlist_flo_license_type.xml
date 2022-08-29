@@ -1,0 +1,20 @@
+<customlist scriptid="customlist_flo_license_type">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>License Type</name>
+  <customvalues>
+    <customvalue scriptid="value_1_t1049933_417">
+      <isinactive>F</isinactive>
+      <value>Full</value>
+    </customvalue>
+    <customvalue scriptid="value_2_t1049933_417">
+      <isinactive>F</isinactive>
+      <value>Temp</value>
+    </customvalue>
+    <customvalue scriptid="value_4_t1049933_417">
+      <isinactive>F</isinactive>
+      <value>Agency</value>
+    </customvalue>
+  </customvalues>
+</customlist>

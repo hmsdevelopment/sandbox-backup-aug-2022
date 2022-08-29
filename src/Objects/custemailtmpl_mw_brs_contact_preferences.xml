@@ -1,0 +1,12 @@
+<emailtemplate scriptid="custemailtmpl_mw_brs_contact_preferences">
+  <addcompanyaddress>T</addcompanyaddress>
+  <addunsubscribelink>T</addunsubscribelink>
+  <description></description>
+  <isinactive>F</isinactive>
+  <isprivate>F</isprivate>
+  <mediaitem></mediaitem>
+  <name>BSR Contact Preferences</name>
+  <recordtype>ENTITY</recordtype>
+  <subject></subject>
+  <usesmedia>F</usesmedia>
+</emailtemplate>

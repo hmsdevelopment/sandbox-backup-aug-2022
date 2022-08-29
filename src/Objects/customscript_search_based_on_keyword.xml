@@ -1,0 +1,26 @@
+<suitelet scriptid="customscript_search_based_on_keyword">
+  <defaultfunction>searchKeyWord</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Search Scripts by Keywords</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/SA_Search_Keyword_NS.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_search_based_on_keyword">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>Search Scripts by Keywords</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

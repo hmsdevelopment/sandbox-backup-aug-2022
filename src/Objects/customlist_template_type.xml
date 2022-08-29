@@ -1,0 +1,16 @@
+<customlist scriptid="customlist_template_type">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Template Type</name>
+  <customvalues>
+    <customvalue scriptid="value_1_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Listing Agreement</value>
+    </customvalue>
+    <customvalue scriptid="value_2_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Listing Amendment</value>
+    </customvalue>
+  </customvalues>
+</customlist>

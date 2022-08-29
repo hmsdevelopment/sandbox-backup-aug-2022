@@ -1,0 +1,24 @@
+<scheduledscript scriptid="customscript_mw_ghost_listing_emails">
+  <description>Script to send an email to a group of specific property records.</description>
+  <isinactive>F</isinactive>
+  <name>Ghost Listing Emails</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <scriptfile>[/SuiteScripts/Midware/TestNotificationEmail/ScheduledScripts/GhostListingEmails.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mw_ghost_listing_emails_d">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>TESTING</status>
+      <title>Ghost Listing Emails</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2019-04-10</startdate>
+          <starttime>22:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

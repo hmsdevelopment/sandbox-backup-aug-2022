@@ -1,0 +1,14 @@
+<sublist scriptid="custsublist_4_1309901_209">
+  <call>F</call>
+  <campaign>F</campaign>
+  <case>T</case>
+  <event>F</event>
+  <field>[scriptid=custevent_property]</field>
+  <issue>F</issue>
+  <label>BSR Team Members</label>
+  <savedsearch>[scriptid=customsearch77]</savedsearch>
+  <solution>F</solution>
+  <sublisttype>CRM</sublisttype>
+  <tab></tab>
+  <task>F</task>
+</sublist>

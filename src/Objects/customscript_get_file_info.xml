@@ -1,0 +1,26 @@
+<restlet scriptid="customscript_get_file_info">
+  <deletefunction></deletefunction>
+  <description></description>
+  <getfunction>getFileInfo</getfunction>
+  <isinactive>F</isinactive>
+  <name>Get File Info</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <postfunction></postfunction>
+  <putfunction></putfunction>
+  <scriptfile>[/SuiteScripts/Suitescript/Webbee Scripts/getFileInfo.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_get_file_info">
+      <allemployees>T</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>RELEASED</status>
+      <title>Get File Info</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</restlet>

@@ -1,0 +1,24 @@
+<scheduledscript scriptid="customscript_mw_add_missing_suffixes">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Add Missing Suffixes</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/Midware/PropertyImportTool/ScheduledScripts/AddMissingSuffixes.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mw_add_missing_suffixes_d">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Add Missing Suffixes</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2022-01-04</startdate>
+          <starttime>23:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

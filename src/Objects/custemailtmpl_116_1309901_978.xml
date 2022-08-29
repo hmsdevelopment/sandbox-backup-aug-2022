@@ -1,0 +1,12 @@
+<emailtemplate scriptid="custemailtmpl_116_1309901_978">
+  <addcompanyaddress>T</addcompanyaddress>
+  <addunsubscribelink>T</addunsubscribelink>
+  <description></description>
+  <isinactive>F</isinactive>
+  <isprivate>F</isprivate>
+  <mediaitem></mediaitem>
+  <name>Survey - Agent Feedback Template v2</name>
+  <recordtype>EVENT</recordtype>
+  <subject></subject>
+  <usesmedia>F</usesmedia>
+</emailtemplate>

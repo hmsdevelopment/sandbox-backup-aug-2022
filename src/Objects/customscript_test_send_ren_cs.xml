@@ -1,0 +1,20 @@
+<clientscript scriptid="customscript_test_send_ren_cs">
+  <description></description>
+  <fieldchangedfunction></fieldchangedfunction>
+  <isinactive>T</isinactive>
+  <lineinitfunction></lineinitfunction>
+  <name>Test Send REN CS</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <pageinitfunction>onInit</pageinitfunction>
+  <postsourcingfunction></postsourcingfunction>
+  <recalcfunction></recalcfunction>
+  <saverecordfunction></saverecordfunction>
+  <scriptfile>[/SuiteScripts/hms_send_ren_email_SL_UE.js]</scriptfile>
+  <validatedeletefunction></validatedeletefunction>
+  <validatefieldfunction></validatefieldfunction>
+  <validateinsertfunction></validateinsertfunction>
+  <validatelinefunction></validatelinefunction>
+</clientscript>

@@ -1,0 +1,61 @@
+<centertab scriptid="custcentertab18">
+  <allcustomers>F</allcustomers>
+  <allemployees>F</allemployees>
+  <allpartners>F</allpartners>
+  <allroles>T</allroles>
+  <audslctrole></audslctrole>
+  <center>BASIC</center>
+  <label>Support</label>
+  <portlets>
+    <portlet scriptid="portlet_180_1309901_175">
+      <isportletshown>T</isportletshown>
+      <portlet>ACCOUNTCENTER</portlet>
+      <portletcolumn>1</portletcolumn>
+    </portlet>
+    <portlet scriptid="portlet_181_1309901_175">
+      <isportletshown>T</isportletshown>
+      <portlet>USERGROUP</portlet>
+      <portletcolumn>1</portletcolumn>
+    </portlet>
+    <portlet scriptid="portlet_182_1309901_175">
+      <isportletshown>T</isportletshown>
+      <portlet>FOLLOWNETSUITE</portlet>
+      <portletcolumn>1</portletcolumn>
+    </portlet>
+    <portlet scriptid="portlet_183_1309901_175">
+      <isportletshown>T</isportletshown>
+      <portlet>QUICKSEARCH</portlet>
+      <portletcolumn>1</portletcolumn>
+    </portlet>
+    <portlet scriptid="portlet_184_1309901_175">
+      <isportletshown>T</isportletshown>
+      <portlet>SETTINGS</portlet>
+      <portletcolumn>1</portletcolumn>
+    </portlet>
+    <portlet scriptid="portlet_185_1309901_175">
+      <isportletshown>T</isportletshown>
+      <portlet>NEWFEATURES</portlet>
+      <portletcolumn>2</portletcolumn>
+    </portlet>
+    <portlet scriptid="portlet_186_1309901_175">
+      <isportletshown>T</isportletshown>
+      <portlet>SUITEANSWERS</portlet>
+      <portletcolumn>2</portletcolumn>
+    </portlet>
+    <portlet scriptid="portlet_187_1309901_175">
+      <isportletshown>T</isportletshown>
+      <portlet>SUITEIDEAS</portlet>
+      <portletcolumn>2</portletcolumn>
+    </portlet>
+    <portlet scriptid="portlet_188_1309901_175">
+      <isportletshown>F</isportletshown>
+      <portlet>SHORTCUTS</portlet>
+      <portletcolumn>2</portletcolumn>
+    </portlet>
+    <portlet scriptid="portlet_189_1309901_175">
+      <isportletshown>T</isportletshown>
+      <portlet>TASKLINKS</portlet>
+      <portletcolumn>2</portletcolumn>
+    </portlet>
+  </portlets>
+</centertab>

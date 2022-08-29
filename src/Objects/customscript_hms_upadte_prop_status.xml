@@ -1,0 +1,26 @@
+<suitelet scriptid="customscript_hms_upadte_prop_status">
+  <defaultfunction>UpdateProperty</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>HMS Update Property Status REN - WebBee</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Suitescript/Webbee Scripts/HMS_Update_Propery_Using_REN_SL_WebBee.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_hms_upadte_prop_status">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>HMS Update Property Status REN - WebBee</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

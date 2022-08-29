@@ -1,0 +1,31 @@
+<suitelet scriptid="customscript1772">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>suiteql-query-tool</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/suiteql-query-tool.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy1">
+      <allemployees>T</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>F</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>ERROR</loglevel>
+      <runasrole></runasrole>
+      <status>RELEASED</status>
+      <title>suiteql-query-tool</title>
+      <links>
+        <link>
+          <linkcategory>BASICLISTSCUSTOM</linkcategory>
+          <linklabel>SuiteQL Query Tool</linklabel>
+        </link>
+      </links>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

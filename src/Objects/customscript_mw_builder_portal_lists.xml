@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_mw_builder_portal_lists">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Builder Portal View List</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Midware/BuilderPortal/SuiteletScripts/ViewCategoryList/Routers/ViewCategoryListRouter.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mw_builder_portal_lists_d">
+      <allemployees>T</allemployees>
+      <allpartners>T</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>Builder Portal View List</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

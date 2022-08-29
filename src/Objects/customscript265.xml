@@ -1,0 +1,40 @@
+<suitelet scriptid="customscript265">
+  <defaultfunction>suitelet</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Create_Listing_V2_testing</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Suitescript/Webbee Scripts/Create_Listing_V2_testing_Suitelet.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy1">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>Create_Listing_V2_testing</title>
+    </scriptdeployment>
+  </scriptdeployments>
+  <libraries>
+    <library>
+      <scriptfile>[/SuiteScripts/Style_CSS/Styles/Global1_0.js]</scriptfile>
+    </library>
+    <library>
+      <scriptfile>[/SuiteScripts/Midware/forge.js]</scriptfile>
+    </library>
+    <library>
+      <scriptfile>[/SuiteScripts/Suitescript/Webbee Scripts/Crypto/Crypto.js]</scriptfile>
+    </library>
+    <library>
+      <scriptfile>[/SuiteScripts/Midware/ToolTips/CreateListing/CreateListingToolTips.js]</scriptfile>
+    </library>
+  </libraries>
+</suitelet>

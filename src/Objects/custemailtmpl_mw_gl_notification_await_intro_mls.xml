@@ -1,0 +1,12 @@
+<emailtemplate scriptid="custemailtmpl_mw_gl_notification_await_intro_mls">
+  <addcompanyaddress>T</addcompanyaddress>
+  <addunsubscribelink>T</addunsubscribelink>
+  <description>Partial Email to be sent as notification when a property is relocated with a different floorplan in a Ghost Listing form.</description>
+  <isinactive>F</isinactive>
+  <isprivate>F</isprivate>
+  <mediaitem></mediaitem>
+  <name>Ghost Listing Sold Notification - Relocated (diff floorplan)</name>
+  <recordtype>CUSTOM</recordtype>
+  <subject>A property has been relocated with a different Floorplan</subject>
+  <usesmedia>F</usesmedia>
+</emailtemplate>

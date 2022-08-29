@@ -1,0 +1,84 @@
+<customlist scriptid="customlist_financing_type">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <name>Financing Type</name>
+  <customvalues>
+    <customvalue scriptid="value_13_1309901_565">
+      <isinactive>F</isinactive>
+      <value>1031E</value>
+    </customvalue>
+    <customvalue scriptid="value_20_1309901_565">
+      <isinactive>F</isinactive>
+      <value>ARM</value>
+    </customvalue>
+    <customvalue scriptid="value_4_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Assumable</value>
+    </customvalue>
+    <customvalue scriptid="value_11_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Cash</value>
+    </customvalue>
+    <customvalue scriptid="value_1_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Conventional</value>
+    </customvalue>
+    <customvalue scriptid="value_9_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Exchange</value>
+    </customvalue>
+    <customvalue scriptid="value_2_1309901_565">
+      <isinactive>F</isinactive>
+      <value>FHA</value>
+    </customvalue>
+    <customvalue scriptid="value_14_1309901_565">
+      <isinactive>F</isinactive>
+      <value>FMHA</value>
+    </customvalue>
+    <customvalue scriptid="value_15_1309901_565">
+      <isinactive>F</isinactive>
+      <value>ICON</value>
+    </customvalue>
+    <customvalue scriptid="value_16_1309901_565">
+      <isinactive>F</isinactive>
+      <value>IHFA</value>
+    </customvalue>
+    <customvalue scriptid="value_3_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Land Contract</value>
+    </customvalue>
+    <customvalue scriptid="value_10_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Lease Option</value>
+    </customvalue>
+    <customvalue scriptid="value_7_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Lease/Purchase Option</value>
+    </customvalue>
+    <customvalue scriptid="value_18_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Other</value>
+    </customvalue>
+    <customvalue scriptid="value_5_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Owner</value>
+    </customvalue>
+    <customvalue scriptid="value_17_1309901_565">
+      <isinactive>F</isinactive>
+      <value>RHS</value>
+    </customvalue>
+    <customvalue scriptid="value_8_1309901_565">
+      <isinactive>F</isinactive>
+      <value>USDA</value>
+    </customvalue>
+    <customvalue scriptid="value_12_1309901_565">
+      <isinactive>F</isinactive>
+      <value>USDAR</value>
+    </customvalue>
+    <customvalue scriptid="value_6_1309901_565">
+      <isinactive>F</isinactive>
+      <value>VA</value>
+    </customvalue>
+  </customvalues>
+</customlist>

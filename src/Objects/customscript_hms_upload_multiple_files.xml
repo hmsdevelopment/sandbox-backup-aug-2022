@@ -1,0 +1,26 @@
+<suitelet scriptid="customscript_hms_upload_multiple_files">
+  <defaultfunction>uploadFiles</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>HMS Upload Multiple Files</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/HMS_Upload_Multiple_files_Property.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_hms_upload_multiple_files">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>HMS Upload Multiple Files</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

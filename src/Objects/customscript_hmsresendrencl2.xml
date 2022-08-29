@@ -1,0 +1,10 @@
+<clientscript scriptid="customscript_hmsresendrencl2">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>hmsResendRenCL2.0</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Suitescript/Webbee Scripts/HmsResendRenSlCsClWebbee.js]</scriptfile>
+</clientscript>

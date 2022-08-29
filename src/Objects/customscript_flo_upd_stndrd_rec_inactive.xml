@@ -1,0 +1,27 @@
+<workflowactionscript scriptid="customscript_flo_upd_stndrd_rec_inactive">
+  <description>FloCustomInactiveStandardRecord&#xd;
+&#xd;
+If there&apos;s a Custom FLO.record type = Record exist for the standard record with the same name, the standard record will be set to inactive</description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint Cust Standard Record Inactv</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <returnrecordtype></returnrecordtype>
+  <returntype></returntype>
+  <scriptfile>[/SuiteBundles/Bundle 297487/FloCustomInactiveStandardRecord.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_flo_upd_stndrd_rec_deplymnt">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <recordtype>[scriptid=customrecord_flo_customization]</recordtype>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+    </scriptdeployment>
+  </scriptdeployments>
+</workflowactionscript>

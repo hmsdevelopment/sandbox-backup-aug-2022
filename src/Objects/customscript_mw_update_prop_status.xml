@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_mw_update_prop_status">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>HMS Update Property Status REN</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Midware/BuilderPortal/SuiteletScripts/HMSUpdatePropertyStatusREN/SuiteletScripts/Router/HMSUpdatePropertyStatusRENRouter.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mw_update_prop_status_d">
+      <allemployees>T</allemployees>
+      <allpartners>T</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>HMS Update Property Status REN</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

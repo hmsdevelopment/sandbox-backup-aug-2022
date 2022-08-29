@@ -1,0 +1,27 @@
+<role scriptid="customrole1049">
+  <centertype>BASIC</centertype>
+  <coreadminpermission>T</coreadminpermission>
+  <employeerestriction>NONE</employeerestriction>
+  <employeeselectionunrestricted>F</employeeselectionunrestricted>
+  <isinactive>F</isinactive>
+  <ispartnerrole>F</ispartnerrole>
+  <issalesrole>F</issalesrole>
+  <issinglesignononly>F</issinglesignononly>
+  <issupportrole>F</issupportrole>
+  <iswebserviceonlyrole>T</iswebserviceonlyrole>
+  <name>HMS Oauth2 Admin</name>
+  <restrictbydevice>F</restrictbydevice>
+  <restricttimeandexpenses>F</restricttimeandexpenses>
+  <tfaduration>720</tfaduration>
+  <tfarequired>SMS</tfarequired>
+  <permissions>
+    <permission>
+      <permkey>ADMI_LOGIN_OAUTH2</permkey>
+      <permlevel>FULL</permlevel>
+    </permission>
+    <permission>
+      <permkey>ADMI_MANAGE_OAUTH2</permkey>
+      <permlevel>FULL</permlevel>
+    </permission>
+  </permissions>
+</role>

@@ -1,0 +1,11 @@
+<p class="MsoNormal"><font face="tahoma">${case.CUSTEVENT_AGENT_FIRST_NAME},</font><br />
+&nbsp;</p>
+
+<p class="MsoNormal"><font face="tahoma">Thank you for visiting ${case.CUSTEVENT_PROPERTY_FOR_REN}. Please take two minutes to answer a few questions that will help improve the home showing process moving forward. Advise in the last question if there is anything we can do to support your success with this showing or your business in general. Thanks again.</font></p>
+<br />
+<font face="tahoma"><font><#--FM:BEGIN--><a href="https://1309901.extforms.netsuite.com/app/site/crm/externalcustrecordpage.nl?compid=1309901&formid=1&h=e11393f8cf6a925aa18a&custrecord_survey_agent=${case.CUSTEVENT_CALLER_NAME}&amp;custrecord_survey_agent_case=<#if (customRecord.internalId)?has_content>${customRecord.internalId}<#elseif (transaction.internalId)?has_content>${transaction.internalId}<#elseif (case.internalId)?has_content>${case.internalId}<#elseif (entity.internalId)?has_content>${entity.internalId}<#else>${company.internalId}</#if>" target="_self">Click Here</a><#--FM:END-->&nbsp;to complete the survey.</font></font><br />
+<br />
+<span style="font-family: tahoma; font-size: 8pt;">Regards,</span><br />
+<br />
+<font face="tahoma"><font>${case.CUSTEVENT_BSR_FOR_REN}</font><br />
+<font>${case.CUSTEVENT2}</font></font>

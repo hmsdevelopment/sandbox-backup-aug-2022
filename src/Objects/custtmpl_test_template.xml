@@ -1,0 +1,10 @@
+<advancedpdftemplate scriptid="custtmpl_test_template">
+  <description></description>
+  <displaysourcecode>T</displaysourcecode>
+  <isinactive>F</isinactive>
+  <preferred>T</preferred>
+  <printtype>SEARCH</printtype>
+  <savedsearch>[SCRIPT_ID_NOT_SPECIFIED]</savedsearch>
+  <title>test_template</title>
+  <trantype>CUSTINVC</trantype>
+</advancedpdftemplate>

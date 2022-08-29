@@ -1,0 +1,100 @@
+<customlist scriptid="customlist_flo_event_type">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Event Type</name>
+  <customvalues>
+    <customvalue scriptid="value_1_t1049933_417">
+      <isinactive>F</isinactive>
+      <value>Approve</value>
+    </customvalue>
+    <customvalue scriptid="value_2_t1049933_417">
+      <isinactive>F</isinactive>
+      <value>Cancel</value>
+    </customvalue>
+    <customvalue scriptid="value_3_t1049933_417">
+      <isinactive>F</isinactive>
+      <value>Change Password</value>
+    </customvalue>
+    <customvalue scriptid="value_4_t1049933_417">
+      <isinactive>F</isinactive>
+      <value>Copy</value>
+    </customvalue>
+    <customvalue scriptid="value_5_t1049933_417">
+      <isinactive>F</isinactive>
+      <value>Create</value>
+    </customvalue>
+    <customvalue scriptid="value_6_t1049933_417">
+      <isinactive>F</isinactive>
+      <value>Delete</value>
+    </customvalue>
+    <customvalue scriptid="value_7_t1049933_417">
+      <isinactive>F</isinactive>
+      <value>Direct List Edit</value>
+    </customvalue>
+    <customvalue scriptid="value_8_t1049933_417">
+      <isinactive>F</isinactive>
+      <value>Drop Ship</value>
+    </customvalue>
+    <customvalue scriptid="value_9_t1049933_417">
+      <isinactive>F</isinactive>
+      <value>Edit</value>
+    </customvalue>
+    <customvalue scriptid="value_10_t1049933_417">
+      <isinactive>F</isinactive>
+      <value>Edit Forecast</value>
+    </customvalue>
+    <customvalue scriptid="value_11_t1049933_417">
+      <isinactive>F</isinactive>
+      <value>Email</value>
+    </customvalue>
+    <customvalue scriptid="value_12_t1049933_417">
+      <isinactive>F</isinactive>
+      <value>Mark Complete</value>
+    </customvalue>
+    <customvalue scriptid="value_13_t1049933_417">
+      <isinactive>F</isinactive>
+      <value>Order Items</value>
+    </customvalue>
+    <customvalue scriptid="value_14_t1049933_417">
+      <isinactive>F</isinactive>
+      <value>Pack</value>
+    </customvalue>
+    <customvalue scriptid="value_15_t1049933_417">
+      <isinactive>F</isinactive>
+      <value>Pay Bills</value>
+    </customvalue>
+    <customvalue scriptid="value_16_t1049933_417">
+      <isinactive>F</isinactive>
+      <value>Print</value>
+    </customvalue>
+    <customvalue scriptid="value_17_t1049933_417">
+      <isinactive>F</isinactive>
+      <value>QuickView</value>
+    </customvalue>
+    <customvalue scriptid="value_18_t1049933_417">
+      <isinactive>F</isinactive>
+      <value>Reassign</value>
+    </customvalue>
+    <customvalue scriptid="value_19_t1049933_417">
+      <isinactive>F</isinactive>
+      <value>Reject</value>
+    </customvalue>
+    <customvalue scriptid="value_20_t1049933_417">
+      <isinactive>F</isinactive>
+      <value>Ship</value>
+    </customvalue>
+    <customvalue scriptid="value_21_t1049933_417">
+      <isinactive>F</isinactive>
+      <value>Special Order</value>
+    </customvalue>
+    <customvalue scriptid="value_22_t1049933_417">
+      <isinactive>F</isinactive>
+      <value>Tranform</value>
+    </customvalue>
+    <customvalue scriptid="value_23_t1049933_417">
+      <isinactive>F</isinactive>
+      <value>View</value>
+    </customvalue>
+  </customvalues>
+</customlist>

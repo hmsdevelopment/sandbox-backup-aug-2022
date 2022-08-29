@@ -1,0 +1,25 @@
+<portlet scriptid="customscript_flo_erdsrchform_flashl_2">
+  <defaultfunction>ERDSearchFormPortlet</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint ERD Search Form (Flashlight)</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <portlettype>FORM</portlettype>
+  <scriptfile>[/SuiteBundles/Bundle 297487/FLOERDSearchFormPortlet-Flashlight.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_flo_erdsrchform_flashlight">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>F</allroles>
+      <audslctrole>ADMINISTRATOR|[scriptid=customrole_flo_developer_role]|[scriptid=customrole_flo_flashlight]</audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <runasrole></runasrole>
+      <status>RELEASED</status>
+      <title>ERD Generator</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</portlet>

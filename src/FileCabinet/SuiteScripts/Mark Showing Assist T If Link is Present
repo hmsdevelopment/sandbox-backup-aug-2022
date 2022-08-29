@@ -1,0 +1,11 @@
+function fieldChange(type, name)
+{
+	if(name=='custevent_showing_assist_link')
+	{
+		var linkValue = nlapiGetFieldValue('custevent_showing_assist_link');
+		if(linkValue)
+		{
+			nlapiSetFieldValue('custevent_showing_assist', 'T');
+		}
+	}
+}

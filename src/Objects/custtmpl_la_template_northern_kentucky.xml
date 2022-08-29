@@ -1,0 +1,12 @@
+<advancedpdftemplate scriptid="custtmpl_la_template_northern_kentucky" standard="STDTMPLCR_PROPERTY_RECORD">
+  <description>**USED IN SCRIPT, DO NOT DELETE**&#xd;
+&#xd;
+[DESCRIPTION OF TEMPLATE AND USAGE SHOULD GO HERE]</description>
+  <displaysourcecode>T</displaysourcecode>
+  <isinactive>F</isinactive>
+  <preferred>T</preferred>
+  <printtype>CUSTOMRECORD</printtype>
+  <recordtype>[scriptid=customrecord_property_record]</recordtype>
+  <title>Listing Amendment - Kentucky</title>
+  <trantype>CUSTOM</trantype>
+</advancedpdftemplate>

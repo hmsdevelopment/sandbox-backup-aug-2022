@@ -1,0 +1,12 @@
+<emailtemplate scriptid="custemailtmpl_101_1309901_975">
+  <addcompanyaddress>T</addcompanyaddress>
+  <addunsubscribelink>T</addunsubscribelink>
+  <description></description>
+  <isinactive>F</isinactive>
+  <isprivate>F</isprivate>
+  <mediaitem></mediaitem>
+  <name>New BSR Reassignment Confirmation (Old BSR)</name>
+  <recordtype>EVENT</recordtype>
+  <subject></subject>
+  <usesmedia>F</usesmedia>
+</emailtemplate>

@@ -1,0 +1,24 @@
+<scheduledscript scriptid="customscript_mw_property_import_tool_sc">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Property Import Tool Scheduled</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/Midware/PropertyImportTool/ScheduledScripts/PropertyImportToolScheduled.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mw_property_import_tool_sc_">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Property Import Tool Scheduled</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2021-02-09</startdate>
+          <starttime>23:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

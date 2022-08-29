@@ -1,0 +1,32 @@
+<customlist scriptid="customlist_team_type">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Team Type</name>
+  <customvalues>
+    <customvalue scriptid="value_1_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Calendar</value>
+    </customvalue>
+    <customvalue scriptid="value_2_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Revenue Sharing</value>
+    </customvalue>
+    <customvalue scriptid="value_3_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Non-Revenue Sharing - RR</value>
+    </customvalue>
+    <customvalue scriptid="value_4_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Hierarchy</value>
+    </customvalue>
+    <customvalue scriptid="val_320717_1309901_411">
+      <isinactive>F</isinactive>
+      <value>Individual</value>
+    </customvalue>
+    <customvalue scriptid="val_873219_1309901_sb1_432">
+      <isinactive>F</isinactive>
+      <value>BSR-TEAM</value>
+    </customvalue>
+  </customvalues>
+</customlist>

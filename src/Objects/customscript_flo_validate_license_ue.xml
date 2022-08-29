@@ -1,0 +1,13 @@
+<usereventscript scriptid="customscript_flo_validate_license_ue">
+  <aftersubmitfunction></aftersubmitfunction>
+  <beforeloadfunction>FLOValidateLicense</beforeloadfunction>
+  <beforesubmitfunction></beforesubmitfunction>
+  <description>Validate if there is a valid license before display the record</description>
+  <isinactive>F</isinactive>
+  <name>StrongpointValidateLicense</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteBundles/Bundle 297487/FLOValidateLicense.js]</scriptfile>
+</usereventscript>

@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_mw_leave_as_is_suitelet_s">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Leave As Is Suitelet</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Midware/GhostList/SuiteletScripts/LeaveAsIs/Routers/LeaveAsIsRouter.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mw_leave_as_is_suitelet_d">
+      <allemployees>T</allemployees>
+      <allpartners>T</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>Leave As Is Suitelet</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

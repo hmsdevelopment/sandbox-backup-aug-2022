@@ -1,0 +1,40 @@
+<!--body-->
+<table class="MsoNormalTable" style="border-collapse:collapse;mso-yfti-tbllook:1184;">
+<tbody>
+	<tr style="height:20">
+	<td style="width:110pt;border:solid windowtext 1.0pt;">
+	<p class="MsoNormal" style="margin-bottom: 0.0001pt;width:110pt;"><span style="font-size: 8.5pt; font-family: Tahoma, sans-serif;">${case.custevent_property.custrecord_house_number} - ${case.custevent_property.custrecord31}</span></p>
+	</td>
+	<td style="width:70pt;border:solid windowtext 1.0pt;">
+	<p class="MsoNormal" style="margin-bottom: 0.0001pt;width:70pt;"><span style="font-size: 8.5pt; font-family: Tahoma, sans-serif;">${case.custevent_subdivision.custrecord_subdivision_id} </span></p>
+	</td>
+	<td style="width:70pt;border:solid windowtext 1.0pt;">
+	<p class="MsoNormal" style="margin-bottom: 0.0001pt;width:70pt;"><span style="font-size: 8.5pt; font-family: Tahoma, sans-serif;">${case.custevent_bsr_for_ren} </span></p>
+	</td>
+	<td style="width:20pt;border:solid windowtext 1.0pt;">
+	<p class="MsoNormal" style="margin-bottom: 0.0001pt;width:20pt;"><span style="font-size: 8.5pt; font-family: Tahoma, sans-serif;">${case.custevent_lot_number} </span></p>
+	</td>
+	<td style="width:110pt;border:solid windowtext 1.0pt;">
+	<p class="MsoNormal" style="margin-bottom: 0.0001pt;width:110pt;"><span style="font-size: 8.5pt; font-family: Tahoma, sans-serif;">${case.custevent_bsr_assignment_note} </span></p>
+	</td>
+	<td style="width:110pt;border:solid windowtext 1.0pt;">
+	<p class="MsoNormal" style="margin-bottom: 0.0001pt;width:110pt;"><span style="font-size: 8.5pt; font-family: Tahoma, sans-serif;">${case.custevent_showing_date_scheduled} </span></p>
+	</td>
+	<td style="width:110pt;border:solid windowtext 1.0pt;">
+	<p class="MsoNormal" style="margin-bottom: 0.0001pt;width:70pt;"><span style="font-size: 8.5pt; font-family: Tahoma, sans-serif;">${case.custevent_showing_time_scheduled}: ${case.custevent_showing_end_time} </span></p>
+	</td>
+	<td style="width:70pt;border:solid windowtext 1.0pt;">
+	<p class="MsoNormal" style="margin-bottom: 0.0001pt;width:200pt;"><span style="font-size: 8.5pt; font-family: Tahoma, sans-serif;">${case.custevent_special_messages} </span></p>
+	</td>
+	<td style="width:200pt;border:solid windowtext 1.0pt;">
+	<p class="MsoNormal" style="margin-bottom: 0.0001pt;width:200pt;"><span style="font-size: 8.5pt; font-family: Tahoma, sans-serif;">${case.custevent_property.custrecord_property_status}/${case.custevent_property.custrecord_current_construction} </span></p>
+	</td>
+	<td style="width:200pt;border:solid windowtext 1.0pt;">
+	<p class="MsoNormal" style="margin-bottom: 0.0001pt;width:200pt;"><span style="font-size: 8.5pt; font-family: Tahoma, sans-serif;"><a href="https://1309901.extforms.netsuite.com/app/site/hosting/scriptlet.nl?script=202&amp;deploy=1&amp;compid=1309901&amp;h=c598469bad07d86fb487&amp;ssno2=encryptId" target="_blank"><span style="color:blue">Change Status</span></a> </span></p>
+	</td>
+	<td style="width:200pt;border:solid windowtext 1.0pt;">
+	<p class="MsoNormal" style="margin-bottom: 0.0001pt;width:200pt;"><span style="font-size: 8.5pt; font-family: Tahoma, sans-serif;"><#--FM:BEGIN--><a href="https://1309901.extforms.netsuite.com/app/site/hosting/scriptlet.nl?script=491&deploy=1&compid=1309901&h=4cda8bb1dd0af9e39cb0&apptid=<#if (case.internalId)?has_content>${case.internalId}<#else>${entity.internalId}</#if>" target="_self">Change Sales Counselor</a><#--FM:END--> </span></p>
+	</td>
+	</tr>
+</tbody>
+</table>

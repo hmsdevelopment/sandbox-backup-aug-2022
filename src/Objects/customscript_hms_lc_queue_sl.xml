@@ -1,0 +1,26 @@
+<suitelet scriptid="customscript_hms_lc_queue_sl">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>HMS Listing Contract Queue SL</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Projects/hms-listing-contract/hms_listing_contract_queue_sl.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_hms_lc_queue_sl">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audemployee>[ACCOUNT_SPECIFIC_VALUE]|[ACCOUNT_SPECIFIC_VALUE]</audemployee>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>HMS Listing Contract Queue SL</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

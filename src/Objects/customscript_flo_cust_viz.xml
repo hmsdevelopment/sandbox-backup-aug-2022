@@ -1,0 +1,31 @@
+<suitelet scriptid="customscript_flo_cust_viz">
+  <defaultfunction>FLOCustomizationSuite</defaultfunction>
+  <description>This script renders the Visualization Portlet ERD View</description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint Customization Visualization</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteBundles/Bundle 297487/FLOCustomizationSuite.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_flo_cust_viz">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>AUDIT</loglevel>
+      <runasrole></runasrole>
+      <status>RELEASED</status>
+      <title>Strongpoint Customization Visualization</title>
+    </scriptdeployment>
+  </scriptdeployments>
+  <libraries>
+    <library>
+      <scriptfile>[/SuiteBundles/Bundle 297487/FLOValidateLicense.js]</scriptfile>
+    </library>
+  </libraries>
+</suitelet>

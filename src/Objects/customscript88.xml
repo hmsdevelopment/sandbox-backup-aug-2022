@@ -1,0 +1,26 @@
+<scheduledscript scriptid="customscript88">
+  <defaultfunction>emailApptNotificationFollowup</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Email Appt Notification Followup</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/emailApptNotificationFollowup_v1.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy1">
+      <isdeployed>T</isdeployed>
+      <loglevel>ERROR</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Email Appt Notification Followup</title>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat>PT1H</repeat>
+          <startdate>2013-10-01</startdate>
+          <starttime>12:00:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

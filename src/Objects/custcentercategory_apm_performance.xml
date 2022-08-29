@@ -1,0 +1,85 @@
+<centercategory scriptid="custcentercategory_apm_performance">
+  <center>BASIC</center>
+  <centertab>BASICCENTERCUSTOMIZATION</centertab>
+  <label>Performance (SuiteBundler)</label>
+  <links>
+    <link>
+      <linklabel>Performance Health Dashboard</linklabel>
+      <linkobject>[scriptid=customscript_apm_ah_sl_main.customdeploy_apm_ah_sl_main]</linkobject>
+      <linktasktype>SCRIPT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>Record Pages Monitor</linklabel>
+      <linkobject>[scriptid=customscript_apm_rpm_sl_main.customdeploy_apm_rpm_sl_main]</linkobject>
+      <linktasktype>SCRIPT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>Page Time Summary</linklabel>
+      <linkobject>[scriptid=customscript_apm_pts_sl_main.customdeploy_apm_pts_sl_main]</linkobject>
+      <linktasktype>SCRIPT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>Page Time Details</linklabel>
+      <linkobject>[scriptid=customscript_apm_ptd_sl_main.customdeploy_apm_ptd_sl_main]</linkobject>
+      <linktasktype>SCRIPT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>SuiteScript Analysis</linklabel>
+      <linkobject>[scriptid=customscript_apm_ssa_sl_main.customdeploy_apm_ssa_sl_main]</linkobject>
+      <linktasktype>SCRIPT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>Script Queue Monitor</linklabel>
+      <linkobject>[scriptid=customscript_apm_sqm_sl_main.customdeploy_apm_sqm_sl_main]</linkobject>
+      <linktasktype>SCRIPT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>SuiteCloud Processors Monitor</linklabel>
+      <linkobject>[scriptid=customscript_apm_scpm_sl_main.customdeploy_apm_scpm_sl_main]</linkobject>
+      <linktasktype>SCRIPT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>SuiteCloud Processors Job Details</linklabel>
+      <linkobject>[scriptid=customscript_apm_spjd_sl_main.customdeploy_apm_spjd_sl_main]</linkobject>
+      <linktasktype>SCRIPT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>Web Services Analysis</linklabel>
+      <linkobject>[scriptid=customscript_apm_wsa_sl_main.customdeploy_apm_wsa_sl_main]</linkobject>
+      <linktasktype>SCRIPT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>Concurrency Monitor</linklabel>
+      <linkobject>[scriptid=customscript_apm_cm_sl_main.customdeploy_apm_cm_sl_main]</linkobject>
+      <linktasktype>SCRIPT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>Search Performance Analysis</linklabel>
+      <linkobject>[scriptid=customscript_apm_spa_sl_main.customdeploy_apm_spa_sl_main]</linkobject>
+      <linktasktype>SCRIPT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>Search Performance Details</linklabel>
+      <linkobject>[scriptid=customscript_apm_spd_sl_main.customdeploy_apm_spd_sl_main]</linkobject>
+      <linktasktype>SCRIPT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>APM Setup</linklabel>
+      <linkobject>[scriptid=customscript_apm_setup_sl_main.customdeploy_apm_setup_sl_main]</linkobject>
+      <linktasktype>SCRIPT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+  </links>
+</centercategory>

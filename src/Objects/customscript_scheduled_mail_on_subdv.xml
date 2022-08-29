@@ -1,0 +1,30 @@
+<scheduledscript scriptid="customscript_scheduled_mail_on_subdv">
+  <defaultfunction>ScheduleEmailNotification</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Scheduled Mail on Subdivison</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/Suitescript/Webbee Scripts/Subdivision/Check_If_Bare_Bones_Is_Checked_Sch.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy1">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>SCHEDULED</status>
+      <title>Scheduled Mail on Subdivison</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2016-05-11</startdate>
+          <starttime>22:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+  <libraries>
+    <library>
+      <scriptfile>[/SuiteScripts/Suitescript/Webbee Scripts/Subdivision/Webbee_Help.js]</scriptfile>
+    </library>
+  </libraries>
+</scheduledscript>

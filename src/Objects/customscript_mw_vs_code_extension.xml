@@ -1,0 +1,22 @@
+<restlet scriptid="customscript_mw_vs_code_extension">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>MW VS Code Extension</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/vscodeExtensionRestlet.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mw_vs_code_extension_d">
+      <allemployees>T</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>RELEASED</status>
+      <title>MW VS Code Extension</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</restlet>

@@ -1,0 +1,95 @@
+<!-- Do not modify the contents of the SDF XML definition structure located under "CDATA" section of this XML, as this may corrupt the Workbook/Dataset data when you deploy the modified object to your NetSuite account. !-->
+<workbook scriptid="custworkbook1">
+  <name>Builder</name>
+  <dependencies>
+    <dependency>[scriptid=custdataset1]</dependency>
+  </dependencies>
+  <definition><![CDATA[<root>
+<Workbook>
+  <_T_>workbook</_T_>
+  <id type="null"/>
+  <scriptId type="null"/>
+  <applicationId type="null"/>
+  <version type="string">0.1</version>
+  <name>
+    <translationScriptId>e5c7163f-a7bb-42bd-bd0e-704ae6eae47a</translationScriptId>
+  </name>
+  <audience>
+    <AudienceItems type="array"/>
+    <isPublic type="boolean">false</isPublic>
+  </audience>
+  <ownerId>3</ownerId>
+  <description type="null"/>
+  <dataViewIDs type="array">
+    <_ITEM_>custview1_15732078268249143503</_ITEM_>
+  </dataViewIDs>
+  <pivotIDs type="array"/>
+  <chartIDs type="array"/>
+</Workbook>
+<pivots type="array"/>
+<charts type="array"/>
+<dataViews type="array">
+  <_ITEM_>
+    <_T_>dataView</_T_>
+    <id type="null"/>
+    <scriptId>custview1_15732078268249143503</scriptId>
+    <applicationId type="null"/>
+    <version type="string">0.1</version>
+    <name>
+      <translationScriptId>24695a46-af34-45db-b7cd-7a8811ef7a10</translationScriptId>
+    </name>
+    <workbook>custworkbook1</workbook>
+    <datasets type="array">
+      <_ITEM_>custdataset1</_ITEM_>
+    </datasets>
+    <columns type="array">
+      <_ITEM_>
+        <datasetScriptId>custdataset1</datasetScriptId>
+        <dataSetColumnId>3</dataSetColumnId>
+        <targetFieldContext>
+          <name>DISPLAY</name>
+        </targetFieldContext>
+        <sorting type="null"/>
+        <criterion type="null"/>
+        <customLabel type="null"/>
+        <fieldStateName>display</fieldStateName>
+        <conditionalFormat type="array"/>
+        <width type="null"/>
+      </_ITEM_>
+      <_ITEM_>
+        <datasetScriptId>custdataset1</datasetScriptId>
+        <dataSetColumnId>1</dataSetColumnId>
+        <targetFieldContext>
+          <name>IDENTIFIER</name>
+        </targetFieldContext>
+        <sorting type="null"/>
+        <criterion type="null"/>
+        <customLabel type="null"/>
+        <fieldStateName>raw</fieldStateName>
+        <conditionalFormat type="array"/>
+        <width type="null"/>
+      </_ITEM_>
+      <_ITEM_>
+        <datasetScriptId>custdataset1</datasetScriptId>
+        <dataSetColumnId>4</dataSetColumnId>
+        <targetFieldContext>
+          <name>DEFAULT</name>
+        </targetFieldContext>
+        <sorting type="null"/>
+        <criterion type="null"/>
+        <customLabel type="null"/>
+        <fieldStateName>raw</fieldStateName>
+        <conditionalFormat type="array"/>
+        <width type="null"/>
+      </_ITEM_>
+    </columns>
+    <order>0</order>
+  </_ITEM_>
+</dataViews>
+<datasetLinks type="array"/>
+</root>]]></definition>
+  <tables>
+    <table scriptid="custview1_15732078268249143503">
+    </table>
+  </tables>
+</workbook>

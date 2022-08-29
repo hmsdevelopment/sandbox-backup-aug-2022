@@ -1,0 +1,31 @@
+<scheduledscript scriptid="customscript_snd_ren_to_bsr_24hrs_out_sc">
+  <defaultfunction>sendRenToBSR24HoursOut</defaultfunction>
+  <description></description>
+  <isinactive>T</isinactive>
+  <name>Send REN to BSR (webbee) 24 hours out</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <scriptfile>[/SuiteScripts/Suitescript/RenToBsr/send_ren_to_bsr_24hours_out_sc.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_snd_ren_to_bsr_24hrs_out_sc">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>SCHEDULED</status>
+      <title>Send REN to BSR (webbee) 24 hours out</title>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat>PT1H</repeat>
+          <startdate>2017-08-02</startdate>
+          <starttime>12:00:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+  <libraries>
+    <library>
+      <scriptfile>[/SuiteScripts/Suitescript/Webbee Scripts/Crypto/Crypto.js]</scriptfile>
+    </library>
+  </libraries>
+</scheduledscript>

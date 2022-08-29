@@ -1,0 +1,86 @@
+<savedcsvimport scriptid="custimport_37_1309901_312">
+  <charencoding>windows-1252</charencoding>
+  <columndelimiter>COMMA</columndelimiter>
+  <customrecord>[scriptid=customrecord_subdivision]</customrecord>
+  <datahandling>UPDATE</datahandling>
+  <decimaldelimiter>PERIOD</decimaldelimiter>
+  <entryform>[scriptid=custform_10_1309901_378]</entryform>
+  <ignorereadonly>T</ignorereadonly>
+  <importname>Administrative Contact Update</importname>
+  <logsystemnotescustfields>F</logsystemnotescustfields>
+  <multiselectdelimiter>^</multiselectdelimiter>
+  <overwritemissingfields>F</overwritemissingfields>
+  <overwritesublists>F</overwritesublists>
+  <recordtype>CUSTOMRECORD</recordtype>
+  <runserversuitescript>T</runserversuitescript>
+  <usemultithread>F</usemultithread>
+  <validatemandatorycustfields>T</validatemandatorycustfields>
+  <audience>
+    <allemployees>F</allemployees>
+    <allpartners>F</allpartners>
+    <allroles>F</allroles>
+    <globaledit>F</globaledit>
+    <ispublic>F</ispublic>
+    <roles></roles>
+  </audience>
+  <filemappings>
+    <filemapping>
+      <file>CUSTOMRECORD</file>
+    </filemapping>
+  </filemappings>
+  <recordmappings>
+    <recordmapping>
+      <record>CUSTOMRECORD</record>
+      <fieldmappings>
+        <fieldmapping>
+          <field>[scriptid=customrecord_subdivision.custrecord_administrative_contact]</field>
+          <columnreference>
+            <column>Administrative Contact</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_subdivision.custrecord_administrative_contact_email]</field>
+          <columnreference>
+            <column>Administrative Contact&apos;s Email</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_subdivision.custrecord_administrative_contact_phone]</field>
+          <columnreference>
+            <column>Administrative Contact&apos;s Phone Number</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_subdivision.custrecord_builder_division]</field>
+          <columnreference>
+            <column>Builder Division</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_subdivision.custrecord_subdivision_id]</field>
+          <columnreference>
+            <column>Subdivision Name</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>ID</field>
+          <columnreference>
+            <column>Internal ID</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+      </fieldmappings>
+    </recordmapping>
+  </recordmappings>
+</savedcsvimport>

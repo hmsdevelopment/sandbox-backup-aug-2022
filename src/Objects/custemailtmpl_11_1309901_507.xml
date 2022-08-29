@@ -1,0 +1,12 @@
+<emailtemplate scriptid="custemailtmpl_11_1309901_507">
+  <addcompanyaddress>T</addcompanyaddress>
+  <addunsubscribelink>T</addunsubscribelink>
+  <description></description>
+  <isinactive>T</isinactive>
+  <isprivate>F</isprivate>
+  <mediaitem></mediaitem>
+  <name>Agent Survey Introduction for Builder Personnel</name>
+  <recordtype></recordtype>
+  <subject>Introduction to Real Estate Agent Feedback Surveys from HMS Marketing Services</subject>
+  <usesmedia>F</usesmedia>
+</emailtemplate>

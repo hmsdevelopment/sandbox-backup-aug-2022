@@ -1,0 +1,30 @@
+<scheduledscript scriptid="customscript_upload_prop_files_into_box">
+  <defaultfunction>UploadFilesIntoBox</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Upload Property Files Into Box</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <scriptfile>[/SuiteScripts/Suitescript/Webbee Scripts/UploadFilesIntoBox.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_upload_prop_files_into_box">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Upload Property Files Into Box</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2018-08-06</startdate>
+          <starttime>22:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+  <libraries>
+    <library>
+      <scriptfile>[/SuiteScripts/HMS Box File Uploader/crypto-core-min.js]</scriptfile>
+    </library>
+  </libraries>
+</scheduledscript>

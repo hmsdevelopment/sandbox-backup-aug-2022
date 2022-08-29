@@ -1,0 +1,16 @@
+<customlist scriptid="customlistcustlist_option_form">
+  <description>Permit the user to choose yes / no on forms.</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>MW OptionForm</name>
+  <customvalues>
+    <customvalue scriptid="val_213932_1309901_212">
+      <isinactive>F</isinactive>
+      <value>Yes</value>
+    </customvalue>
+    <customvalue scriptid="val_213933_1309901_301">
+      <isinactive>F</isinactive>
+      <value>No</value>
+    </customvalue>
+  </customvalues>
+</customlist>

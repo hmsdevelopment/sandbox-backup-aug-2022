@@ -1,0 +1,20 @@
+<clientscript scriptid="customscript_hms_alert_on_ren_webb_cs">
+  <description></description>
+  <fieldchangedfunction></fieldchangedfunction>
+  <isinactive>F</isinactive>
+  <lineinitfunction></lineinitfunction>
+  <name>Resend REN CS - WebBee</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <pageinitfunction></pageinitfunction>
+  <postsourcingfunction></postsourcingfunction>
+  <recalcfunction></recalcfunction>
+  <saverecordfunction>OnSubmit</saverecordfunction>
+  <scriptfile>[/SuiteScripts/Suitescript/Webbee Scripts/HMS_ReSend_REN_SL_CS_UE_WebBee.js]</scriptfile>
+  <validatedeletefunction></validatedeletefunction>
+  <validatefieldfunction></validatefieldfunction>
+  <validateinsertfunction></validateinsertfunction>
+  <validatelinefunction></validatelinefunction>
+</clientscript>

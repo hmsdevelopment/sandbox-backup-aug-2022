@@ -1,0 +1,77 @@
+<?xml version="1.0"?><!DOCTYPE pdf PUBLIC "-//big.faceless.org//report" "report-1.1.dtd">
+<pdf>
+<head>
+	<link name="NotoSans" type="font" subtype="truetype" src="${nsfont.NotoSans_Regular}" src-bold="${nsfont.NotoSans_Bold}" src-italic="${nsfont.NotoSans_Italic}" src-bolditalic="${nsfont.NotoSans_BoldItalic}" bytes="2" />
+	<#if .locale == "zh_CN">
+		<link name="NotoSansCJKsc" type="font" subtype="opentype" src="${nsfont.NotoSansCJKsc_Regular}" src-bold="${nsfont.NotoSansCJKsc_Bold}" bytes="2" />
+	<#elseif .locale == "zh_TW">
+		<link name="NotoSansCJKtc" type="font" subtype="opentype" src="${nsfont.NotoSansCJKtc_Regular}" src-bold="${nsfont.NotoSansCJKtc_Bold}" bytes="2" />
+	<#elseif .locale == "ja_JP">
+		<link name="NotoSansCJKjp" type="font" subtype="opentype" src="${nsfont.NotoSansCJKjp_Regular}" src-bold="${nsfont.NotoSansCJKjp_Bold}" bytes="2" />
+	<#elseif .locale == "ko_KR">
+		<link name="NotoSansCJKkr" type="font" subtype="opentype" src="${nsfont.NotoSansCJKkr_Regular}" src-bold="${nsfont.NotoSansCJKkr_Bold}" bytes="2" />
+	<#elseif .locale == "th_TH">
+		<link name="NotoSansThai" type="font" subtype="opentype" src="${nsfont.NotoSansThai_Regular}" src-bold="${nsfont.NotoSansThai_Bold}" bytes="2" />
+	</#if>
+    <style type="text/css">table { font-size: 9pt; table-layout: fixed; width: 100%; }
+th { font-weight: bold; font-size: 8pt; vertical-align: middle; padding: 5px 6px 3px; background-color: #e3e3e3; color: #333333; padding-bottom: 10px; padding-top: 10px; }
+td { padding: 4px 6px; }
+b { font-weight: bold; color: #333333; }
+</style>
+</head>
+<body padding="0.5in 0.5in 0.5in 0.5in" size="Letter">
+    <table align="center" border="0" cellpadding="1" cellspacing="1" style="width:100%;"><tr>
+	<td style="text-align: center;">AMENDMENT TO THE LISTING AGREEMENT</td>
+	</tr>
+	<tr>
+	<td style="text-align: center;">MLS of Greater Cincinnati, Inc. Revised: 1/15/13</td>
+	</tr>
+	<tr>
+	<td style="text-align: center;">Information with an * asterisk is required. Double click the green highlights for additional information.</td>
+	</tr></table>
+
+<hr />
+<table align="center" border="0" cellpadding="1" cellspacing="1" style="width:100%;"><tr>
+	<td style="text-align: center;"><input id="change_type" name="change_type" type="checkbox" value="yes" />Expiration Date Change</td>
+	<td style="text-align: center;"><input id="change_type" name="change_type" type="checkbox" value="yes" /><label for="checkbox">Price Change</label></td>
+	<td style="text-align: center;"><input id="change_type" name="change_type" type="checkbox" value="yes" /><label for="checkbox">Expiration Date &amp; Price Change</label></td>
+	<td style="text-align: center;"><input id="change_type" name="change_type" type="checkbox" value="yes" /><label for="checkbox">Other</label></td>
+	</tr></table>
+&nbsp;
+
+<hr />
+<table align="center" border="0" cellpadding="1" cellspacing="1" style="width:100%;"><tr>
+	<td style="text-align: center;">MLS#</td>
+	<td style="text-align: center;">${record.custrecord_mls_number_region1}</td>
+	<td style="text-align: center;">MLS Area</td>
+	<td style="text-align: center;">${record.custrecord15}</td>
+	<td style="text-align: center;">Suburb (SIC)</td>
+	<td style="text-align: center;">${record.custrecord_area}</td>
+	</tr></table>
+
+<p>The undersigned agree to the following amendments to the listing agreement entered into by the parties on the Date: ${record.custrecord_list_date}</p>
+
+<p>Property Address: ${record.custrecord_lot_number}&nbsp;${record.custrecord31}</p>
+
+<p>City/Municipality of: ${record.custrecord_city}, State of: ${record.custrecord_state}</p>
+${record.custrecord_expiration_date}<br /><br /><br />${record.custrecord_original_listing_price}<br />${record.custrecord_current_list_price}${record.custrecord_rec_other}
+
+<table class="signatureTable" style="width: 100%;"><tr class="signatureTableRow">
+	<td class="signatureTableCell"><span class="signatureLine">HMS Real Estate </span>
+
+	<hr /><span class="signatureLine"> Listing Company Name </span></td>
+	<td class="signatureTableCell"><img class="signatureImage" src="https://1309901.app.netsuite.com/core/media/media.nl?id=70436&amp;c=1309901&amp;h=bc65005046b1acf78501" /> <span class="signatureLine"> </span>
+	<hr /><span class="signatureLine"> Owner/Seller Signature </span></td>
+	</tr>
+	<tr class="signatureTableRow">
+	<td class="signatureTableCell"><img class="signatureImage" src="https://1309901.app.netsuite.com/core/media/media.nl?id=70436&amp;c=1309901&amp;h=bc65005046b1acf78501" /> <span class="signatureLine"> </span>
+	<hr /><span class="signatureLine"> Agent/Broker/Manager Signature </span></td>
+	<td class="signatureTableCell"><img class="signatureImage" src="https://1309901.app.netsuite.com/core/media/media.nl?id=70436&amp;c=1309901&amp;h=bc65005046b1acf78501" /> <span class="signatureLine"> </span>
+	<hr /><span class="signatureLine"> Owner/Seller Signature </span></td>
+	</tr>
+	<tr class="signatureTableRow">
+	<td class="signatureTableCell">Date Here</td>
+	<td class="signatureTableCell">Date Here</td>
+	</tr></table>
+</body>
+</pdf>

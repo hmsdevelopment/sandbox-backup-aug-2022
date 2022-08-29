@@ -1,0 +1,24 @@
+<scheduledscript scriptid="customscript_mw_send_email_template_test">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Send Email Template Test</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/Midware/TestEmailTemplate/ScheduleScripts/SendEmail.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mw_send_email_tmplate_tst_d">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>TESTING</status>
+      <title>Send Email Template Test</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2019-06-20</startdate>
+          <starttime>22:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

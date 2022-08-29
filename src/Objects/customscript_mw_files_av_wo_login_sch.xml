@@ -1,0 +1,54 @@
+<scheduledscript scriptid="customscript_mw_files_av_wo_login_sch">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>FilesAvailableWithoutLoginScheduledScrip</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/Midware/FilesAvailableWithoutLogin/FilesAvailableWithoutLoginScheduledScript.js]</scriptfile>
+  <scriptcustomfields>
+    <scriptcustomfield scriptid="custscript_mw_current_index">
+      <accesslevel>2</accesslevel>
+      <applyformatting>T</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <fieldtype>INTEGER</fieldtype>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <label>Current Index</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <setting></setting>
+      <storevalue>T</storevalue>
+    </scriptcustomfield>
+  </scriptcustomfields>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mw_files_av_wo_login_sch_d">
+      <custscript_mw_current_index>0</custscript_mw_current_index>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>TESTING</status>
+      <title>FilesAvailableWithoutLoginScheduledScrip</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2019-10-25</startdate>
+          <starttime>22:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

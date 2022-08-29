@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_mw_logs_fields_change">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Logs when fields change - Builder Portal</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Midware/LogsFormsChangeBuilderPortal/SuiteletScripts/Router/LogsFormsChangeBuilderPortalRouter.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mw_logs_fields_change_d">
+      <allemployees>T</allemployees>
+      <allpartners>T</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>Logs when fields change - Builder Portal</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

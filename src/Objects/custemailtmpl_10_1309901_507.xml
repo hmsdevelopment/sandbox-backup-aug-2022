@@ -1,0 +1,12 @@
+<emailtemplate scriptid="custemailtmpl_10_1309901_507">
+  <addcompanyaddress>T</addcompanyaddress>
+  <addunsubscribelink>T</addunsubscribelink>
+  <description></description>
+  <isinactive>F</isinactive>
+  <isprivate>F</isprivate>
+  <mediaitem></mediaitem>
+  <name>Request for Sale of a Market Home Submitted</name>
+  <recordtype></recordtype>
+  <subject>Request for Sale of a Market Home Submitted</subject>
+  <usesmedia>F</usesmedia>
+</emailtemplate>

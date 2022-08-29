@@ -1,0 +1,16 @@
+<customlist scriptid="customlist_flo_release_testing">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Release/Testing</name>
+  <customvalues>
+    <customvalue scriptid="value_1_t1049933_417">
+      <isinactive>F</isinactive>
+      <value>RELEASED</value>
+    </customvalue>
+    <customvalue scriptid="value_2_t1049933_417">
+      <isinactive>F</isinactive>
+      <value>TESTING</value>
+    </customvalue>
+  </customvalues>
+</customlist>

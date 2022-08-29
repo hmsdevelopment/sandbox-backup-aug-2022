@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_flo_field_parent_map_file">
+  <description>Creates mapping file for Standard Record Custom Fields&apos; parent names. (flo_transactionbodycustomfield_map)</description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint Field Parent Map File 2.0</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteBundles/Bundle 297487/FLOStdRecFieldParentMapping.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_flo_field_parent_map_file">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>AUDIT</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>Strongpoint Field Parent Map File 2.0</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

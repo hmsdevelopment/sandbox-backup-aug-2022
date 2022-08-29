@@ -1,0 +1,172 @@
+<customlist scriptid="customlist_job_titles">
+  <description>List of job titles which can be selected</description>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <name>Job Titles</name>
+  <customvalues>
+    <customvalue scriptid="value_26_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Administrative Assistant</value>
+    </customvalue>
+    <customvalue scriptid="value_4_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Area President</value>
+    </customvalue>
+    <customvalue scriptid="val_464897_1309901_146">
+      <isinactive>F</isinactive>
+      <value>Area Sales Manager</value>
+    </customvalue>
+    <customvalue scriptid="value_12_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Builder Sales Rep</value>
+    </customvalue>
+    <customvalue scriptid="value_18_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Chief Operating Officer</value>
+    </customvalue>
+    <customvalue scriptid="val_177467_1309901_151">
+      <isinactive>F</isinactive>
+      <value>Closing Coordinator</value>
+    </customvalue>
+    <customvalue scriptid="value_1_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Company CEO</value>
+    </customvalue>
+    <customvalue scriptid="val_270824_1309901_643">
+      <isinactive>F</isinactive>
+      <value>Construction Manager</value>
+    </customvalue>
+    <customvalue scriptid="val_270826_1309901_883">
+      <isinactive>F</isinactive>
+      <value>Designer</value>
+    </customvalue>
+    <customvalue scriptid="value_27_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Director of Operations</value>
+    </customvalue>
+    <customvalue scriptid="value_29_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Division Coordinator</value>
+    </customvalue>
+    <customvalue scriptid="value_3_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Division Manager</value>
+    </customvalue>
+    <customvalue scriptid="value_24_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Division President</value>
+    </customvalue>
+    <customvalue scriptid="val_213309_1309901_182">
+      <isinactive>F</isinactive>
+      <value>IT Consultant</value>
+    </customvalue>
+    <customvalue scriptid="val_213310_1309901_809">
+      <isinactive>F</isinactive>
+      <value>IT Consultant</value>
+    </customvalue>
+    <customvalue scriptid="val_238430_1309901_718">
+      <isinactive>F</isinactive>
+      <value>Land Acquisition Manager</value>
+    </customvalue>
+    <customvalue scriptid="value_31_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Marketing Coordinator</value>
+    </customvalue>
+    <customvalue scriptid="value_30_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Marketing Director</value>
+    </customvalue>
+    <customvalue scriptid="value_11_1309901_565">
+      <isinactive>F</isinactive>
+      <value>New Home Sales Consultant</value>
+    </customvalue>
+    <customvalue scriptid="value_32_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Night Phone Operator</value>
+    </customvalue>
+    <customvalue scriptid="value_35_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Operations Manager</value>
+    </customvalue>
+    <customvalue scriptid="value_34_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Owner</value>
+    </customvalue>
+    <customvalue scriptid="value_16_1309901_565">
+      <isinactive>F</isinactive>
+      <value>President</value>
+    </customvalue>
+    <customvalue scriptid="value_33_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Production Process Manager</value>
+    </customvalue>
+    <customvalue scriptid="value_23_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Project Manager</value>
+    </customvalue>
+    <customvalue scriptid="value_2_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Regional President</value>
+    </customvalue>
+    <customvalue scriptid="value_15_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Regional President</value>
+    </customvalue>
+    <customvalue scriptid="value_14_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Sales and Marketing Representative</value>
+    </customvalue>
+    <customvalue scriptid="value_21_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Sales and Marketing Representative in Training</value>
+    </customvalue>
+    <customvalue scriptid="value_19_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Sales Assistant</value>
+    </customvalue>
+    <customvalue scriptid="value_20_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Sales Associate</value>
+    </customvalue>
+    <customvalue scriptid="value_28_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Sales Coordinator</value>
+    </customvalue>
+    <customvalue scriptid="value_9_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Sales Counselor</value>
+    </customvalue>
+    <customvalue scriptid="value_5_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Sales Manager</value>
+    </customvalue>
+    <customvalue scriptid="value_10_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Sales Representative</value>
+    </customvalue>
+    <customvalue scriptid="value_25_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Senior Vice President of Operations</value>
+    </customvalue>
+    <customvalue scriptid="value_22_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Vice President</value>
+    </customvalue>
+    <customvalue scriptid="value_8_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Vice President of Marketing</value>
+    </customvalue>
+    <customvalue scriptid="value_17_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Vice President of Operations</value>
+    </customvalue>
+    <customvalue scriptid="value_6_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Vice President of Sales</value>
+    </customvalue>
+    <customvalue scriptid="value_13_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Vice President, Project Management</value>
+    </customvalue>
+  </customvalues>
+</customlist>

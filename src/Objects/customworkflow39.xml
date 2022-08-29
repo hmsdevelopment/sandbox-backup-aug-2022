@@ -1,0 +1,63 @@
+<workflow scriptid="customworkflow39">
+  <description></description>
+  <initcontexts>ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW</initcontexts>
+  <initeventtypes></initeventtypes>
+  <initlocalizationcontext></initlocalizationcontext>
+  <initoncreate>T</initoncreate>
+  <initonvieworupdate>T</initonvieworupdate>
+  <initsavedsearchcondition></initsavedsearchcondition>
+  <inittriggertype></inittriggertype>
+  <isinactive>F</isinactive>
+  <islogenabled>F</islogenabled>
+  <keephistory>ONLYWHENTESTING</keephistory>
+  <name>CTB with Available Status Alert</name>
+  <recordtypes>[scriptid=customrecord_property_record]</recordtypes>
+  <releasestatus>RELEASED</releasestatus>
+  <runasadmin>F</runasadmin>
+  <initcondition>
+    <formula></formula>
+    <type>VISUAL_BUILDER</type>
+  </initcondition>
+  <workflowstates>
+    <workflowstate scriptid="workflowstate97">
+      <description></description>
+      <donotexitworkflow>F</donotexitworkflow>
+      <name>State 1</name>
+      <positionx>243</positionx>
+      <positiony>133</positiony>
+      <workflowactions triggertype="BEFOREFIELDEDIT">
+        <confirmaction scriptid="workflowaction221">
+          <clienttriggerfields>[scriptid=customrecord_property_record.custrecord_listing_type]|[scriptid=customrecord_property_record.custrecord_property_status]</clienttriggerfields>
+          <conditionsavedsearch></conditionsavedsearch>
+          <contexttypes>ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW</contexttypes>
+          <isinactive>F</isinactive>
+          <messagetext>A Contract to Build cannot have an &quot;Available&quot; Sale Status.</messagetext>
+          <initcondition>
+            <formula><![CDATA["Listing Type" IN ("Listing Type1") AND "Sale Status" IN ("Sales Status1")]]></formula>
+            <type>VISUAL_BUILDER</type>
+            <parameters>
+              <parameter>
+                <name>Listing Type</name>
+                <value>[scriptid=customrecord_property_record.custrecord_listing_type]</value>
+              </parameter>
+              <parameter>
+                <name>Listing Type1</name>
+                <selectrecordtype>[scriptid=customlist_listing_type]</selectrecordtype>
+                <value>[scriptid=customlist_listing_type.val_174509_1309901_434]</value>
+              </parameter>
+              <parameter>
+                <name>Sale Status</name>
+                <value>[scriptid=customrecord_property_record.custrecord_property_status]</value>
+              </parameter>
+              <parameter>
+                <name>Sales Status1</name>
+                <selectrecordtype>[scriptid=customlist31]</selectrecordtype>
+                <value>[scriptid=customlist31.value_1_1309901_565]</value>
+              </parameter>
+            </parameters>
+          </initcondition>
+        </confirmaction>
+      </workflowactions>
+    </workflowstate>
+  </workflowstates>
+</workflow>

@@ -1,0 +1,25 @@
+<scheduledscript scriptid="customscript_mw_notify_error_app">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Notify Error On Appointments</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/Midware/ManagementEmailsAppointments/ScheduledScripts/NotifyErrorOnAppointmentCreate.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mw_notify_error_app_d">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>SCHEDULED</status>
+      <title>Notify Error On Appointments</title>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat>PT15M</repeat>
+          <startdate>2022-01-28</startdate>
+          <starttime>21:30:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

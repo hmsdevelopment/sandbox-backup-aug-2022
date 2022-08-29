@@ -1,0 +1,26 @@
+<scheduledscript scriptid="customscript_survey_agent_feedbackv2">
+  <defaultfunction>surveyAgentFeedback</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Survey - Agent Feedback V2</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <scriptfile>[/SuiteScripts/hms/Survey/surveyAgentFeedback_v2.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_survey_agent_feedbackv2">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>SCHEDULED</status>
+      <title>Survey - Agent Feedback V2</title>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat>PT1H</repeat>
+          <startdate>2017-12-05</startdate>
+          <starttime>11:00:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

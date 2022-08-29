@@ -1,0 +1,16 @@
+<emailtemplate scriptid="custemailtmpl_mw_gl_notification_general">
+  <addcompanyaddress>T</addcompanyaddress>
+  <addunsubscribelink>T</addunsubscribelink>
+  <description>Template used when a property is Sold Using the Leave As Is (Ghost Listings 411) form&#xd;
+&#xd;
+This includes the original property, sold property, and relocated property (if necessary).&#xd;
+&#xd;
+Those actions will come from three separated templates and their tokens %% on this template will be replaced by code.</description>
+  <isinactive>F</isinactive>
+  <isprivate>F</isprivate>
+  <mediaitem></mediaitem>
+  <name>Ghost Listing Sold Notification</name>
+  <recordtype>CUSTOM</recordtype>
+  <subject>Ghost Listing sold ${customrecord.custrecord_simple_name}</subject>
+  <usesmedia>F</usesmedia>
+</emailtemplate>

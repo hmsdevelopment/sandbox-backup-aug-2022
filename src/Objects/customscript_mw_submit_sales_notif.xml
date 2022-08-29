@@ -1,0 +1,55 @@
+<suitelet scriptid="customscript_mw_submit_sales_notif">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>MW Submit Sales Notification</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails>jmcdonald@hmsmarketingservices.com</notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Midware/BuilderPortal/SuiteletScripts/SubmitSalesNotification/Routers/SubmitSalesNotificationRouter.js]</scriptfile>
+  <scriptcustomfields>
+    <scriptcustomfield scriptid="custscript_submission_notification_email">
+      <accesslevel>2</accesslevel>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth>40</displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <fieldtype>EMAIL</fieldtype>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <label>Recipient</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <setting></setting>
+      <storevalue>T</storevalue>
+    </scriptcustomfield>
+  </scriptcustomfields>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mw_submit_notif_d">
+      <allemployees>T</allemployees>
+      <allpartners>T</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <custscript_submission_notification_email>mlsinfo@hmsmarketingservices.com</custscript_submission_notification_email>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>MW Submit Sales Notification</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

@@ -1,0 +1,860 @@
+<customlist scriptid="customlist_street_type_suffix">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <name>Street Type Suffix</name>
+  <customvalues>
+    <customvalue scriptid="value_8_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Aly</value>
+    </customvalue>
+    <customvalue scriptid="val_772390_1309901_sb1_828">
+      <isinactive>F</isinactive>
+      <value>Anx</value>
+    </customvalue>
+    <customvalue scriptid="val_772391_1309901_sb1_123">
+      <isinactive>F</isinactive>
+      <value>Arc</value>
+    </customvalue>
+    <customvalue scriptid="value_9_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Ave</value>
+    </customvalue>
+    <customvalue scriptid="val_772393_1309901_sb1_675">
+      <isinactive>F</isinactive>
+      <value>Bch</value>
+    </customvalue>
+    <customvalue scriptid="val_772402_1309901_sb1_273">
+      <isinactive>F</isinactive>
+      <value>Bg</value>
+    </customvalue>
+    <customvalue scriptid="val_772403_1309901_sb1_643">
+      <isinactive>F</isinactive>
+      <value>Bgs</value>
+    </customvalue>
+    <customvalue scriptid="val_772395_1309901_sb1_159">
+      <isinactive>F</isinactive>
+      <value>Blf</value>
+    </customvalue>
+    <customvalue scriptid="val_772396_1309901_sb1_837">
+      <isinactive>F</isinactive>
+      <value>Blfs</value>
+    </customvalue>
+    <customvalue scriptid="value_10_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Blvd</value>
+    </customvalue>
+    <customvalue scriptid="val_772394_1309901_sb1_328">
+      <isinactive>F</isinactive>
+      <value>Bnd</value>
+    </customvalue>
+    <customvalue scriptid="val_772398_1309901_sb1_166">
+      <isinactive>F</isinactive>
+      <value>Br</value>
+    </customvalue>
+    <customvalue scriptid="val_772399_1309901_sb1_497">
+      <isinactive>F</isinactive>
+      <value>Brg</value>
+    </customvalue>
+    <customvalue scriptid="val_772400_1309901_sb1_536">
+      <isinactive>F</isinactive>
+      <value>Brk</value>
+    </customvalue>
+    <customvalue scriptid="val_772401_1309901_sb1_435">
+      <isinactive>F</isinactive>
+      <value>Brks</value>
+    </customvalue>
+    <customvalue scriptid="val_772397_1309901_sb1_306">
+      <isinactive>F</isinactive>
+      <value>Btm</value>
+    </customvalue>
+    <customvalue scriptid="val_772404_1309901_sb1_627">
+      <isinactive>F</isinactive>
+      <value>Byp</value>
+    </customvalue>
+    <customvalue scriptid="val_772392_1309901_sb1_161">
+      <isinactive>F</isinactive>
+      <value>Byu</value>
+    </customvalue>
+    <customvalue scriptid="value_11_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Cir</value>
+    </customvalue>
+    <customvalue scriptid="val_772410_1309901_sb1_429">
+      <isinactive>F</isinactive>
+      <value>Cirs</value>
+    </customvalue>
+    <customvalue scriptid="val_772413_1309901_sb1_521">
+      <isinactive>F</isinactive>
+      <value>Clb</value>
+    </customvalue>
+    <customvalue scriptid="val_772411_1309901_sb1_119">
+      <isinactive>F</isinactive>
+      <value>Clf</value>
+    </customvalue>
+    <customvalue scriptid="val_772412_1309901_sb1_572">
+      <isinactive>F</isinactive>
+      <value>Clfs</value>
+    </customvalue>
+    <customvalue scriptid="val_772414_1309901_sb1_883">
+      <isinactive>F</isinactive>
+      <value>Cmn</value>
+    </customvalue>
+    <customvalue scriptid="val_772415_1309901_sb1_432">
+      <isinactive>F</isinactive>
+      <value>Cmns</value>
+    </customvalue>
+    <customvalue scriptid="val_772416_1309901_sb1_948">
+      <isinactive>F</isinactive>
+      <value>Cor</value>
+    </customvalue>
+    <customvalue scriptid="val_772417_1309901_sb1_827">
+      <isinactive>F</isinactive>
+      <value>Cors</value>
+    </customvalue>
+    <customvalue scriptid="val_260860_1309901_174">
+      <isinactive>F</isinactive>
+      <value>Cove</value>
+    </customvalue>
+    <customvalue scriptid="val_772405_1309901_sb1_971">
+      <isinactive>F</isinactive>
+      <value>Cp</value>
+    </customvalue>
+    <customvalue scriptid="val_772407_1309901_sb1_649">
+      <isinactive>F</isinactive>
+      <value>Cpe</value>
+    </customvalue>
+    <customvalue scriptid="val_772422_1309901_sb1_451">
+      <isinactive>F</isinactive>
+      <value>Cres</value>
+    </customvalue>
+    <customvalue scriptid="value_12_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Crk</value>
+    </customvalue>
+    <customvalue scriptid="val_772418_1309901_sb1_934">
+      <isinactive>F</isinactive>
+      <value>Crse</value>
+    </customvalue>
+    <customvalue scriptid="val_772423_1309901_sb1_141">
+      <isinactive>F</isinactive>
+      <value>Crst</value>
+    </customvalue>
+    <customvalue scriptid="val_772408_1309901_sb1_447">
+      <isinactive>F</isinactive>
+      <value>Cswy</value>
+    </customvalue>
+    <customvalue scriptid="value_13_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Ct</value>
+    </customvalue>
+    <customvalue scriptid="value_14_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Ctr</value>
+    </customvalue>
+    <customvalue scriptid="val_772409_1309901_sb1_361">
+      <isinactive>F</isinactive>
+      <value>Ctrs</value>
+    </customvalue>
+    <customvalue scriptid="val_772419_1309901_sb1_471">
+      <isinactive>F</isinactive>
+      <value>Cts</value>
+    </customvalue>
+    <customvalue scriptid="val_772426_1309901_sb1_826">
+      <isinactive>F</isinactive>
+      <value>Curv</value>
+    </customvalue>
+    <customvalue scriptid="val_772420_1309901_sb1_172">
+      <isinactive>F</isinactive>
+      <value>Cv</value>
+    </customvalue>
+    <customvalue scriptid="val_772421_1309901_sb1_624">
+      <isinactive>F</isinactive>
+      <value>Cvs</value>
+    </customvalue>
+    <customvalue scriptid="val_772406_1309901_sb1_548">
+      <isinactive>F</isinactive>
+      <value>Cyn</value>
+    </customvalue>
+    <customvalue scriptid="val_772427_1309901_sb1_932">
+      <isinactive>F</isinactive>
+      <value>Dl</value>
+    </customvalue>
+    <customvalue scriptid="val_772428_1309901_sb1_729">
+      <isinactive>F</isinactive>
+      <value>Dm</value>
+    </customvalue>
+    <customvalue scriptid="value_36_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Dr</value>
+    </customvalue>
+    <customvalue scriptid="val_772430_1309901_sb1_738">
+      <isinactive>F</isinactive>
+      <value>Drs</value>
+    </customvalue>
+    <customvalue scriptid="val_772429_1309901_sb1_838">
+      <isinactive>F</isinactive>
+      <value>Dv</value>
+    </customvalue>
+    <customvalue scriptid="val_772431_1309901_sb1_876">
+      <isinactive>F</isinactive>
+      <value>Est</value>
+    </customvalue>
+    <customvalue scriptid="val_772432_1309901_sb1_519">
+      <isinactive>F</isinactive>
+      <value>Ests</value>
+    </customvalue>
+    <customvalue scriptid="value_15_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Expwy</value>
+    </customvalue>
+    <customvalue scriptid="val_772433_1309901_sb1_260">
+      <isinactive>F</isinactive>
+      <value>Expy</value>
+    </customvalue>
+    <customvalue scriptid="val_196724_1309901_317">
+      <isinactive>F</isinactive>
+      <value>Ext</value>
+    </customvalue>
+    <customvalue scriptid="val_772434_1309901_sb1_878">
+      <isinactive>F</isinactive>
+      <value>Exts</value>
+    </customvalue>
+    <customvalue scriptid="val_772435_1309901_sb1_530">
+      <isinactive>F</isinactive>
+      <value>Fall</value>
+    </customvalue>
+    <customvalue scriptid="val_772438_1309901_sb1_116">
+      <isinactive>F</isinactive>
+      <value>Fld</value>
+    </customvalue>
+    <customvalue scriptid="val_772439_1309901_sb1_882">
+      <isinactive>F</isinactive>
+      <value>Flds</value>
+    </customvalue>
+    <customvalue scriptid="val_772436_1309901_sb1_636">
+      <isinactive>F</isinactive>
+      <value>Fls</value>
+    </customvalue>
+    <customvalue scriptid="val_772440_1309901_sb1_155">
+      <isinactive>F</isinactive>
+      <value>Flt</value>
+    </customvalue>
+    <customvalue scriptid="val_772441_1309901_sb1_200">
+      <isinactive>F</isinactive>
+      <value>Flts</value>
+    </customvalue>
+    <customvalue scriptid="val_772442_1309901_sb1_740">
+      <isinactive>F</isinactive>
+      <value>Frd</value>
+    </customvalue>
+    <customvalue scriptid="val_772443_1309901_sb1_398">
+      <isinactive>F</isinactive>
+      <value>Frds</value>
+    </customvalue>
+    <customvalue scriptid="val_772445_1309901_sb1_116">
+      <isinactive>F</isinactive>
+      <value>Frg</value>
+    </customvalue>
+    <customvalue scriptid="val_772446_1309901_sb1_643">
+      <isinactive>F</isinactive>
+      <value>Frgs</value>
+    </customvalue>
+    <customvalue scriptid="val_772447_1309901_sb1_265">
+      <isinactive>F</isinactive>
+      <value>Frk</value>
+    </customvalue>
+    <customvalue scriptid="val_772448_1309901_sb1_446">
+      <isinactive>F</isinactive>
+      <value>Frks</value>
+    </customvalue>
+    <customvalue scriptid="val_772444_1309901_sb1_507">
+      <isinactive>F</isinactive>
+      <value>Frst</value>
+    </customvalue>
+    <customvalue scriptid="val_772437_1309901_sb1_567">
+      <isinactive>F</isinactive>
+      <value>Fry</value>
+    </customvalue>
+    <customvalue scriptid="val_772449_1309901_sb1_260">
+      <isinactive>F</isinactive>
+      <value>Ft</value>
+    </customvalue>
+    <customvalue scriptid="val_772450_1309901_sb1_730">
+      <isinactive>F</isinactive>
+      <value>Fwy</value>
+    </customvalue>
+    <customvalue scriptid="val_772451_1309901_sb1_706">
+      <isinactive>F</isinactive>
+      <value>Gdn</value>
+    </customvalue>
+    <customvalue scriptid="val_772452_1309901_sb1_452">
+      <isinactive>F</isinactive>
+      <value>Gdns</value>
+    </customvalue>
+    <customvalue scriptid="val_772454_1309901_sb1_576">
+      <isinactive>F</isinactive>
+      <value>Gln</value>
+    </customvalue>
+    <customvalue scriptid="val_772455_1309901_sb1_625">
+      <isinactive>F</isinactive>
+      <value>Glns</value>
+    </customvalue>
+    <customvalue scriptid="val_772456_1309901_sb1_494">
+      <isinactive>F</isinactive>
+      <value>Grn</value>
+    </customvalue>
+    <customvalue scriptid="val_772457_1309901_sb1_766">
+      <isinactive>F</isinactive>
+      <value>Grns</value>
+    </customvalue>
+    <customvalue scriptid="val_264705_1309901_513">
+      <isinactive>F</isinactive>
+      <value>Grove</value>
+    </customvalue>
+    <customvalue scriptid="val_772458_1309901_sb1_340">
+      <isinactive>F</isinactive>
+      <value>Grv</value>
+    </customvalue>
+    <customvalue scriptid="val_772459_1309901_sb1_253">
+      <isinactive>F</isinactive>
+      <value>Grvs</value>
+    </customvalue>
+    <customvalue scriptid="val_772453_1309901_sb1_276">
+      <isinactive>F</isinactive>
+      <value>Gtwy</value>
+    </customvalue>
+    <customvalue scriptid="val_772460_1309901_sb1_466">
+      <isinactive>F</isinactive>
+      <value>Hbr</value>
+    </customvalue>
+    <customvalue scriptid="val_772461_1309901_sb1_156">
+      <isinactive>F</isinactive>
+      <value>Hbrs</value>
+    </customvalue>
+    <customvalue scriptid="value_16_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Hgwy</value>
+    </customvalue>
+    <customvalue scriptid="val_772465_1309901_sb1_111">
+      <isinactive>F</isinactive>
+      <value>Hl</value>
+    </customvalue>
+    <customvalue scriptid="val_772466_1309901_sb1_632">
+      <isinactive>F</isinactive>
+      <value>Hls</value>
+    </customvalue>
+    <customvalue scriptid="val_772467_1309901_sb1_296">
+      <isinactive>F</isinactive>
+      <value>Holw</value>
+    </customvalue>
+    <customvalue scriptid="val_772463_1309901_sb1_112">
+      <isinactive>F</isinactive>
+      <value>Hts</value>
+    </customvalue>
+    <customvalue scriptid="val_772462_1309901_sb1_369">
+      <isinactive>F</isinactive>
+      <value>Hvn</value>
+    </customvalue>
+    <customvalue scriptid="val_772464_1309901_sb1_669">
+      <isinactive>F</isinactive>
+      <value>Hwy</value>
+    </customvalue>
+    <customvalue scriptid="val_772468_1309901_sb1_321">
+      <isinactive>F</isinactive>
+      <value>Inlt</value>
+    </customvalue>
+    <customvalue scriptid="val_772469_1309901_sb1_553">
+      <isinactive>F</isinactive>
+      <value>Is</value>
+    </customvalue>
+    <customvalue scriptid="val_772471_1309901_sb1_462">
+      <isinactive>F</isinactive>
+      <value>Isle</value>
+    </customvalue>
+    <customvalue scriptid="val_772470_1309901_sb1_180">
+      <isinactive>F</isinactive>
+      <value>Iss</value>
+    </customvalue>
+    <customvalue scriptid="value_17_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Jct</value>
+    </customvalue>
+    <customvalue scriptid="val_772472_1309901_sb1_605">
+      <isinactive>F</isinactive>
+      <value>Jcts</value>
+    </customvalue>
+    <customvalue scriptid="value_40_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Knl</value>
+    </customvalue>
+    <customvalue scriptid="val_772475_1309901_sb1_518">
+      <isinactive>F</isinactive>
+      <value>Knls</value>
+    </customvalue>
+    <customvalue scriptid="val_772473_1309901_sb1_152">
+      <isinactive>F</isinactive>
+      <value>Ky</value>
+    </customvalue>
+    <customvalue scriptid="val_772474_1309901_sb1_523">
+      <isinactive>F</isinactive>
+      <value>Kys</value>
+    </customvalue>
+    <customvalue scriptid="val_772478_1309901_sb1_267">
+      <isinactive>F</isinactive>
+      <value>Land</value>
+    </customvalue>
+    <customvalue scriptid="val_772483_1309901_sb1_293">
+      <isinactive>F</isinactive>
+      <value>Lck</value>
+    </customvalue>
+    <customvalue scriptid="val_772484_1309901_sb1_317">
+      <isinactive>F</isinactive>
+      <value>Lcks</value>
+    </customvalue>
+    <customvalue scriptid="val_772485_1309901_sb1_696">
+      <isinactive>F</isinactive>
+      <value>Ldg</value>
+    </customvalue>
+    <customvalue scriptid="val_772482_1309901_sb1_404">
+      <isinactive>F</isinactive>
+      <value>Lf</value>
+    </customvalue>
+    <customvalue scriptid="val_772480_1309901_sb1_411">
+      <isinactive>F</isinactive>
+      <value>Lgt</value>
+    </customvalue>
+    <customvalue scriptid="val_772481_1309901_sb1_591">
+      <isinactive>F</isinactive>
+      <value>Lgts</value>
+    </customvalue>
+    <customvalue scriptid="val_772476_1309901_sb1_960">
+      <isinactive>F</isinactive>
+      <value>Lk</value>
+    </customvalue>
+    <customvalue scriptid="val_772477_1309901_sb1_752">
+      <isinactive>F</isinactive>
+      <value>Lks</value>
+    </customvalue>
+    <customvalue scriptid="value_20_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Ln</value>
+    </customvalue>
+    <customvalue scriptid="val_772479_1309901_sb1_662">
+      <isinactive>F</isinactive>
+      <value>Lndg</value>
+    </customvalue>
+    <customvalue scriptid="val_772486_1309901_sb1_199">
+      <isinactive>F</isinactive>
+      <value>Loop</value>
+    </customvalue>
+    <customvalue scriptid="value_22_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Lp</value>
+    </customvalue>
+    <customvalue scriptid="val_772487_1309901_sb1_828">
+      <isinactive>F</isinactive>
+      <value>Mall</value>
+    </customvalue>
+    <customvalue scriptid="val_772490_1309901_sb1_115">
+      <isinactive>F</isinactive>
+      <value>Mdw</value>
+    </customvalue>
+    <customvalue scriptid="val_772491_1309901_sb1_794">
+      <isinactive>F</isinactive>
+      <value>Mdws</value>
+    </customvalue>
+    <customvalue scriptid="val_772492_1309901_sb1_945">
+      <isinactive>F</isinactive>
+      <value>Mews</value>
+    </customvalue>
+    <customvalue scriptid="val_772493_1309901_sb1_748">
+      <isinactive>F</isinactive>
+      <value>Ml</value>
+    </customvalue>
+    <customvalue scriptid="val_772494_1309901_sb1_308">
+      <isinactive>F</isinactive>
+      <value>Mls</value>
+    </customvalue>
+    <customvalue scriptid="val_772488_1309901_sb1_958">
+      <isinactive>F</isinactive>
+      <value>Mnr</value>
+    </customvalue>
+    <customvalue scriptid="val_772489_1309901_sb1_406">
+      <isinactive>F</isinactive>
+      <value>Mnrs</value>
+    </customvalue>
+    <customvalue scriptid="val_772495_1309901_sb1_531">
+      <isinactive>F</isinactive>
+      <value>Msn</value>
+    </customvalue>
+    <customvalue scriptid="val_772497_1309901_sb1_427">
+      <isinactive>F</isinactive>
+      <value>Mt</value>
+    </customvalue>
+    <customvalue scriptid="val_772498_1309901_sb1_746">
+      <isinactive>F</isinactive>
+      <value>Mtn</value>
+    </customvalue>
+    <customvalue scriptid="val_772499_1309901_sb1_617">
+      <isinactive>F</isinactive>
+      <value>Mtns</value>
+    </customvalue>
+    <customvalue scriptid="val_772496_1309901_sb1_566">
+      <isinactive>F</isinactive>
+      <value>Mtwy</value>
+    </customvalue>
+    <customvalue scriptid="val_772500_1309901_sb1_101">
+      <isinactive>F</isinactive>
+      <value>Nck</value>
+    </customvalue>
+    <customvalue scriptid="val_772503_1309901_sb1_784">
+      <isinactive>F</isinactive>
+      <value>Opas</value>
+    </customvalue>
+    <customvalue scriptid="val_772501_1309901_sb1_305">
+      <isinactive>F</isinactive>
+      <value>Orch</value>
+    </customvalue>
+    <customvalue scriptid="val_772502_1309901_sb1_935">
+      <isinactive>F</isinactive>
+      <value>Oval</value>
+    </customvalue>
+    <customvalue scriptid="val_772504_1309901_sb1_426">
+      <isinactive>F</isinactive>
+      <value>Park</value>
+    </customvalue>
+    <customvalue scriptid="value_37_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Pass</value>
+    </customvalue>
+    <customvalue scriptid="val_772506_1309901_sb1_250">
+      <isinactive>F</isinactive>
+      <value>Path</value>
+    </customvalue>
+    <customvalue scriptid="value_23_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Pike</value>
+    </customvalue>
+    <customvalue scriptid="value_24_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Pkwy</value>
+    </customvalue>
+    <customvalue scriptid="value_25_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Pl</value>
+    </customvalue>
+    <customvalue scriptid="val_772509_1309901_sb1_910">
+      <isinactive>F</isinactive>
+      <value>Pln</value>
+    </customvalue>
+    <customvalue scriptid="val_772510_1309901_sb1_682">
+      <isinactive>F</isinactive>
+      <value>Plns</value>
+    </customvalue>
+    <customvalue scriptid="val_772511_1309901_sb1_348">
+      <isinactive>F</isinactive>
+      <value>Plz</value>
+    </customvalue>
+    <customvalue scriptid="val_772507_1309901_sb1_653">
+      <isinactive>F</isinactive>
+      <value>Pne</value>
+    </customvalue>
+    <customvalue scriptid="val_772508_1309901_sb1_951">
+      <isinactive>F</isinactive>
+      <value>Pnes</value>
+    </customvalue>
+    <customvalue scriptid="val_772515_1309901_sb1_795">
+      <isinactive>F</isinactive>
+      <value>Pr</value>
+    </customvalue>
+    <customvalue scriptid="val_772513_1309901_sb1_805">
+      <isinactive>F</isinactive>
+      <value>Prt</value>
+    </customvalue>
+    <customvalue scriptid="val_772514_1309901_sb1_272">
+      <isinactive>F</isinactive>
+      <value>Prts</value>
+    </customvalue>
+    <customvalue scriptid="val_772505_1309901_sb1_793">
+      <isinactive>F</isinactive>
+      <value>Psge</value>
+    </customvalue>
+    <customvalue scriptid="value_43_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Pt</value>
+    </customvalue>
+    <customvalue scriptid="val_772512_1309901_sb1_363">
+      <isinactive>F</isinactive>
+      <value>Pts</value>
+    </customvalue>
+    <customvalue scriptid="val_772516_1309901_sb1_857">
+      <isinactive>F</isinactive>
+      <value>Radl</value>
+    </customvalue>
+    <customvalue scriptid="val_772517_1309901_sb1_416">
+      <isinactive>F</isinactive>
+      <value>Ramp</value>
+    </customvalue>
+    <customvalue scriptid="value_26_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Rd</value>
+    </customvalue>
+    <customvalue scriptid="value_27_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Rdg</value>
+    </customvalue>
+    <customvalue scriptid="val_772522_1309901_sb1_316">
+      <isinactive>F</isinactive>
+      <value>Rdgs</value>
+    </customvalue>
+    <customvalue scriptid="val_772524_1309901_sb1_383">
+      <isinactive>F</isinactive>
+      <value>Rds</value>
+    </customvalue>
+    <customvalue scriptid="val_772523_1309901_sb1_890">
+      <isinactive>F</isinactive>
+      <value>Riv</value>
+    </customvalue>
+    <customvalue scriptid="val_772518_1309901_sb1_779">
+      <isinactive>F</isinactive>
+      <value>Rnch</value>
+    </customvalue>
+    <customvalue scriptid="val_772526_1309901_sb1_381">
+      <isinactive>F</isinactive>
+      <value>Row</value>
+    </customvalue>
+    <customvalue scriptid="val_772519_1309901_sb1_550">
+      <isinactive>F</isinactive>
+      <value>Rpd</value>
+    </customvalue>
+    <customvalue scriptid="val_772520_1309901_sb1_821">
+      <isinactive>F</isinactive>
+      <value>Rpds</value>
+    </customvalue>
+    <customvalue scriptid="val_772521_1309901_sb1_983">
+      <isinactive>F</isinactive>
+      <value>Rst</value>
+    </customvalue>
+    <customvalue scriptid="value_28_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Rt</value>
+    </customvalue>
+    <customvalue scriptid="val_772525_1309901_sb1_997">
+      <isinactive>F</isinactive>
+      <value>Rte</value>
+    </customvalue>
+    <customvalue scriptid="val_772527_1309901_sb1_606">
+      <isinactive>F</isinactive>
+      <value>Rue</value>
+    </customvalue>
+    <customvalue scriptid="val_242239_1309901_316">
+      <isinactive>F</isinactive>
+      <value>Run</value>
+    </customvalue>
+    <customvalue scriptid="val_772528_1309901_sb1_772">
+      <isinactive>F</isinactive>
+      <value>Shl</value>
+    </customvalue>
+    <customvalue scriptid="val_772529_1309901_sb1_469">
+      <isinactive>F</isinactive>
+      <value>Shls</value>
+    </customvalue>
+    <customvalue scriptid="val_772530_1309901_sb1_693">
+      <isinactive>F</isinactive>
+      <value>Shr</value>
+    </customvalue>
+    <customvalue scriptid="val_772531_1309901_sb1_880">
+      <isinactive>F</isinactive>
+      <value>Shrs</value>
+    </customvalue>
+    <customvalue scriptid="val_772532_1309901_sb1_669">
+      <isinactive>F</isinactive>
+      <value>Skwy</value>
+    </customvalue>
+    <customvalue scriptid="val_772541_1309901_sb1_274">
+      <isinactive>F</isinactive>
+      <value>Smt</value>
+    </customvalue>
+    <customvalue scriptid="val_772533_1309901_sb1_234">
+      <isinactive>F</isinactive>
+      <value>Spg</value>
+    </customvalue>
+    <customvalue scriptid="val_772534_1309901_sb1_936">
+      <isinactive>F</isinactive>
+      <value>Spgs</value>
+    </customvalue>
+    <customvalue scriptid="val_772535_1309901_sb1_628">
+      <isinactive>F</isinactive>
+      <value>Spur</value>
+    </customvalue>
+    <customvalue scriptid="value_29_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Sq</value>
+    </customvalue>
+    <customvalue scriptid="val_772536_1309901_sb1_781">
+      <isinactive>F</isinactive>
+      <value>Sqs</value>
+    </customvalue>
+    <customvalue scriptid="val_209999_1309901_303">
+      <isinactive>T</isinactive>
+      <value>Square</value>
+    </customvalue>
+    <customvalue scriptid="value_35_1309901_565">
+      <isinactive>F</isinactive>
+      <value>St</value>
+    </customvalue>
+    <customvalue scriptid="val_772537_1309901_sb1_971">
+      <isinactive>F</isinactive>
+      <value>Sta</value>
+    </customvalue>
+    <customvalue scriptid="val_772538_1309901_sb1_810">
+      <isinactive>F</isinactive>
+      <value>Stra</value>
+    </customvalue>
+    <customvalue scriptid="val_772539_1309901_sb1_301">
+      <isinactive>F</isinactive>
+      <value>Strm</value>
+    </customvalue>
+    <customvalue scriptid="val_772540_1309901_sb1_360">
+      <isinactive>F</isinactive>
+      <value>Sts</value>
+    </customvalue>
+    <customvalue scriptid="value_31_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Ter</value>
+    </customvalue>
+    <customvalue scriptid="val_772548_1309901_sb1_652">
+      <isinactive>F</isinactive>
+      <value>Tpke</value>
+    </customvalue>
+    <customvalue scriptid="val_421601_1309901_863">
+      <isinactive>F</isinactive>
+      <value>Tr</value>
+    </customvalue>
+    <customvalue scriptid="val_772544_1309901_sb1_621">
+      <isinactive>F</isinactive>
+      <value>Trak</value>
+    </customvalue>
+    <customvalue scriptid="value_42_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Trc</value>
+    </customvalue>
+    <customvalue scriptid="val_772543_1309901_sb1_326">
+      <isinactive>F</isinactive>
+      <value>Trce</value>
+    </customvalue>
+    <customvalue scriptid="val_772545_1309901_sb1_159">
+      <isinactive>F</isinactive>
+      <value>Trfy</value>
+    </customvalue>
+    <customvalue scriptid="value_38_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Trl</value>
+    </customvalue>
+    <customvalue scriptid="val_772546_1309901_sb1_158">
+      <isinactive>F</isinactive>
+      <value>Trlr</value>
+    </customvalue>
+    <customvalue scriptid="value_41_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Trls</value>
+    </customvalue>
+    <customvalue scriptid="val_772542_1309901_sb1_311">
+      <isinactive>F</isinactive>
+      <value>Trwy</value>
+    </customvalue>
+    <customvalue scriptid="val_772547_1309901_sb1_555">
+      <isinactive>F</isinactive>
+      <value>Tunl</value>
+    </customvalue>
+    <customvalue scriptid="val_772550_1309901_sb1_289">
+      <isinactive>F</isinactive>
+      <value>Un</value>
+    </customvalue>
+    <customvalue scriptid="val_772551_1309901_sb1_291">
+      <isinactive>F</isinactive>
+      <value>Uns</value>
+    </customvalue>
+    <customvalue scriptid="val_772549_1309901_sb1_388">
+      <isinactive>F</isinactive>
+      <value>Upas</value>
+    </customvalue>
+    <customvalue scriptid="val_772553_1309901_sb1_327">
+      <isinactive>F</isinactive>
+      <value>Via</value>
+    </customvalue>
+    <customvalue scriptid="value_39_1309901_565">
+      <isinactive>F</isinactive>
+      <value>View</value>
+    </customvalue>
+    <customvalue scriptid="val_772559_1309901_sb1_814">
+      <isinactive>F</isinactive>
+      <value>Vis</value>
+    </customvalue>
+    <customvalue scriptid="val_772558_1309901_sb1_880">
+      <isinactive>F</isinactive>
+      <value>Vl</value>
+    </customvalue>
+    <customvalue scriptid="val_772556_1309901_sb1_813">
+      <isinactive>F</isinactive>
+      <value>Vlg</value>
+    </customvalue>
+    <customvalue scriptid="val_772557_1309901_sb1_661">
+      <isinactive>F</isinactive>
+      <value>Vlgs</value>
+    </customvalue>
+    <customvalue scriptid="value_32_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Vly</value>
+    </customvalue>
+    <customvalue scriptid="val_772552_1309901_sb1_231">
+      <isinactive>F</isinactive>
+      <value>Vlys</value>
+    </customvalue>
+    <customvalue scriptid="val_772554_1309901_sb1_104">
+      <isinactive>F</isinactive>
+      <value>Vw</value>
+    </customvalue>
+    <customvalue scriptid="val_772555_1309901_sb1_912">
+      <isinactive>F</isinactive>
+      <value>Vws</value>
+    </customvalue>
+    <customvalue scriptid="val_464876_1309901_960">
+      <isinactive>F</isinactive>
+      <value>Walk</value>
+    </customvalue>
+    <customvalue scriptid="val_772560_1309901_sb1_895">
+      <isinactive>F</isinactive>
+      <value>Wall</value>
+    </customvalue>
+    <customvalue scriptid="value_33_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Way</value>
+    </customvalue>
+    <customvalue scriptid="val_772561_1309901_sb1_402">
+      <isinactive>F</isinactive>
+      <value>Ways</value>
+    </customvalue>
+    <customvalue scriptid="val_772562_1309901_sb1_535">
+      <isinactive>F</isinactive>
+      <value>Wl</value>
+    </customvalue>
+    <customvalue scriptid="val_772563_1309901_sb1_265">
+      <isinactive>F</isinactive>
+      <value>Wls</value>
+    </customvalue>
+    <customvalue scriptid="val_258773_1309901_621">
+      <isinactive>F</isinactive>
+      <value>Xing</value>
+    </customvalue>
+    <customvalue scriptid="val_772424_1309901_sb1_144">
+      <isinactive>F</isinactive>
+      <value>Xrd</value>
+    </customvalue>
+    <customvalue scriptid="val_772425_1309901_sb1_216">
+      <isinactive>F</isinactive>
+      <value>Xrds</value>
+    </customvalue>
+  </customvalues>
+</customlist>

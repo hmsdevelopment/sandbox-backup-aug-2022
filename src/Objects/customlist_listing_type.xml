@@ -1,0 +1,32 @@
+<customlist scriptid="customlist_listing_type">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Listing Type</name>
+  <customvalues>
+    <customvalue scriptid="val_174507_1309901_960">
+      <isinactive>F</isinactive>
+      <value>Market Home</value>
+    </customvalue>
+    <customvalue scriptid="val_174508_1309901_617">
+      <isinactive>F</isinactive>
+      <value>Ghost Listing</value>
+    </customvalue>
+    <customvalue scriptid="val_174509_1309901_434">
+      <isinactive>F</isinactive>
+      <value>Comp Listing</value>
+    </customvalue>
+    <customvalue scriptid="val_186247_1309901_275">
+      <isinactive>T</isinactive>
+      <value>Listing for Comp</value>
+    </customvalue>
+    <customvalue scriptid="val_277448_1309901_279">
+      <isinactive>T</isinactive>
+      <value>Listing in Process</value>
+    </customvalue>
+    <customvalue scriptid="val_530739_1309901_sb1_806">
+      <isinactive>F</isinactive>
+      <value>Model Home (Test)</value>
+    </customvalue>
+  </customvalues>
+</customlist>

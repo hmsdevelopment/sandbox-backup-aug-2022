@@ -1,0 +1,24 @@
+<scheduledscript scriptid="customscript_mw_emails_not_attached">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Emails Not Attached</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/Midware/EmailsNotAttached/ScheduledScripts/EmailsNotAttached.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mw_emails_not_attached_d">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>TESTING</status>
+      <title>Emails Not Attached</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2019-12-09</startdate>
+          <starttime>23:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

@@ -1,0 +1,24 @@
+<div style="font-family: Tahoma, Geneva, sans-serif; font-size: 8pt; ">
+<div style="font-size: 8pt; font-family: Tahoma, Geneva, sans-serif; "><img src="${companyInformation.logoUrl}" /></div>
+
+<div style="font-size: 8pt; font-family: Tahoma, Geneva, sans-serif; ">&nbsp;</div>
+<span style="font-family:tahoma,geneva,sans-serif;"><font size="2">Your response is required to continue the process of gathering feedback from&nbsp;</font></span><span style="font-family:tahoma,geneva,sans-serif;"><font size="2">the agent regarding this showing.</font></span>
+
+<div style="font-size: 8pt; font-family: Tahoma, Geneva, sans-serif; ">&nbsp;</div>
+
+<div style="font-size: 8pt; font-family: Tahoma, Geneva, sans-serif; "><span style="font-family:tahoma,geneva,sans-serif;"><span style="font-size: small;">Please click&nbsp;</span><#--FM:BEGIN--><a href="https://1309901.extforms.netsuite.com/app/site/crm/externalcustrecordpage.nl?compid=1309901&formid=2&h=37f505798835a23dff04&custrecord_bsr_confirmation_case=<#if (customRecord.internalId)?has_content>${customRecord.internalId}<#elseif (transaction.internalId)?has_content>${transaction.internalId}<#elseif (case.internalId)?has_content>${case.internalId}<#elseif (entity.internalId)?has_content>${entity.internalId}<#else>${company.internalId}</#if>" target="_self" style="font-family: 'comic sans ms'; font-size: small; ">here</a><#--FM:END--><span style="font-size: small;">&nbsp;</span><span style="font-size: small;">to confirm the details regarding this showing.</span></span></div>
+
+<div style="font-size: 8pt; font-family: Tahoma, Geneva, sans-serif; ">&nbsp;</div>
+<span style="font-family:tahoma,geneva,sans-serif;"><font style="font-family: Tahoma, Geneva, sans-serif; "><font size="1">Property: </font><span class="Apple-tab-span" style="font-size: 8pt; white-space: pre; "> </span><font size="1">${case.CUSTEVENT_PROPERTY_FOR_REN}</font><br />
+<font size="1">Showing Date:</font><span class="Apple-tab-span" style="font-size: 8pt; white-space: pre; "> </span><font size="1">${case.CUSTEVENT_SHOWING_DATE_SCHEDULED}</font><br />
+<font size="1">Showing Time:</font><span class="Apple-tab-span" style="font-size: 8pt; white-space: pre; "> </span><font size="1">${case.CUSTEVENT_SHOWING_TIME_SCHEDULED}</font><br />
+<br />
+<font size="1">Agent:</font><span class="Apple-tab-span" style="font-size: 8pt; white-space: pre; "> </span><font size="1">${case.CUSTEVENT_AGENT_FOR_REN}</font><br />
+<font size="1">Agent Phone:</font><span class="Apple-tab-span" style="font-size: 8pt; white-space: pre; "> </span><font size="1">${case.CUSTEVENT_AGENT_MOBILE_NUMBER}</font><br />
+<font size="1">Agent Email:</font><span class="Apple-tab-span" style="font-size: 8pt; white-space: pre; "> </span><font size="1">${case.CUSTEVENT_CALLER_EMAIL}</font></font></span></div>
+
+<div style="font-family: Tahoma, Geneva, sans-serif; font-size: 8pt; ">&nbsp;</div>
+<span style="font-family:tahoma,geneva,sans-serif;"><font style="font-size: 11px; "><span style="line-height: 12px; ">Regards,</span></font><br style="font-size: 11px; " />
+<br style="font-size: 11px; " />
+<font style="font-size: 11px; "><span style="line-height: 12px; ">HMS Marketing Services</span></font><br style="font-size: 11px; " />
+<font style="font-size: 11px; ">Home of Kaleidoscope Data Platform</font></span>

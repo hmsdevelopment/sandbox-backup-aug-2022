@@ -1,0 +1,28 @@
+<customlist scriptid="customlist_fine_list">
+  <description>List of fine types to be used for indicating what type of fine was incurred.</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Fine Types</name>
+  <customvalues>
+    <customvalue scriptid="val_768758_1309901_sb1_503">
+      <isinactive>F</isinactive>
+      <value>Late reported Closing date </value>
+    </customvalue>
+    <customvalue scriptid="val_768759_1309901_sb1_923">
+      <isinactive>F</isinactive>
+      <value>Late reported Pending Date </value>
+    </customvalue>
+    <customvalue scriptid="val_768760_1309901_sb1_618">
+      <isinactive>F</isinactive>
+      <value>Missing Listing Agreement </value>
+    </customvalue>
+    <customvalue scriptid="val_768761_1309901_sb1_687">
+      <isinactive>F</isinactive>
+      <value>Missing Price Change or Extension Amendment  </value>
+    </customvalue>
+    <customvalue scriptid="val_768762_1309901_sb1_699">
+      <isinactive>F</isinactive>
+      <value>Other: (text to explain) </value>
+    </customvalue>
+  </customvalues>
+</customlist>

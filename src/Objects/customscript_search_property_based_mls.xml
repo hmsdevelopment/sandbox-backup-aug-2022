@@ -1,0 +1,26 @@
+<suitelet scriptid="customscript_search_property_based_mls">
+  <defaultfunction>SystemNotes</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Search Property Based On MLS</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/hms_mls_location_system_notes_sl.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_search_property_based_mls">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>Search Property Based On MLS</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

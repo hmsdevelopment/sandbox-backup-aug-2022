@@ -1,0 +1,12 @@
+<emailtemplate scriptid="custemailtmpl_mw_agent_congratulations_sale_with_from">
+  <addcompanyaddress>T</addcompanyaddress>
+  <addunsubscribelink>T</addunsubscribelink>
+  <description></description>
+  <isinactive>F</isinactive>
+  <isprivate>F</isprivate>
+  <mediaitem></mediaitem>
+  <name>Agent Email Congratulations for Recent Sale With form</name>
+  <recordtype>CUSTOM</recordtype>
+  <subject>Congratulations for your Recent Sale of ${customrecord.custrecord_house_number} ${customrecord.custrecord31}, in ${customrecord.custrecordcustrecordsubdname.custrecord_subdivision_id}</subject>
+  <usesmedia>F</usesmedia>
+</emailtemplate>

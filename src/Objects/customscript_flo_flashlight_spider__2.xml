@@ -1,0 +1,30 @@
+<portlet scriptid="customscript_flo_flashlight_spider__2">
+  <defaultfunction>showLastSpider</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint Spider Status</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <portlettype>HTML</portlettype>
+  <scriptfile>[/SuiteBundles/Bundle 297487/StrongpointLightWelcomePortlet.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_flo_flashlight_spider_stat">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>F</allroles>
+      <audslctrole>ADMINISTRATOR|[scriptid=customrole_flo_developer_role]|[scriptid=customrole_flo_flashlight]</audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <runasrole></runasrole>
+      <status>RELEASED</status>
+      <title>Strongpoint Spider Status</title>
+    </scriptdeployment>
+  </scriptdeployments>
+  <libraries>
+    <library>
+      <scriptfile>[/SuiteBundles/Bundle 297487/FLOValidateLicense.js]</scriptfile>
+    </library>
+  </libraries>
+</portlet>

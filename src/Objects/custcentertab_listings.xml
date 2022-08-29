@@ -1,0 +1,41 @@
+<centertab scriptid="custcentertab_listings">
+  <allcustomers>F</allcustomers>
+  <allemployees>T</allemployees>
+  <allpartners>F</allpartners>
+  <allroles>T</allroles>
+  <audslctrole></audslctrole>
+  <center>[scriptid=custcenter3]</center>
+  <label>Listings</label>
+  <portlets>
+    <portlet scriptid="portlet_545_1309901_sb1_840">
+      <isportletshown>T</isportletshown>
+      <portlet>ANALYTICS</portlet>
+      <portletcolumn>1</portletcolumn>
+    </portlet>
+    <portlet scriptid="portlet_546_1309901_sb1_988">
+      <isportletshown>T</isportletshown>
+      <portlet>DASHBOARD_APP</portlet>
+      <portletcolumn>1</portletcolumn>
+    </portlet>
+    <portlet scriptid="portlet_547_1309901_sb1_253">
+      <isportletshown>T</isportletshown>
+      <portlet>LIST</portlet>
+      <portletcolumn>1</portletcolumn>
+    </portlet>
+    <portlet scriptid="portlet_548_1309901_sb1_598">
+      <isportletshown>T</isportletshown>
+      <portlet>LASTLOGIN</portlet>
+      <portletcolumn>1</portletcolumn>
+    </portlet>
+    <portlet scriptid="portlet_549_1309901_sb1_768">
+      <isportletshown>T</isportletshown>
+      <portlet>SYSTEMSTATUS</portlet>
+      <portletcolumn>1</portletcolumn>
+    </portlet>
+    <portlet scriptid="portlet_550_1309901_sb1_368">
+      <isportletshown>T</isportletshown>
+      <portlet>TIMELINE</portlet>
+      <portletcolumn>1</portletcolumn>
+    </portlet>
+  </portlets>
+</centertab>

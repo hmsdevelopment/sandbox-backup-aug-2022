@@ -1,0 +1,54 @@
+<savedcsvimport scriptid="custimport_36_1309901_297">
+  <charencoding>windows-1252</charencoding>
+  <columndelimiter>COMMA</columndelimiter>
+  <customrecord>[scriptid=customrecord_subdivision]</customrecord>
+  <datahandling>UPDATE</datahandling>
+  <decimaldelimiter>PERIOD</decimaldelimiter>
+  <entryform>[scriptid=custform_10_1309901_378]</entryform>
+  <ignorereadonly>T</ignorereadonly>
+  <importname>Remove Calendar Type</importname>
+  <logsystemnotescustfields>T</logsystemnotescustfields>
+  <multiselectdelimiter>^</multiselectdelimiter>
+  <overwritemissingfields>T</overwritemissingfields>
+  <overwritesublists>F</overwritesublists>
+  <recordtype>CUSTOMRECORD</recordtype>
+  <runserversuitescript>T</runserversuitescript>
+  <usemultithread>F</usemultithread>
+  <validatemandatorycustfields>T</validatemandatorycustfields>
+  <audience>
+    <allemployees>F</allemployees>
+    <allpartners>F</allpartners>
+    <allroles>F</allroles>
+    <globaledit>F</globaledit>
+    <ispublic>F</ispublic>
+    <roles></roles>
+  </audience>
+  <filemappings>
+    <filemapping>
+      <file>CUSTOMRECORD</file>
+    </filemapping>
+  </filemappings>
+  <recordmappings>
+    <recordmapping>
+      <record>CUSTOMRECORD</record>
+      <fieldmappings>
+        <fieldmapping>
+          <field>[scriptid=customrecord_subdivision.custrecord_sub_bsr_team_type]</field>
+          <columnreference>
+            <column>BSR Team Type</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>ID</field>
+          <columnreference>
+            <column>Internal ID</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+      </fieldmappings>
+    </recordmapping>
+  </recordmappings>
+</savedcsvimport>

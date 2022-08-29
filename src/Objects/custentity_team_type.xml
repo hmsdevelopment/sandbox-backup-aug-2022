@@ -1,0 +1,57 @@
+<entitycustomfield scriptid="custentity_team_type">
+  <accesslevel>2</accesslevel>
+  <appliestocontact>F</appliestocontact>
+  <appliestocustomer>F</appliestocustomer>
+  <appliestoemployee>F</appliestoemployee>
+  <appliestogroup>F</appliestogroup>
+  <appliestoothername>F</appliestoothername>
+  <appliestopartner>T</appliestopartner>
+  <appliestopricelist>F</appliestopricelist>
+  <appliestoproject>F</appliestoproject>
+  <appliestoprojecttemplate>F</appliestoprojecttemplate>
+  <appliestostatement>F</appliestostatement>
+  <appliestowebsite>F</appliestowebsite>
+  <applyformatting>F</applyformatting>
+  <availableexternally>F</availableexternally>
+  <availabletosso>F</availabletosso>
+  <checkspelling>F</checkspelling>
+  <defaultchecked>F</defaultchecked>
+  <defaultselection></defaultselection>
+  <defaultvalue></defaultvalue>
+  <description></description>
+  <displayheight></displayheight>
+  <displaytype>NORMAL</displaytype>
+  <displaywidth></displaywidth>
+  <dynamicdefault></dynamicdefault>
+  <encryptatrest>F</encryptatrest>
+  <fieldtype>SELECT</fieldtype>
+  <globalsearch>F</globalsearch>
+  <help>Calendar -- This team is driven by a hard copy calendar.  Individual community responsibilities vary by day or week.  The calendar must be uploaded into the team calendar field.
+
+Hierarchical -- Primary responsibility for fielding inquiries resides with a single sales representative.  Other team members serve solely as back up in case the primary sales person is unreachable.
+
+Revenue Sharing -- Team members share equally in the sale.  It doesn&apos;t matter which team member fields a showing inquiry.
+
+Non-revenue sharing -- RR -- Team members share the location but not in the revenue.  Team members take turns fielding showing inquiries.</help>
+  <isformula>F</isformula>
+  <ismandatory>F</ismandatory>
+  <isparent>F</isparent>
+  <label>Team Type</label>
+  <linktext></linktext>
+  <maxlength></maxlength>
+  <maxvalue></maxvalue>
+  <minvalue></minvalue>
+  <onparentdelete>NO_ACTION</onparentdelete>
+  <parentsubtab></parentsubtab>
+  <searchcomparefield></searchcomparefield>
+  <searchdefault></searchdefault>
+  <searchlevel>2</searchlevel>
+  <selectrecordtype>[scriptid=customlist_team_type]</selectrecordtype>
+  <showhierarchy>F</showhierarchy>
+  <showinlist>F</showinlist>
+  <sourcefilterby></sourcefilterby>
+  <sourcefrom></sourcefrom>
+  <sourcelist></sourcelist>
+  <storevalue>T</storevalue>
+  <subtab>ENTITYMAIN</subtab>
+</entitycustomfield>

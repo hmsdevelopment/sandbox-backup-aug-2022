@@ -1,0 +1,26 @@
+<suitelet scriptid="customscript_flo_displaynoaccess">
+  <defaultfunction>displayErrorMessage</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint Lite Display No Access</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteBundles/Bundle 297487/FLOStrongpointLiteRecordAccess.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_flo_displaynoaccess">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>AUDIT</loglevel>
+      <runasrole></runasrole>
+      <status>RELEASED</status>
+      <title>Strongpoint Lite Display No Access</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

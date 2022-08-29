@@ -1,0 +1,24 @@
+<scheduledscript scriptid="customscript_hms_bcu_ss">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Request Construction Status Update</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/Projects/hms-client-outreach/builder-construction-update/hms_bcu_ss.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_hms_bcu_ss">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Request Construction Status Update</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2019-07-08</startdate>
+          <starttime>22:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

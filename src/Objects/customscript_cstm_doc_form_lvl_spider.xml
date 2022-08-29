@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_cstm_doc_form_lvl_spider">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint Cust Docu Form Level Spider</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteBundles/Bundle 297487/FLOCustomDocumentFormLevelSpider.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_cstm_doc_form_lvl_spider">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>AUDIT</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>Strongpoint Custom Document Form Level Spider</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

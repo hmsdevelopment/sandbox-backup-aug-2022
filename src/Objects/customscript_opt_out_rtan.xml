@@ -1,0 +1,26 @@
+<suitelet scriptid="customscript_opt_out_rtan">
+  <defaultfunction>optOutRTAN</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>OptOutRTAN</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/optOutRTAN.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_opt_out_rtan">
+      <allemployees>T</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>ERROR</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>OptOutRTAN</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

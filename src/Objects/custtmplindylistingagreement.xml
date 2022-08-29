@@ -1,0 +1,10 @@
+<advancedpdftemplate scriptid="custtmplindylistingagreement">
+  <description></description>
+  <displaysourcecode>F</displaysourcecode>
+  <isinactive>F</isinactive>
+  <preferred>F</preferred>
+  <printtype>SEARCH</printtype>
+  <savedsearch>[scriptid=customsearch224]</savedsearch>
+  <title>Indy Listing Agreement</title>
+  <trantype>CUSTINVC</trantype>
+</advancedpdftemplate>

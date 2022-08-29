@@ -1,0 +1,18 @@
+<bundleinstallationscript scriptid="customscript_lb_bundle_install">
+  <description>Installation script to run on Limebox bundle installs</description>
+  <isinactive>F</isinactive>
+  <name>LB_LimeboxBundleInstall</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteBundles/Bundle 370823/LB_LimeboxBundleInstall.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_lb_bundle_install">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <runasrole></runasrole>
+      <status>RELEASED</status>
+      <title>LB_LimeboxBundleInstall</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</bundleinstallationscript>

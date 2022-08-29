@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_mw_user_login_router_copy">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>MW User Login Router Copy</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Midware/BuilderPortal copy/SuiteletScripts/UserLogin/Routers/MWUserLoginRouterCopy.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mw_user_login_router_copy_d">
+      <allemployees>T</allemployees>
+      <allpartners>T</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>ERROR</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>MW User Login Router Copy</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

@@ -1,0 +1,26 @@
+<suitelet scriptid="customscript_hms_send_sales_email_sl">
+  <defaultfunction>sendEmail</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>HMS Send Sales Email SL</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/HMS_Send_Sales_Notification_Builder.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_hms_send_sales_email_sl">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>F</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>HMS Send Sales Email SL</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

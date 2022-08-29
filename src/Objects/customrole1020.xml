@@ -1,0 +1,17 @@
+<role scriptid="customrole1020">
+  <centertype>BASIC</centertype>
+  <coreadminpermission>F</coreadminpermission>
+  <employeerestriction>NONE</employeerestriction>
+  <employeeselectionunrestricted>F</employeeselectionunrestricted>
+  <isinactive>F</isinactive>
+  <ispartnerrole>T</ispartnerrole>
+  <issalesrole>F</issalesrole>
+  <issinglesignononly>F</issinglesignononly>
+  <issupportrole>F</issupportrole>
+  <iswebserviceonlyrole>F</iswebserviceonlyrole>
+  <name>Builder Partner| Executive   </name>
+  <restrictbydevice>F</restrictbydevice>
+  <restricttimeandexpenses>F</restricttimeandexpenses>
+  <tfaduration>0</tfaduration>
+  <tfarequired>OFF</tfarequired>
+</role>

@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_mw_builder_portal_login">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Builder Portal User Login</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Midware/BuilderPortal/SuiteletScripts/UserLogin/Routers/MWUserLoginRouter.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mw_builder_portal_login_d">
+      <allemployees>T</allemployees>
+      <allpartners>T</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>Builder Portal User Login</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

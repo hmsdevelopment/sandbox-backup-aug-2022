@@ -1,0 +1,624 @@
+<customlist scriptid="customlist47">
+  <description>Pike</description>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <name>FSchool District</name>
+  <customvalues>
+    <customvalue scriptid="val_193585_1309901_632">
+      <isinactive>F</isinactive>
+      <value>Anchorage Ind School District</value>
+    </customvalue>
+    <customvalue scriptid="value_1_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Avon</value>
+    </customvalue>
+    <customvalue scriptid="value_2_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Avon Community</value>
+    </customvalue>
+    <customvalue scriptid="val_193586_1309901_159">
+      <isinactive>F</isinactive>
+      <value>Bardstown Ind School District</value>
+    </customvalue>
+    <customvalue scriptid="value_3_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Batavia</value>
+    </customvalue>
+    <customvalue scriptid="value_4_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Batesville</value>
+    </customvalue>
+    <customvalue scriptid="val_512794_1309901_311">
+      <isinactive>F</isinactive>
+      <value>Beavercreek City School District</value>
+    </customvalue>
+    <customvalue scriptid="val_268724_1309901_912">
+      <isinactive>F</isinactive>
+      <value>Bethel LSD</value>
+    </customvalue>
+    <customvalue scriptid="value_5_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Big Walnut</value>
+    </customvalue>
+    <customvalue scriptid="value_6_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Bloom Carroll LSD</value>
+    </customvalue>
+    <customvalue scriptid="value_7_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Bloom-Carroll</value>
+    </customvalue>
+    <customvalue scriptid="value_8_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Boone County</value>
+    </customvalue>
+    <customvalue scriptid="val_510004_1309901_271">
+      <isinactive>F</isinactive>
+      <value>Brookville Local Schools</value>
+    </customvalue>
+    <customvalue scriptid="value_9_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Brownsburg</value>
+    </customvalue>
+    <customvalue scriptid="value_10_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Buckeye Valley</value>
+    </customvalue>
+    <customvalue scriptid="val_193587_1309901_452">
+      <isinactive>F</isinactive>
+      <value>Bullitt County School District</value>
+    </customvalue>
+    <customvalue scriptid="value_11_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Campbell County</value>
+    </customvalue>
+    <customvalue scriptid="value_12_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Canal Winchester</value>
+    </customvalue>
+    <customvalue scriptid="value_13_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Carmel</value>
+    </customvalue>
+    <customvalue scriptid="value_14_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Carmel/Clay</value>
+    </customvalue>
+    <customvalue scriptid="value_15_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Center Grove</value>
+    </customvalue>
+    <customvalue scriptid="val_213414_1309901_738">
+      <isinactive>F</isinactive>
+      <value>Centerville City</value>
+    </customvalue>
+    <customvalue scriptid="value_16_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Cincinnati City</value>
+    </customvalue>
+    <customvalue scriptid="value_17_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Cincinnati Public</value>
+    </customvalue>
+    <customvalue scriptid="val_439155_1309901_865">
+      <isinactive>F</isinactive>
+      <value>Clark County</value>
+    </customvalue>
+    <customvalue scriptid="value_18_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Clark-Pleasant</value>
+    </customvalue>
+    <customvalue scriptid="value_19_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Clermont Northeastern</value>
+    </customvalue>
+    <customvalue scriptid="value_111_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Colerain</value>
+    </customvalue>
+    <customvalue scriptid="value_20_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Columbus</value>
+    </customvalue>
+    <customvalue scriptid="value_21_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Columbus City</value>
+    </customvalue>
+    <customvalue scriptid="value_22_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Decatur Twp</value>
+    </customvalue>
+    <customvalue scriptid="val_213755_1309901_676">
+      <isinactive>F</isinactive>
+      <value>Dekalb Central United</value>
+    </customvalue>
+    <customvalue scriptid="value_23_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Delaware</value>
+    </customvalue>
+    <customvalue scriptid="value_25_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Dublin</value>
+    </customvalue>
+    <customvalue scriptid="value_26_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Dublin City</value>
+    </customvalue>
+    <customvalue scriptid="val_364454_1309901_143">
+      <isinactive>F</isinactive>
+      <value>East Allen County</value>
+    </customvalue>
+    <customvalue scriptid="value_27_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Edgewood</value>
+    </customvalue>
+    <customvalue scriptid="val_193588_1309901_927">
+      <isinactive>F</isinactive>
+      <value>Elizabethtown Independent School District</value>
+    </customvalue>
+    <customvalue scriptid="val_271761_1309901_870">
+      <isinactive>F</isinactive>
+      <value>Fairborn City SD</value>
+    </customvalue>
+    <customvalue scriptid="value_28_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Fairfield</value>
+    </customvalue>
+    <customvalue scriptid="value_29_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Fairfield City</value>
+    </customvalue>
+    <customvalue scriptid="value_98_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Forest Hills</value>
+    </customvalue>
+    <customvalue scriptid="val_517413_1309901_685">
+      <isinactive>F</isinactive>
+      <value>Fox C-6</value>
+    </customvalue>
+    <customvalue scriptid="value_30_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Franklin</value>
+    </customvalue>
+    <customvalue scriptid="value_40_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Franklin Township</value>
+    </customvalue>
+    <customvalue scriptid="value_31_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Franklin Twp</value>
+    </customvalue>
+    <customvalue scriptid="value_41_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Franklin Twp.</value>
+    </customvalue>
+    <customvalue scriptid="val_213750_1309901_991">
+      <isinactive>F</isinactive>
+      <value>Ft Wayne Community</value>
+    </customvalue>
+    <customvalue scriptid="value_32_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Gahanna Jefferson</value>
+    </customvalue>
+    <customvalue scriptid="value_92_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Gahanna-Jefferson</value>
+    </customvalue>
+    <customvalue scriptid="value_107_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Goshen Local SD</value>
+    </customvalue>
+    <customvalue scriptid="val_192475_1309901_431">
+      <isinactive>F</isinactive>
+      <value>Granville</value>
+    </customvalue>
+    <customvalue scriptid="val_439156_1309901_744">
+      <isinactive>F</isinactive>
+      <value>Greater Clark County</value>
+    </customvalue>
+    <customvalue scriptid="value_33_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Greenfield</value>
+    </customvalue>
+    <customvalue scriptid="value_34_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Greenfield-Central Comm.</value>
+    </customvalue>
+    <customvalue scriptid="value_99_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Greenwood Community</value>
+    </customvalue>
+    <customvalue scriptid="value_35_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Groveport</value>
+    </customvalue>
+    <customvalue scriptid="value_36_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Groveport Madison</value>
+    </customvalue>
+    <customvalue scriptid="value_42_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Groveport-Madison</value>
+    </customvalue>
+    <customvalue scriptid="value_37_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Hamilton</value>
+    </customvalue>
+    <customvalue scriptid="value_38_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Hamilton City</value>
+    </customvalue>
+    <customvalue scriptid="value_43_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Hamilton Southeasterm</value>
+    </customvalue>
+    <customvalue scriptid="value_39_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Hamilton Southeastern</value>
+    </customvalue>
+    <customvalue scriptid="value_44_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Hamilton-Southeastern</value>
+    </customvalue>
+    <customvalue scriptid="val_466692_1309901_592">
+      <isinactive>F</isinactive>
+      <value>Hanover Community</value>
+    </customvalue>
+    <customvalue scriptid="val_193589_1309901_805">
+      <isinactive>F</isinactive>
+      <value>Hardin County School District</value>
+    </customvalue>
+    <customvalue scriptid="value_45_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Hilliard</value>
+    </customvalue>
+    <customvalue scriptid="value_101_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Huber Heights City</value>
+    </customvalue>
+    <customvalue scriptid="val_193590_1309901_277">
+      <isinactive>F</isinactive>
+      <value>Jefferson County School District</value>
+    </customvalue>
+    <customvalue scriptid="value_46_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Johnstown</value>
+    </customvalue>
+    <customvalue scriptid="value_47_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Kenton County</value>
+    </customvalue>
+    <customvalue scriptid="val_193591_1309901_425">
+      <isinactive>F</isinactive>
+      <value>Kentucky School District</value>
+    </customvalue>
+    <customvalue scriptid="val_193592_1309901_606">
+      <isinactive>F</isinactive>
+      <value>Kentucky School For The Blind</value>
+    </customvalue>
+    <customvalue scriptid="value_48_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Kings</value>
+    </customvalue>
+    <customvalue scriptid="value_49_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Kings Local</value>
+    </customvalue>
+    <customvalue scriptid="value_50_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Lakota</value>
+    </customvalue>
+    <customvalue scriptid="value_51_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Lancaster</value>
+    </customvalue>
+    <customvalue scriptid="value_52_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Lawrence Twp</value>
+    </customvalue>
+    <customvalue scriptid="value_94_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Lawrenceburg</value>
+    </customvalue>
+    <customvalue scriptid="value_53_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Lebanon</value>
+    </customvalue>
+    <customvalue scriptid="value_54_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Lebanon City</value>
+    </customvalue>
+    <customvalue scriptid="value_55_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Licking Heights</value>
+    </customvalue>
+    <customvalue scriptid="value_56_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Little Miami</value>
+    </customvalue>
+    <customvalue scriptid="value_57_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Little Miami Local</value>
+    </customvalue>
+    <customvalue scriptid="value_58_1309901_565">
+      <isinactive>F</isinactive>
+      <value>London</value>
+    </customvalue>
+    <customvalue scriptid="value_59_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Loveland City Schools</value>
+    </customvalue>
+    <customvalue scriptid="value_105_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Madeira City SD</value>
+    </customvalue>
+    <customvalue scriptid="value_60_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Madison Plains</value>
+    </customvalue>
+    <customvalue scriptid="value_61_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Marysville</value>
+    </customvalue>
+    <customvalue scriptid="value_62_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Mason City</value>
+    </customvalue>
+    <customvalue scriptid="val_193593_1309901_707">
+      <isinactive>F</isinactive>
+      <value>Meade County School District</value>
+    </customvalue>
+    <customvalue scriptid="val_465878_1309901_608">
+      <isinactive>F</isinactive>
+      <value>Miamisburg</value>
+    </customvalue>
+    <customvalue scriptid="value_63_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Milford</value>
+    </customvalue>
+    <customvalue scriptid="value_100_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Milford Exempted Village</value>
+    </customvalue>
+    <customvalue scriptid="value_64_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Milford Exempted Village</value>
+    </customvalue>
+    <customvalue scriptid="value_65_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Monroe</value>
+    </customvalue>
+    <customvalue scriptid="value_66_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Monroe Local</value>
+    </customvalue>
+    <customvalue scriptid="value_67_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Monroe-Gregg</value>
+    </customvalue>
+    <customvalue scriptid="val_257453_1309901_481">
+      <isinactive>F</isinactive>
+      <value>Mooresville Consolidated</value>
+    </customvalue>
+    <customvalue scriptid="value_96_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Mt Vernon Community</value>
+    </customvalue>
+    <customvalue scriptid="value_68_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Mt. Vernon</value>
+    </customvalue>
+    <customvalue scriptid="val_193594_1309901_838">
+      <isinactive>F</isinactive>
+      <value>Nelson County School District</value>
+    </customvalue>
+    <customvalue scriptid="value_93_1309901_565">
+      <isinactive>F</isinactive>
+      <value>New Richmond</value>
+    </customvalue>
+    <customvalue scriptid="value_69_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Noblesville</value>
+    </customvalue>
+    <customvalue scriptid="val_485412_1309901_555">
+      <isinactive>F</isinactive>
+      <value>Northridge LSD</value>
+    </customvalue>
+    <customvalue scriptid="value_70_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Northwest</value>
+    </customvalue>
+    <customvalue scriptid="val_243851_1309901_205">
+      <isinactive>F</isinactive>
+      <value>Northwest Allen County</value>
+    </customvalue>
+    <customvalue scriptid="value_71_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Northwest Local</value>
+    </customvalue>
+    <customvalue scriptid="value_72_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Oak Hills</value>
+    </customvalue>
+    <customvalue scriptid="val_193595_1309901_561">
+      <isinactive>F</isinactive>
+      <value>Oldham County School District</value>
+    </customvalue>
+    <customvalue scriptid="value_24_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Olentangy</value>
+    </customvalue>
+    <customvalue scriptid="value_110_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Perry Township</value>
+    </customvalue>
+    <customvalue scriptid="value_73_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Pickerington</value>
+    </customvalue>
+    <customvalue scriptid="value_74_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Pickerington City</value>
+    </customvalue>
+    <customvalue scriptid="val_192480_1309901_251">
+      <isinactive>F</isinactive>
+      <value>Pike Twp</value>
+    </customvalue>
+    <customvalue scriptid="value_103_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Plainfield</value>
+    </customvalue>
+    <customvalue scriptid="value_104_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Plains Local</value>
+    </customvalue>
+    <customvalue scriptid="val_180417_1309901_960">
+      <isinactive>F</isinactive>
+      <value>Princeton City</value>
+    </customvalue>
+    <customvalue scriptid="value_75_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Reynoldsburg</value>
+    </customvalue>
+    <customvalue scriptid="val_270947_1309901_491">
+      <isinactive>F</isinactive>
+      <value>Ross Local</value>
+    </customvalue>
+    <customvalue scriptid="val_193596_1309901_871">
+      <isinactive>F</isinactive>
+      <value>Shelby County School District</value>
+    </customvalue>
+    <customvalue scriptid="val_208136_1309901_948">
+      <isinactive>F</isinactive>
+      <value>Shelbyville Central</value>
+    </customvalue>
+    <customvalue scriptid="value_84_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Simon Kenton</value>
+    </customvalue>
+    <customvalue scriptid="val_342091_1309901_252">
+      <isinactive>F</isinactive>
+      <value>South Madison Community</value>
+    </customvalue>
+    <customvalue scriptid="val_197266_1309901_474">
+      <isinactive>F</isinactive>
+      <value>South-Western City Schools</value>
+    </customvalue>
+    <customvalue scriptid="value_97_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Southeastern Hamilton</value>
+    </customvalue>
+    <customvalue scriptid="value_109_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Southern Hancock</value>
+    </customvalue>
+    <customvalue scriptid="value_76_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Southwest</value>
+    </customvalue>
+    <customvalue scriptid="val_213757_1309901_260">
+      <isinactive>F</isinactive>
+      <value>Southwest Allen County </value>
+    </customvalue>
+    <customvalue scriptid="value_77_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Southwest Licking</value>
+    </customvalue>
+    <customvalue scriptid="value_78_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Southwest Local</value>
+    </customvalue>
+    <customvalue scriptid="value_79_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Southwestern</value>
+    </customvalue>
+    <customvalue scriptid="val_193597_1309901_679">
+      <isinactive>F</isinactive>
+      <value>Spencer County School District</value>
+    </customvalue>
+    <customvalue scriptid="value_102_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Springboro</value>
+    </customvalue>
+    <customvalue scriptid="val_271685_1309901_615">
+      <isinactive>F</isinactive>
+      <value>Sugarcreek LSD</value>
+    </customvalue>
+    <customvalue scriptid="value_80_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Sunman-Dearborn</value>
+    </customvalue>
+    <customvalue scriptid="value_106_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Sycamore Community City SD</value>
+    </customvalue>
+    <customvalue scriptid="value_81_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Teays Valley</value>
+    </customvalue>
+    <customvalue scriptid="value_82_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Three Rivers</value>
+    </customvalue>
+    <customvalue scriptid="val_268745_1309901_955">
+      <isinactive>F</isinactive>
+      <value>Trotwood-Madison City</value>
+    </customvalue>
+    <customvalue scriptid="value_83_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Walton Verona</value>
+    </customvalue>
+    <customvalue scriptid="value_85_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Walton-Verona</value>
+    </customvalue>
+    <customvalue scriptid="value_86_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Warren Central</value>
+    </customvalue>
+    <customvalue scriptid="value_87_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Warren Twp</value>
+    </customvalue>
+    <customvalue scriptid="val_273010_1309901_396">
+      <isinactive>F</isinactive>
+      <value>Washington Township</value>
+    </customvalue>
+    <customvalue scriptid="value_108_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Wayne Township</value>
+    </customvalue>
+    <customvalue scriptid="val_517388_1309901_549">
+      <isinactive>F</isinactive>
+      <value>Wentzville</value>
+    </customvalue>
+    <customvalue scriptid="value_88_1309901_565">
+      <isinactive>F</isinactive>
+      <value>West Clermont</value>
+    </customvalue>
+    <customvalue scriptid="val_193598_1309901_732">
+      <isinactive>F</isinactive>
+      <value>West Point Independent School District</value>
+    </customvalue>
+    <customvalue scriptid="value_89_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Westerville</value>
+    </customvalue>
+    <customvalue scriptid="value_90_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Westfield-Washington</value>
+    </customvalue>
+    <customvalue scriptid="value_91_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Worthington CSD</value>
+    </customvalue>
+    <customvalue scriptid="value_112_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Wyoming City SD</value>
+    </customvalue>
+    <customvalue scriptid="value_95_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Zionsville Community</value>
+    </customvalue>
+  </customvalues>
+</customlist>

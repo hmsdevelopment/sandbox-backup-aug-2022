@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_mw_react_app_demo">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>React App Demo</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/SuiteScripts/Midware/ReactDemoApp/ReactSuiteletRouter.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mw_react_app_demo_d">
+      <allemployees>T</allemployees>
+      <allpartners>T</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>AUDIT</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>React App Demo</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

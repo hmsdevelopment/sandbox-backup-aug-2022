@@ -1,0 +1,28 @@
+<customlist scriptid="customlist_mw_import_property_status">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Import Property Process Status</name>
+  <customvalues>
+    <customvalue scriptid="val_297923_1309901_sb1_746">
+      <isinactive>F</isinactive>
+      <value>Pending</value>
+    </customvalue>
+    <customvalue scriptid="val_297924_1309901_sb1_717">
+      <isinactive>F</isinactive>
+      <value>Processing</value>
+    </customvalue>
+    <customvalue scriptid="val_297925_1309901_sb1_638">
+      <isinactive>F</isinactive>
+      <value>Failed</value>
+    </customvalue>
+    <customvalue scriptid="val_297940_1309901_sb1_134">
+      <isinactive>F</isinactive>
+      <value>Completed</value>
+    </customvalue>
+    <customvalue scriptid="val_298228_1309901_sb1_806">
+      <isinactive>F</isinactive>
+      <value>Ignored</value>
+    </customvalue>
+  </customvalues>
+</customlist>

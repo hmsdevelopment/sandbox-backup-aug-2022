@@ -1,0 +1,31 @@
+<div style="text-align:center"><span style="font-size:8pt"><span style="font-family:tahoma,geneva,sans-serif"><font size="4"><b>HMS Real Estate</b></font></span></span></div>
+
+<div style="text-align:center"><span style="font-size:8pt"><span style="font-family:tahoma,geneva,sans-serif"><font size="4">Request Sales of a Market Home</font></span></span><br />
+&nbsp;</div>
+&nbsp;
+
+<div style="text-align: center;"><span style="font-size:8pt"><span style="font-family:tahoma,geneva,sans-serif"><font size="2"><#if customrecord.custrecord_mw_scheduled_date?has_content> You asked us to remind you about this sale <#else> <#if customrecord.custrecord_created?last_index_of(":") gt -1> ${customrecord.custrecord_created?keep_after_last(":")} <#else> ${customrecord.custrecord_created} </#if> requested you to complete this sale data </#if> </font> </span> </span></div>
+&nbsp;
+
+<div style="text-align:center"><span style="font-family:tahoma,geneva,sans-serif"><font size="2">Address: ${customRecord.CUSTRECORD_HOUSE_NUMBER}&nbsp;${customRecord.CUSTRECORD_STREET_TEXT}</font></span></div>
+
+<div style="text-align:center"><span style="font-family:tahoma,geneva,sans-serif"><font size="2">Lot Number:&nbsp;${customRecord.CUSTRECORD_LOT_NUMBER}</font></span></div>
+
+<div style="text-align:center"><span style="font-family:tahoma,geneva,sans-serif"><font size="2">Subdivision: ${customRecord.CUSTRECORD_SUBDIVISION_TEXT}</font></span></div>
+
+<div style="text-align:center">&nbsp;</div>
+
+<div style="text-align:center"><span style="font-family:tahoma,geneva,sans-serif"><font size="2">Please click on the link below to submit the requested information to HMS Real Estate</font></span></div>
+
+<div style="text-align:center">&nbsp;</div>
+
+<div style="text-align:center">&nbsp;</div>
+
+<div style="text-align:center"><span style="font-size:8pt"><span style="font-family:tahoma,geneva,sans-serif"><#--FM:BEGIN--><a href="%formURL%" target="_self">Click here to complete the form</a><#--FM:END--></span></span></div>
+
+<div style="text-align:center"><br />
+<span style="font-size:8pt"><span style="font-family:Tahoma, Geneva, sans-serif"><span style="font-family:tahoma,geneva,sans-serif">Thanks,</span></span></span></div>
+
+<div style="text-align:center">&nbsp;</div>
+
+<div style="text-align:center"><span style="font-size:8pt"><span style="font-family:Tahoma, Geneva, sans-serif"><span style="font-family:tahoma,geneva,sans-serif">HMS Marketing Services</span></span></span></div>

@@ -1,0 +1,28 @@
+<bundleinstallationscript scriptid="customscript_flo_light_installproc">
+  <afterinstallfunction>createLight</afterinstallfunction>
+  <afterupdatefunction>updateLight</afterupdatefunction>
+  <beforeinstallfunction></beforeinstallfunction>
+  <beforeuninstallfunction></beforeuninstallfunction>
+  <beforeupdatefunction></beforeupdatefunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint Light Install Proc</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteBundles/Bundle 297487/FLOLightBundleInstall.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_flo_light_installproc">
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>Strongpoint Light Install Proc</title>
+    </scriptdeployment>
+  </scriptdeployments>
+  <libraries>
+    <library>
+      <scriptfile>[/SuiteBundles/Bundle 297487/FLOInstallProc.js]</scriptfile>
+    </library>
+  </libraries>
+</bundleinstallationscript>

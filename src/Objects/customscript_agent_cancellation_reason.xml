@@ -1,0 +1,26 @@
+<suitelet scriptid="customscript_agent_cancellation_reason">
+  <defaultfunction>getReason</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Agent Cancellation Reason</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/hms/Survey/AgentConfirmation2.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_agent_cancellation_reason">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>Agent Cancellation Reason</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

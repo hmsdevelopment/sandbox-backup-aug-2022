@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_surveyreport1">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>surveyReport2.0Su</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Suitescript/Webbee Scripts/SurveyReport2.0.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_getsurveyreport2">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>TESTING</status>
+      <title>surveyReport2.0Su</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

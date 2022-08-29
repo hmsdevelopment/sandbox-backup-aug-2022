@@ -1,0 +1,38 @@
+<scheduledscript scriptid="customscript_send_sales_notificaiton">
+  <defaultfunction>sendSalesNotification</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>sendSalesNotification</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/sendSalesNotification_v1.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy2">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>TESTING</status>
+      <title>sendSalesNotification 2</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2017-05-03</startdate>
+          <starttime>22:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy_send_sales_notificaiton">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>sendSalesNotification</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2012-08-29</startdate>
+          <starttime>22:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

@@ -1,0 +1,20 @@
+<customlist scriptid="customlist_access_roles">
+  <description></description>
+  <isinactive>T</isinactive>
+  <isordered>F</isordered>
+  <name>Access Roles</name>
+  <customvalues>
+    <customvalue scriptid="value_1_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Create User</value>
+    </customvalue>
+    <customvalue scriptid="value_3_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Submit Closing Notification</value>
+    </customvalue>
+    <customvalue scriptid="value_2_1309901_565">
+      <isinactive>F</isinactive>
+      <value>Submit Sales Notification</value>
+    </customvalue>
+  </customvalues>
+</customlist>

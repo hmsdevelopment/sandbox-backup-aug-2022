@@ -1,0 +1,46 @@
+<scheduledscript scriptid="customscript_flo_deduplicate">
+  <defaultfunction>clearDuplicates</defaultfunction>
+  <description>consolidate duplicated customization, leaving the oldest one.</description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint DeDuplicate</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <scriptfile>[/SuiteBundles/Bundle 297487/FLODeDuplicateSS.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_flo_deduplicate_od">
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Strongpoint DeDuplicate - OD</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2015-02-25</startdate>
+          <starttime>23:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy_flo_deduplicate">
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Strongpoint DeDuplicate</title>
+      <recurrence>
+        <weekly>
+          <everyxweeks>1</everyxweeks>
+          <friday>F</friday>
+          <monday>F</monday>
+          <repeat></repeat>
+          <saturday>T</saturday>
+          <startdate>2015-03-01</startdate>
+          <starttime>03:00:00Z</starttime>
+          <sunday>T</sunday>
+          <thursday>F</thursday>
+          <tuesday>F</tuesday>
+          <wednesday>F</wednesday>
+        </weekly>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

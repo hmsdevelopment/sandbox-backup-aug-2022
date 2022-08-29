@@ -1,0 +1,44 @@
+<customlist scriptid="customlist_directional_prefix">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <name>Directional Prefix</name>
+  <customvalues>
+    <customvalue scriptid="value_3_1309901_565">
+      <isinactive>F</isinactive>
+      <value>E</value>
+    </customvalue>
+    <customvalue scriptid="value_5_1309901_565">
+      <isinactive>T</isinactive>
+      <value>Liberty Park</value>
+    </customvalue>
+    <customvalue scriptid="value_4_1309901_565">
+      <isinactive>F</isinactive>
+      <value>N</value>
+    </customvalue>
+    <customvalue scriptid="val_465459_1309901_852">
+      <isinactive>F</isinactive>
+      <value>NE</value>
+    </customvalue>
+    <customvalue scriptid="val_195553_1309901_115">
+      <isinactive>F</isinactive>
+      <value>NW</value>
+    </customvalue>
+    <customvalue scriptid="value_2_1309901_565">
+      <isinactive>F</isinactive>
+      <value>S</value>
+    </customvalue>
+    <customvalue scriptid="val_465460_1309901_517">
+      <isinactive>F</isinactive>
+      <value>SE</value>
+    </customvalue>
+    <customvalue scriptid="val_192430_1309901_155">
+      <isinactive>F</isinactive>
+      <value>SW</value>
+    </customvalue>
+    <customvalue scriptid="value_1_1309901_565">
+      <isinactive>F</isinactive>
+      <value>W</value>
+    </customvalue>
+  </customvalues>
+</customlist>

@@ -1,0 +1,48 @@
+<customlist scriptid="customlist_drh_const_statuses">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>DR Horton Construction Status</name>
+  <customvalues>
+    <customvalue scriptid="val_300277_1309901_sb1_805">
+      <isinactive>F</isinactive>
+      <value>01 - Foundation Layout/trench Stage</value>
+    </customvalue>
+    <customvalue scriptid="val_300278_1309901_sb1_535">
+      <isinactive>F</isinactive>
+      <value>02 - Foundation Poured Stage</value>
+    </customvalue>
+    <customvalue scriptid="val_300279_1309901_sb1_514">
+      <isinactive>F</isinactive>
+      <value>03 - Frame Stage</value>
+    </customvalue>
+    <customvalue scriptid="val_300280_1309901_sb1_299">
+      <isinactive>F</isinactive>
+      <value>04 - Exterior Finish Stage</value>
+    </customvalue>
+    <customvalue scriptid="val_300281_1309901_sb1_477">
+      <isinactive>F</isinactive>
+      <value>05 - Mechanicals Rough Stage</value>
+    </customvalue>
+    <customvalue scriptid="val_300282_1309901_sb1_382">
+      <isinactive>F</isinactive>
+      <value>06 - Insulation/drywall Stage</value>
+    </customvalue>
+    <customvalue scriptid="val_300283_1309901_sb1_486">
+      <isinactive>F</isinactive>
+      <value>07 - Interior Finish Stage</value>
+    </customvalue>
+    <customvalue scriptid="val_300284_1309901_sb1_206">
+      <isinactive>F</isinactive>
+      <value>08 - Mechanicals Final Stage</value>
+    </customvalue>
+    <customvalue scriptid="val_300285_1309901_sb1_903">
+      <isinactive>F</isinactive>
+      <value>12 - Quality Control Walk Performed</value>
+    </customvalue>
+    <customvalue scriptid="val_300286_1309901_sb1_897">
+      <isinactive>F</isinactive>
+      <value>13 - Buyer Walk Through Performed</value>
+    </customvalue>
+  </customvalues>
+</customlist>

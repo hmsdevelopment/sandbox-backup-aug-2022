@@ -1,0 +1,26 @@
+<suitelet scriptid="customscript_hms_show_data_property">
+  <defaultfunction>showProperty</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>HMS Show Property Data</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/HMS_Show_Property_Data.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_hms_show_data_property">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>HMS Show Property Data</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

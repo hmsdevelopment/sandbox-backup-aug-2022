@@ -1,0 +1,40 @@
+<suitelet scriptid="customscript_mw_create_listing_suitelet">
+  <defaultfunction>suitelet</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>CreateListingSuitelet</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails>jmcdonald@hmsmarketingservices.com,francisco.alvarado@midware.net</notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Midware/BuilderPortal/SuiteletScripts/CreateListing/CreateListingSuiteletScript.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mw_create_listing_suitlt_d">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>Create Listing Suitelet</title>
+    </scriptdeployment>
+  </scriptdeployments>
+  <libraries>
+    <library>
+      <scriptfile>[/SuiteScripts/Midware/ToolTips/CreateListing/CreateListingToolTips.js]</scriptfile>
+    </library>
+    <library>
+      <scriptfile>[/SuiteScripts/Style_CSS/Styles/Global1_0.js]</scriptfile>
+    </library>
+    <library>
+      <scriptfile>[/SuiteScripts/forge.js]</scriptfile>
+    </library>
+    <library>
+      <scriptfile>[/SuiteScripts/Suitescript/Webbee Scripts/Crypto/Crypto.js]</scriptfile>
+    </library>
+  </libraries>
+</suitelet>

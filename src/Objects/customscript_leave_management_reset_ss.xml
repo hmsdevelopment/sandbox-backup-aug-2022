@@ -1,0 +1,39 @@
+<scheduledscript scriptid="customscript_leave_management_reset_ss">
+  <defaultfunction>resetAfterEndDate</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Leave Management Reset SS</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <scriptfile>[/SuiteScripts/Suitescript/abhi/hms_leave_management_system.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy2">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>TESTING</status>
+      <title>Leave Management Reset SS 2</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2014-01-15</startdate>
+          <starttime>23:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy_leave_management_reset_ss">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>TESTING</status>
+      <title>Leave Management Reset SS</title>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat></repeat>
+          <startdate>2013-12-02</startdate>
+          <starttime>05:00:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

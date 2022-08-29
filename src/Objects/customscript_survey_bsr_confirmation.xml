@@ -1,0 +1,47 @@
+<scheduledscript scriptid="customscript_survey_bsr_confirmation">
+  <defaultfunction>surveyBSRConfirmation</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Survey - BSR Confirmation</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/surveyBSRConfirmation_v1.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy2">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Survey - BSR Confirmation 2</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2012-03-29</startdate>
+          <starttime>22:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy1">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>SCHEDULED</status>
+      <title>Survey - BSR Confirmation</title>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat>PT1H</repeat>
+          <startdate>2012-03-15</startdate>
+          <starttime>04:00:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+  <libraries>
+    <library>
+      <scriptfile>[/SuiteScripts/Midware/moment.js]</scriptfile>
+    </library>
+    <library>
+      <scriptfile>[/SuiteScripts/Midware/momenttimezone.js]</scriptfile>
+    </library>
+  </libraries>
+</scheduledscript>

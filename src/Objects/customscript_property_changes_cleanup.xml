@@ -1,0 +1,39 @@
+<scheduledscript scriptid="customscript_property_changes_cleanup">
+  <defaultfunction>propertyChangesCleanup</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>propertyChangesCleanup</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/propertyChangesCleanup.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy2">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>propertyChangesCleanup 2</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2011-08-10</startdate>
+          <starttime>22:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy1">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>SCHEDULED</status>
+      <title>propertyChangesCleanup</title>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat></repeat>
+          <startdate>2011-08-11</startdate>
+          <starttime>06:00:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

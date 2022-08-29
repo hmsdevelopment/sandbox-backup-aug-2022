@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!DOCTYPE pdf PUBLIC "-//big.faceless.org//report" "report-1.1.dtd">
+<pdf>
+  <head>
+    <style type="text/css">
+      .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+    </style>
+</head>
+  
+<body>
+   <img src="https://1309901.app.netsuite.com/core/media/media.nl?id=94741&amp;c=1309901&amp;h=500246ec224b7fcafd61" class="center" />
+  
+  <p>
+    Hello&nbsp;${record.firstname},
+  </p>
+  
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cras tincidunt lobortis feugiat vivamus at. 
+    Enim facilisis gravida neque convallis. Auctor urna nunc id cursus metus aliquam eleifend mi. Sed libero enim sed faucibus.
+  </p> 
+  <p>
+    Aliquet nibh praesent tristique magna sit. Leo in vitae turpis massa sed elementum tempus egestas sed. Cras tincidunt lobortis feugiat vivamus at. 
+    Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend. A scelerisque purus semper eget. Integer quis auctor elit sed 
+    vulputate mi. Mi sit amet mauris commodo quis imperdiet massa. Suspendisse sed nisi lacus sed viverra tellus in. Malesuada nunc vel risus commodo viverra 
+    maecenas accumsan lacus. Massa id neque aliquam vestibulum morbi blandit cursus. In mollis nunc sed id semper risus in hendrerit gravida. In fermentum et sollicitudin ac.
+  </p>
+  
+  <#if SEARCH?has_content>
+    <p style="color: green">Preview of properties:</p>
+    <table style="width: 100%; margin-top: 10px;">
+      <thead>
+        <tr>
+          <th>Subdivision</th>
+          <th>Property</th>
+		  <th>Current Construction Status</th>
+		  <th>Last Updated</th>
+		</tr>
+	  </thead>
+	<#list SEARCH as property>
+      <tr>
+        <td>${property.custrecordcustrecordsubdname.custrecord_preferred_subdivision_name}</td>
+		<td>${property.custrecord_house_number} ${property.custrecord31}</td>
+		<td>${property.custrecord_current_construction}</td>
+		<td>${property.custrecord_property_date_const_update}</td>
+	  </tr>
+	</#list>
+  </table>
+</#if>
+</body>
+</pdf>

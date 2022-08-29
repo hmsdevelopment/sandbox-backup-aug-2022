@@ -1,0 +1,176 @@
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title></title>
+</head><body>
+<style type="text/css">body {
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:13px;
+}
+table {
+	margin: 0 auto;
+}
+</style>
+<body>
+<table border="0" cellpadding="5" cellspacing="0" class="fix_table_size" style="background:#a6a69a; margin: 0 auto;" width="600">
+<tbody>
+	<tr>
+	<td align="center"><img height="112" src="logoimage" width="147" /></td>
+	</tr>
+</tbody>
+</table>
+
+<table border="0" cellpadding="10" cellspacing="0" class="fix_table_size" style="margin: 0 auto;" width="600">
+<tbody>
+	<tr>
+	<td>***Please do not reply to this email. This mailbox is not monitored***</td>
+	</tr>
+	<tr>
+	<td>${case.CUSTEVENT_PREVIOUS_BSR_FNAME},</td>
+	</tr>
+	<tr>
+	<td>The lead below has been reassigned to ${case.CUSTEVENT_BSR_FOR_REN} at the request of ${case.CUSTEVENT_BSR_REASSIGN_SUBMIT} for the following reason:</td>
+	</tr>
+	<tr>
+	<td>${case.CUSTEVENT_BSR_ASSIGNMENT_NOTE}</td>
+	</tr>
+	<tr>
+	<td>For your convenience, you may click the following link to confirm that you have received this email and you will follow up with the ${case.CUSTEVENT_CALLER_TYPE} to offer assistance.</td>
+	</tr>
+	<tr>
+	<td>
+	<div style="color:#9c7e0e; font-size:16px; font-weight:bold;">Details of Inquiry:</div>
+	</td>
+	</tr>
+</tbody>
+</table>
+
+<table border="0" cellpadding="10" cellspacing="0" class="fix_table_size" style="margin: 0 auto;" width="600">
+<tbody>
+	<tr>
+	<td>
+	<table border="1" bordercolor="#bbb" cellpadding="5" cellspacing="0" rules="rows" style="font-size:12px;" width="100%">
+	<tbody>
+		<tr>
+		<td width="30%"><strong>Caller</strong></td>
+		<td width="10%">:</td>
+		<td width="60%">${case.CUSTEVENT_AGENT_FOR_REN}</td>
+		</tr>
+		<tr>
+		<td width="30%"><strong>Caller Office Phone</strong></td>
+		<td width="10%">:</td>
+		<td width="60%">${case.CUSTEVENT_CALLER_PHONE_NUMBER}</td>
+		</tr>
+		<tr>
+		<td width="30%"><strong>Caller Mobile Phone</strong></td>
+		<td width="10%">:</td>
+		<td width="60%">${case.CUSTEVENT_AGENT_MOBILE_NUMBER}</td>
+		</tr>
+		<tr>
+		<td width="30%"><strong>Caller Other Phone</strong></td>
+		<td width="10%">:</td>
+		<td width="60%">${case.CUSTEVENT_AGENT_OTHER_NUMBER}</td>
+		</tr>
+		<tr>
+		<td width="30%"><strong>Caller Email</strong></td>
+		<td width="10%">:</td>
+		<td width="60%"><a href="mailto:{case.CUSTEVENT_CALLER_EMAIL}" style="color:#055acf; text-decoration:none;" target="_blank">${case.CUSTEVENT_CALLER_EMAIL}</a></td>
+		</tr>
+		<tr>
+		<td width="30%"><strong>Caller Type</strong></td>
+		<td width="10%">:</td>
+		<td width="60%">${case.CUSTEVENT_CALLER_TYPE}</td>
+		</tr>
+		<tr>
+		<td width="30%"><strong>Caller Assistant</strong></td>
+		<td width="10%">:</td>
+		<td width="60%">${case.CUSTEVENT_ASSISTANT_NAME} ${case.CUSTEVENT_ASSISTANT_PHONE_NUMBER}</td>
+		</tr>
+		<tr>
+		<td width="30%"><strong>Brokerage</strong></td>
+		<td width="10%">:</td>
+		<td width="60%">${case.CUSTEVENT_BROKERAGE_FOR_REN}</td>
+		</tr>
+		<tr>
+		<td width="30%"><strong>Property</strong></td>
+		<td width="10%">:</td>
+		<td width="60%">${case.CUSTEVENT_PROPERTY_FOR_REN}</td>
+		</tr>
+		<tr>
+		<td width="30%"><strong>Subdivision</strong></td>
+		<td width="10%">:</td>
+		<td width="60%">${case.CUSTEVENT_SUBDIVISION_FOR_REN}</td>
+		</tr>
+		<tr>
+		<td width="30%"><strong>Lot</strong></td>
+		<td width="10%">:</td>
+		<td width="60%">${case.CUSTEVENT_LOT_NUMBER}</td>
+		</tr>
+		<tr>
+		<td width="30%"><strong>Sales Representative</strong></td>
+		<td width="10%">:</td>
+		<td width="60%">${case.CUSTEVENT_BSR_FOR_REN}</td>
+		</tr>
+		<tr>
+		<td width="30%"><strong>Notes</strong></td>
+		<td width="10%">:</td>
+		<td width="60%">${case.CUSTEVENT_BSR_ASSIGNMENT_NOTE}</td>
+		</tr>
+	</tbody>
+	</table>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	<table border="1" bordercolor="#bbb" cellpadding="5" cellspacing="0" rules="rows" style="font-size:12px;" width="100%">
+	<tbody>
+		<tr>
+		<td width="30%"><strong>Inquiry Date/Time</strong></td>
+		<td width="10%">:</td>
+		<td width="60%"><#if (case.startDate)?has_content>${case.startDate}<#else>${entity.startDate}</#if> ${case.startTime}</td>
+		</tr>
+		<tr>
+		<td width="30%"><strong>Showing Date</strong></td>
+		<td width="10%">:</td>
+		<td width="60%">${case.CUSTEVENT_SHOWING_DATE_SCHEDULED}</td>
+		</tr>
+		<tr>
+		<td width="30%"><strong>Showing Time</strong></td>
+		<td width="10%">:</td>
+		<td width="60%">${case.CUSTEVENT_SHOWING_TIME_SCHEDULED}</td>
+		</tr>
+		<tr>
+		<td width="30%"><strong>Property Question:</strong></td>
+		<td width="10%">:</td>
+		<td width="60%">${case.CUSTEVENT_SPECIAL_MESSAGES}</td>
+		</tr>
+	</tbody>
+	</table>
+	</td>
+	</tr>
+</tbody>
+</table>
+
+<table border="0" cellpadding="10" cellspacing="0" class="fix_table_size" style="margin: 0 auto;" width="600">
+<tbody>
+	<tr>
+	<td style="font-size:15px;">If you prefer to reach us by phone you may do so by calling <a href="tel:8554672255" style="font-weight:bold; color:#055acf; text-decoration:none;">(855) 467-2255</a></td>
+	</tr>
+	<tr>
+	<td>This email confirms our conversation with the noted agent. Our call center has contacted the on-site sales agent as noted in the address field above. Please utilize data to further develop your relationship with this contact, or to send follow-up correspondence. Be aware that the &quot;Scheduled&quot; showing date and time are tentative and may change through further communication between parties; however, it was the initial time/date request made to our staff. In most cases, this information pertains to a Realtor inquiry. Sometimes there are consumer inquiries from various internet sources and we will identify them as completely as possible.</td>
+	</tr>
+	<tr>
+	<td>Regards,</td>
+	</tr>
+	<tr>
+	<td>HMS Marketing Services<br />
+	Home of Kaleidoscope Data Management System</td>
+	</tr>
+	<tr>
+	<td>If you prefer to work with the HMS staff via telephone instead of email click the link below:</td>
+	</tr>
+	<tr>
+	<td><a href="https://1309901.extforms.netsuite.com/app/site/hosting/scriptlet.nl?script=97&amp;deploy=1&amp;compid=1309901&amp;h=e626e402ae5d79bf9a70" style="font-weight:bold; color:#055acf; text-decoration:none;" target="_self">Opt out of future emails for showing notifications</a></td>
+	</tr>
+</tbody>
+</table>
+</body></html>

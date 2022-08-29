@@ -1,0 +1,10 @@
+<advancedpdftemplate scriptid="custtmpl_la_north_kentucky" standard="STDTMPLCR_PROPERTY_RECORD">
+  <description></description>
+  <displaysourcecode>T</displaysourcecode>
+  <isinactive>F</isinactive>
+  <preferred>F</preferred>
+  <printtype>CUSTOMRECORD</printtype>
+  <recordtype>[scriptid=customrecord_property_record]</recordtype>
+  <title>Listing Amendment - Northern Kentucky</title>
+  <trantype>CUSTOM</trantype>
+</advancedpdftemplate>

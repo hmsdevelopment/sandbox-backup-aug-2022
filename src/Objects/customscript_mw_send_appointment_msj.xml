@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_mw_send_appointment_msj">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Send Text Message From Inquiry Router</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Midware/SendTextMessageFromInquiry/SuiteletScripts/Router/SendTextMessageFromInquiryRouter.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mw_send_appointment_msj_d">
+      <allemployees>T</allemployees>
+      <allpartners>T</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>Send Text Message From Inquiry Router</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

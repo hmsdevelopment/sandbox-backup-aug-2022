@@ -1,0 +1,12 @@
+<emailtemplate scriptid="custemailtmpl_133_1309901_sb1_331">
+  <addcompanyaddress>T</addcompanyaddress>
+  <addunsubscribelink>T</addunsubscribelink>
+  <description></description>
+  <isinactive>F</isinactive>
+  <isprivate>F</isprivate>
+  <mediaitem></mediaitem>
+  <name>New MLS Number Notification MLS Region 2</name>
+  <recordtype></recordtype>
+  <subject>New MLS # for ${customrecord.custrecord_sub_abbr}${customrecord.custrecord_lot_number} for the ${customrecord.custrecord16} MLS</subject>
+  <usesmedia>F</usesmedia>
+</emailtemplate>

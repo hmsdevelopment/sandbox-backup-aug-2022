@@ -1,0 +1,35 @@
+//Builder Portal styles
+ var BUILDER_PORTAL = {
+    //Includes the body and header styles for all forms
+    GLOBAL_URL : "https://1309901.app.netsuite.com/core/media/media.nl?id=106583&c=1309901&h=bf5df8d56aa36d439a81&_xt=.css",
+
+    //Styles for the forms
+    FORM_URL : "https://1309901.app.netsuite.com/core/media/media.nl?id=106582&c=1309901&h=95409e5a14563b0d3861&_xt=.css",
+    
+    //Styles for the menus, where you choose an option
+    MENU_URL : "https://1309901.app.netsuite.com/core/media/media.nl?id=106585&c=1309901&h=efbb0d4c3f2f500bcca1&_xt=.css",
+
+    //Styles only used for the login
+    LOGIN_URL : "https://1309901.app.netsuite.com/core/media/media.nl?id=106584&c=1309901&h=b35d40f39cf422c328f9&_xt=.css",
+
+    //Used for the Create New Listing and Modify New Listing forms, made by other people
+    CREATE_MODIFY_LISTING : {
+        CREATE_MODIFY_LISTING_URL : "https://1309901.app.netsuite.com/core/media/media.nl?id=106814&c=1309901&h=55cb74685ed8ddfccf47&_xt=.css"
+    },
+
+    //Specific styles for some pages
+    SUBMIT_FORMS : {
+        GLOBAL_URL : "",
+        SUBMIT_A_CLOSING_URL : "",
+        SUBMIT_A_SALE : ""
+    }
+};
+
+//Ghost Listing Styles
+ var GHOST_LISTING = {
+    MANAGEMENT_PORTAL_URL : ""
+};
+
+//export {BUILDER_PORTAL, GHOST_LISTING};
+
+

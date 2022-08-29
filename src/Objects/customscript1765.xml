@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript1765">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Suitelet Confirm Show Time</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/ConfirmShowingAssist/confirm_show_time_script.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_suitelet_showing">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole></runasrole>
+      <status>TESTING</status>
+      <title>Suitelet Confirm Show Time</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

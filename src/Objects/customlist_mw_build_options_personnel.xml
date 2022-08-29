@@ -1,0 +1,16 @@
+<customlist scriptid="customlist_mw_build_options_personnel">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Builder Options for Personnel</name>
+  <customvalues>
+    <customvalue scriptid="val_241723_1309901_277">
+      <isinactive>F</isinactive>
+      <value>Send any future communication regarding this Advertised Market Home to</value>
+    </customvalue>
+    <customvalue scriptid="val_241724_1309901_149">
+      <isinactive>F</isinactive>
+      <value>Only send this request for sale info to</value>
+    </customvalue>
+  </customvalues>
+</customlist>

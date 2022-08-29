@@ -1,0 +1,12 @@
+<emailtemplate scriptid="custemailtmpl_mw_gl_price_change_notif">
+  <addcompanyaddress>T</addcompanyaddress>
+  <addunsubscribelink>T</addunsubscribelink>
+  <description>Email to be sent as notification when a price is changed in Ghost Listing Portal</description>
+  <isinactive>F</isinactive>
+  <isprivate>F</isprivate>
+  <mediaitem></mediaitem>
+  <name>Ghost Listing Portal Price Change Notification</name>
+  <recordtype>CUSTOM</recordtype>
+  <subject>Ghost Listing Price Change for Property ${customrecord.custrecord_simple_name}</subject>
+  <usesmedia>F</usesmedia>
+</emailtemplate>

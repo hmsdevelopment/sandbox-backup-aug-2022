@@ -1,0 +1,31 @@
+<workflowactionscript scriptid="customscript_alert_admin_reminders">
+  <defaultfunction>alertAdmins</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint Alert Admin Reminders</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <returnrecordtype></returnrecordtype>
+  <returntype></returntype>
+  <scriptfile>[/SuiteBundles/Bundle 297487/FLOAlertReminders.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_alert_admin_reminders">
+      <allemployees>T</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <recordtype>[scriptid=customrecord_flo_spider_configuration]</recordtype>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+    </scriptdeployment>
+  </scriptdeployments>
+  <libraries>
+    <library>
+      <scriptfile>[/SuiteBundles/Bundle 297487/FlashlightPortlet_Library.js]</scriptfile>
+    </library>
+  </libraries>
+</workflowactionscript>

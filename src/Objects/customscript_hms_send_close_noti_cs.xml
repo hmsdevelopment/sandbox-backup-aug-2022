@@ -1,0 +1,20 @@
+<clientscript scriptid="customscript_hms_send_close_noti_cs">
+  <description></description>
+  <fieldchangedfunction></fieldchangedfunction>
+  <isinactive>T</isinactive>
+  <lineinitfunction></lineinitfunction>
+  <name>HMS Send Closing Notification CS</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <pageinitfunction></pageinitfunction>
+  <postsourcingfunction></postsourcingfunction>
+  <recalcfunction></recalcfunction>
+  <saverecordfunction></saverecordfunction>
+  <scriptfile>[/SuiteScripts/HMS_Send_Closing_Document.js]</scriptfile>
+  <validatedeletefunction></validatedeletefunction>
+  <validatefieldfunction></validatefieldfunction>
+  <validateinsertfunction></validateinsertfunction>
+  <validatelinefunction></validatelinefunction>
+</clientscript>

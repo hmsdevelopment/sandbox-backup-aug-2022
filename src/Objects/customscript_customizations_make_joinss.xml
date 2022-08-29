@@ -1,0 +1,358 @@
+<scheduledscript scriptid="customscript_customizations_make_joinss">
+  <defaultfunction>makeRecJoins</defaultfunction>
+  <description>Join the customizations based on data relationships</description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint Customization To MakeJoin SS</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails>nic.cano@flodocs.com</notifyemails>
+  <notifyowner>F</notifyowner>
+  <scriptfile>[/SuiteBundles/Bundle 297487/FLOCustDetailsSS.js]</scriptfile>
+  <scriptcustomfields>
+    <scriptcustomfield scriptid="custscript_last_field_process">
+      <accesslevel>2</accesslevel>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth>40</displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <fieldtype>TEXT</fieldtype>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <label>last field proccess</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <setting></setting>
+      <storevalue>T</storevalue>
+    </scriptcustomfield>
+    <scriptcustomfield scriptid="custscript_makejoins_iteminternalid">
+      <accesslevel>2</accesslevel>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth>40</displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <fieldtype>TEXT</fieldtype>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <label>Last internal id</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <setting></setting>
+      <storevalue>T</storevalue>
+    </scriptcustomfield>
+    <scriptcustomfield scriptid="custscript_flo_make_joins_ss_search">
+      <accesslevel>2</accesslevel>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <fieldtype>TEXT</fieldtype>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <label>Saved Search ID</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <setting></setting>
+      <storevalue>T</storevalue>
+    </scriptcustomfield>
+    <scriptcustomfield scriptid="custscript_flo_makejoin_starttime">
+      <accesslevel>2</accesslevel>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <fieldtype>TIMEOFDAY</fieldtype>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <label>Start Time</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <setting></setting>
+      <storevalue>T</storevalue>
+    </scriptcustomfield>
+    <scriptcustomfield scriptid="custscript_flo_makejoin_endtime">
+      <accesslevel>2</accesslevel>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <fieldtype>TIMEOFDAY</fieldtype>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <label>End Time</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <setting></setting>
+      <storevalue>T</storevalue>
+    </scriptcustomfield>
+  </scriptcustomfields>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_customizations_make_joinss">
+      <custscript_flo_make_joins_ss_search></custscript_flo_make_joins_ss_search>
+      <custscript_flo_makejoin_endtime></custscript_flo_makejoin_endtime>
+      <custscript_flo_makejoin_starttime></custscript_flo_makejoin_starttime>
+      <custscript_last_field_process></custscript_last_field_process>
+      <custscript_makejoins_iteminternalid></custscript_makejoins_iteminternalid>
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Strongpoint Customization To Make Join SS - OD</title>
+      <recurrence>
+        <single>
+          <repeat>PT12H</repeat>
+          <startdate>2014-12-11</startdate>
+          <starttime>23:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy_flo_cust_to_make_join_wf">
+      <custscript_flo_make_joins_ss_search>customsearch_flocust_to_make_join_all_2</custscript_flo_make_joins_ss_search>
+      <custscript_flo_makejoin_endtime></custscript_flo_makejoin_endtime>
+      <custscript_flo_makejoin_starttime></custscript_flo_makejoin_starttime>
+      <custscript_last_field_process></custscript_last_field_process>
+      <custscript_makejoins_iteminternalid></custscript_makejoins_iteminternalid>
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Strongpoint Customization To Make Join SS (WF)</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2015-09-08</startdate>
+          <starttime>22:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy_flo_cust_to_make_join_trgt">
+      <custscript_flo_make_joins_ss_search>customsearch_flocust_to_make_join_all_3</custscript_flo_make_joins_ss_search>
+      <custscript_flo_makejoin_endtime></custscript_flo_makejoin_endtime>
+      <custscript_flo_makejoin_starttime></custscript_flo_makejoin_starttime>
+      <custscript_last_field_process></custscript_last_field_process>
+      <custscript_makejoins_iteminternalid></custscript_makejoins_iteminternalid>
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Strongpoint Customization To Make Join SS (targeted)</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2016-08-26</startdate>
+          <starttime>22:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy_flo_make_join_from_spider">
+      <custscript_flo_make_joins_ss_search>customsearch_cust_to_mk_join_bp</custscript_flo_make_joins_ss_search>
+      <custscript_flo_makejoin_endtime></custscript_flo_makejoin_endtime>
+      <custscript_flo_makejoin_starttime></custscript_flo_makejoin_starttime>
+      <custscript_last_field_process></custscript_last_field_process>
+      <custscript_makejoins_iteminternalid></custscript_makejoins_iteminternalid>
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Strongpoint Customization To Make Join SS (By Proc Unscheduled)</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2017-03-01</startdate>
+          <starttime>23:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy_flo_cust_to_make_join_lists">
+      <custscript_flo_make_joins_ss_search>customsearch_flocust_to_make_join_all__4</custscript_flo_make_joins_ss_search>
+      <custscript_flo_makejoin_endtime></custscript_flo_makejoin_endtime>
+      <custscript_flo_makejoin_starttime></custscript_flo_makejoin_starttime>
+      <custscript_last_field_process></custscript_last_field_process>
+      <custscript_makejoins_iteminternalid></custscript_makejoins_iteminternalid>
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Strongpoint Customization To Make Join SS (List)</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2016-06-15</startdate>
+          <starttime>22:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy_customizations_to_make_join">
+      <custscript_flo_make_joins_ss_search>customsearch_customizations_to_make_jo_3</custscript_flo_make_joins_ss_search>
+      <custscript_flo_makejoin_endtime></custscript_flo_makejoin_endtime>
+      <custscript_flo_makejoin_starttime></custscript_flo_makejoin_starttime>
+      <custscript_last_field_process></custscript_last_field_process>
+      <custscript_makejoins_iteminternalid></custscript_makejoins_iteminternalid>
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Strongpoint Customization To Make Join SS</title>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat>PT12H</repeat>
+          <startdate>2014-12-16</startdate>
+          <starttime>23:00:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy_flo_cust_to_make_join_se">
+      <custscript_flo_make_joins_ss_search>customsearch_flocust_to_make_join_all__2</custscript_flo_make_joins_ss_search>
+      <custscript_flo_makejoin_endtime></custscript_flo_makejoin_endtime>
+      <custscript_flo_makejoin_starttime></custscript_flo_makejoin_starttime>
+      <custscript_last_field_process></custscript_last_field_process>
+      <custscript_makejoins_iteminternalid></custscript_makejoins_iteminternalid>
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Strongpoint Customization To Make Join SS (SE)</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2015-09-08</startdate>
+          <starttime>22:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy_flo_cust_to_make_join_all">
+      <custscript_flo_make_joins_ss_search>customsearch_flocust_to_make_join_all</custscript_flo_make_joins_ss_search>
+      <custscript_flo_makejoin_endtime></custscript_flo_makejoin_endtime>
+      <custscript_flo_makejoin_starttime></custscript_flo_makejoin_starttime>
+      <custscript_last_field_process></custscript_last_field_process>
+      <custscript_makejoins_iteminternalid></custscript_makejoins_iteminternalid>
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Strongpoint Customization To Make Join SS (All)</title>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat>PT12H</repeat>
+          <startdate>2014-12-11</startdate>
+          <starttime>23:00:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy_flo_cust_join_searches">
+      <custscript_flo_make_joins_ss_search>customsearch_cust_to_mk_join_bp</custscript_flo_make_joins_ss_search>
+      <custscript_flo_makejoin_endtime></custscript_flo_makejoin_endtime>
+      <custscript_flo_makejoin_starttime></custscript_flo_makejoin_starttime>
+      <custscript_last_field_process></custscript_last_field_process>
+      <custscript_makejoins_iteminternalid></custscript_makejoins_iteminternalid>
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <status>SCHEDULED</status>
+      <title>Strongpoint Customization To Make Join SS (By Proc)</title>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat>PT1H</repeat>
+          <startdate>2016-03-01</startdate>
+          <starttime>16:30:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy8">
+      <custscript_flo_make_joins_ss_search>customsearch_flo_workflo_joins_field_2_3</custscript_flo_make_joins_ss_search>
+      <custscript_flo_makejoin_endtime></custscript_flo_makejoin_endtime>
+      <custscript_flo_makejoin_starttime></custscript_flo_makejoin_starttime>
+      <custscript_last_field_process></custscript_last_field_process>
+      <custscript_makejoins_iteminternalid></custscript_makejoins_iteminternalid>
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Strongpoint Customization To Make Join SS 2</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2015-12-02</startdate>
+          <starttime>23:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy_flo_cust_to_make_join_fr">
+      <custscript_flo_make_joins_ss_search>customsearch_flocust_to_make_join_all__3</custscript_flo_make_joins_ss_search>
+      <custscript_flo_makejoin_endtime></custscript_flo_makejoin_endtime>
+      <custscript_flo_makejoin_starttime></custscript_flo_makejoin_starttime>
+      <custscript_last_field_process></custscript_last_field_process>
+      <custscript_makejoins_iteminternalid></custscript_makejoins_iteminternalid>
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Strongpoint Customization To Make Join SS (FR)</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2015-09-08</startdate>
+          <starttime>22:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+  <libraries>
+    <library>
+      <scriptfile>[/SuiteBundles/Bundle 297487/FLOTimeWindow.js]</scriptfile>
+    </library>
+    <library>
+      <scriptfile>[/SuiteBundles/Bundle 297487/FLORemoveInactiveReferencesFromCust.js]</scriptfile>
+    </library>
+  </libraries>
+</scheduledscript>

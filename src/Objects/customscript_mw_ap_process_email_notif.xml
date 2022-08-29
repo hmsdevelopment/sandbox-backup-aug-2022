@@ -1,0 +1,24 @@
+<scheduledscript scriptid="customscript_mw_ap_process_email_notif">
+  <description>Script to send reminder about open Appointments</description>
+  <isinactive>F</isinactive>
+  <name>Appointment - Process Email Notification</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <scriptfile>[/SuiteScripts/Midware/Appointments/ProcessEmailNotification/ScheduledScripts/ProcessEmailNotification.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mw_ap_process_email_notif_d">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>TESTING</status>
+      <title>Appointment - Process Email Notification</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2019-07-30</startdate>
+          <starttime>22:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

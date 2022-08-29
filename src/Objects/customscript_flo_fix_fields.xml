@@ -1,0 +1,25 @@
+<scheduledscript scriptid="customscript_flo_fix_fields">
+  <defaultfunction>FLOfixFields</defaultfunction>
+  <description>Consolidate datasource join after de duplicate customizations</description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint Fix Fields</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteBundles/Bundle 297487/FLOSourcingDataFix.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_flo_fix_fields">
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Strongpoint Fix Fields</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2015-07-18</startdate>
+          <starttime>22:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

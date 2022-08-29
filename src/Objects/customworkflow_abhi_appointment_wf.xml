@@ -1,0 +1,113 @@
+<workflow scriptid="customworkflow_abhi_appointment_wf">
+  <description></description>
+  <initcontexts></initcontexts>
+  <initeventtypes></initeventtypes>
+  <initlocalizationcontext></initlocalizationcontext>
+  <initoncreate>T</initoncreate>
+  <initonvieworupdate>T</initonvieworupdate>
+  <initsavedsearchcondition></initsavedsearchcondition>
+  <inittriggertype></inittriggertype>
+  <isinactive>F</isinactive>
+  <islogenabled>T</islogenabled>
+  <keephistory>ALWAYS</keephistory>
+  <name>Appointment Workflow</name>
+  <recordtypes>SUPPORTCASE</recordtypes>
+  <releasestatus>RELEASED</releasestatus>
+  <runasadmin>T</runasadmin>
+  <initcondition>
+    <formula></formula>
+    <type>VISUAL_BUILDER</type>
+  </initcondition>
+  <workflowcustomfields>
+    <workflowcustomfield scriptid="custworkflow_today">
+      <applyformatting>F</applyformatting>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displaytype>NORMAL</displaytype>
+      <dynamicdefault></dynamicdefault>
+      <fieldtype>DATETIMETZ</fieldtype>
+      <help></help>
+      <label>Today</label>
+      <linktext></linktext>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <selectrecordtype></selectrecordtype>
+      <storevalue>F</storevalue>
+    </workflowcustomfield>
+  </workflowcustomfields>
+  <workflowstates>
+    <workflowstate scriptid="workflowstate85">
+      <description></description>
+      <donotexitworkflow>F</donotexitworkflow>
+      <name>State 1</name>
+      <positionx>243</positionx>
+      <positiony>133</positiony>
+      <workflowactions triggertype="AFTERFIELDEDIT">
+        <setfieldvalueaction scriptid="workflowaction178">
+          <clienttriggerfields>[scriptid=custevent_hms_abhi_sub_div_assign]</clienttriggerfields>
+          <conditionsavedsearch></conditionsavedsearch>
+          <contexttypes></contexttypes>
+          <eventtypes></eventtypes>
+          <field>[scriptid=custevent_builder_sales_rep_subd]</field>
+          <isinactive>F</isinactive>
+          <scheduledelay></scheduledelay>
+          <schedulemode>DELAY</schedulemode>
+          <schedulerecurrence></schedulerecurrence>
+          <scheduletimeofday></scheduletimeofday>
+          <scheduletimeunit></scheduletimeunit>
+          <valuechecked>F</valuechecked>
+          <valuedate></valuedate>
+          <valuefield>[scriptid=custevent7]</valuefield>
+          <valueformula></valueformula>
+          <valuejoinfield></valuejoinfield>
+          <valueselect></valueselect>
+          <valuetext></valuetext>
+          <valuetype>FIELD</valuetype>
+          <initcondition>
+            <formula><![CDATA[isChecked("Ambiguous Subdivision Assignment") = 'T']]></formula>
+            <type>VISUAL_BUILDER</type>
+            <parameters>
+              <parameter>
+                <name>Ambiguous Subdivision Assignment</name>
+                <value>[scriptid=custevent_hms_abhi_sub_div_assign]</value>
+              </parameter>
+            </parameters>
+          </initcondition>
+        </setfieldvalueaction>
+        <setfieldvalueaction scriptid="workflowaction182">
+          <clienttriggerfields>[scriptid=custevent_hms_abhi_sub_div_assign]</clienttriggerfields>
+          <conditionsavedsearch></conditionsavedsearch>
+          <contexttypes></contexttypes>
+          <eventtypes></eventtypes>
+          <field>[scriptid=custevent_bsr_assignment_note]</field>
+          <isinactive>F</isinactive>
+          <scheduledelay></scheduledelay>
+          <schedulemode>DELAY</schedulemode>
+          <schedulerecurrence></schedulerecurrence>
+          <scheduletimeofday></scheduletimeofday>
+          <scheduletimeunit></scheduletimeunit>
+          <valuechecked>F</valuechecked>
+          <valuedate></valuedate>
+          <valuefield></valuefield>
+          <valueformula>to_char({today})</valueformula>
+          <valuejoinfield></valuejoinfield>
+          <valueselect></valueselect>
+          <valuetext></valuetext>
+          <valuetype>FORMULA</valuetype>
+          <initcondition>
+            <formula><![CDATA[isChecked("Ambiguous Subdivision Assignment") = 'T']]></formula>
+            <type>VISUAL_BUILDER</type>
+            <parameters>
+              <parameter>
+                <name>Ambiguous Subdivision Assignment</name>
+                <value>[scriptid=custevent_hms_abhi_sub_div_assign]</value>
+              </parameter>
+            </parameters>
+          </initcondition>
+        </setfieldvalueaction>
+      </workflowactions>
+    </workflowstate>
+  </workflowstates>
+</workflow>

@@ -1,0 +1,16 @@
+<customlist scriptid="customlist_mw_lot_been_sold_answers">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Lot Has Been Sold List Answers</name>
+  <customvalues>
+    <customvalue scriptid="val_242944_1309901_684">
+      <isinactive>F</isinactive>
+      <value>Yes</value>
+    </customvalue>
+    <customvalue scriptid="val_242945_1309901_493">
+      <isinactive>F</isinactive>
+      <value>No</value>
+    </customvalue>
+  </customvalues>
+</customlist>

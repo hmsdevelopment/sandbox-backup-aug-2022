@@ -1,0 +1,20 @@
+<span style="background-color: rgb(255, 255, 255);">Contract Approval Date: &nbsp;${customRecord.CUSTRECORD_CONTRACT_APPROVAL_DATE}</span><br />
+<span style="background-color: rgb(255, 255, 255);">Estimated Closing Date: &nbsp;${customRecord.CUSTRECORD_ESTIMATED_CLOSING_DATE}</span><br />
+<span style="background-color: rgb(255, 255, 255);">Construction Status at Contract: &nbsp;${customRecord.CUSTRECORD_CONSTRUCTION_STATUS_CONTRACT}</span><br />
+<span style="background-color: rgb(255, 255, 255);">Brokerage Name: &nbsp;${customRecord.CUSTRECORD_BROKERAGE_NAME_SN}</span><br />
+<span style="background-color: rgb(255, 255, 255);">Agent Name: &nbsp;${customRecord.CUSTRECORD_AGENT_NAME_SN}</span><br />
+<span style="background-color: rgb(255, 255, 255);">MLS Region 1:&nbsp;${customRecord.CUSTRECORD15}</span><br />
+<span style="background-color: rgb(255, 255, 255);">MLS Number 1:&nbsp;${customRecord.CUSTRECORD_MLS_NUMBER_REGION1}</span><br />
+<span style="background-color: rgb(255, 255, 255);">MLS Region 2:&nbsp;${customRecord.CUSTRECORD16}</span><br />
+<span style="background-color: rgb(255, 255, 255);">MLS Number 2:&nbsp;${customRecord.CUSTRECORD_MLS_NUMBER_REGION2}</span><br />
+<span style="background-color: rgb(255, 255, 255);">Builder: &nbsp;${customRecord.CUSTRECORD_TOP_LEVEL_BUILDER}</span><br />
+<span style="background-color: rgb(255, 255, 255);">Builder Division:&nbsp;${customRecord.CUSTRECORD12}</span><br />
+<span style="background-color: rgb(255, 255, 255);">Subdivision: &nbsp;${customRecord.CUSTRECORDCUSTRECORDSUBDNAME}</span><br />
+<span style="background-color: rgb(255, 255, 255);">Lot Number: &nbsp;${customRecord.CUSTRECORD_LOT_NUMBER}</span><br />
+<br />
+<br />
+<span style="background-color: rgb(255, 255, 255);">Please go to the property record and fill in the selling agent and brokerage based on the information given to us by the builder. This will all be found in the Sale Details tab.</span><br />
+<br />
+<#--FM:BEGIN--><a href="https://1309901.app.netsuite.com/app/common/custom/custrecordentry.nl?rectype=18&id=<#if (customRecord.internalId)?has_content>${customRecord.internalId}<#elseif (transaction.internalId)?has_content>${transaction.internalId}<#elseif (case.internalId)?has_content>${case.internalId}<#elseif (entity.internalId)?has_content>${entity.internalId}<#else>${company.internalId}</#if>" target="_self">Property Record</a><#--FM:END--><br />
+<br />
+<#--FM:BEGIN--><a href="https://1309901.extforms.netsuite.com/app/site/hosting/scriptlet.nl?script=52&deploy=1&compid=1309901&h=9233986caf5cd99a9de5&custrecord_property=<#if (customRecord.internalId)?has_content>${customRecord.internalId}<#elseif (transaction.internalId)?has_content>${transaction.internalId}<#elseif (case.internalId)?has_content>${case.internalId}<#elseif (entity.internalId)?has_content>${entity.internalId}<#else>${company.internalId}</#if>" target="_self">Click here to set the Pending Notification Date on the property record</a><#--FM:END-->

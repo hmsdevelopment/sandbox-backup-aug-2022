@@ -1,0 +1,26 @@
+<suitelet scriptid="customscript_flo_create_spider_logs">
+  <defaultfunction>createSpiderLogs</defaultfunction>
+  <description>Create spider log records.</description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint Create Spider Logs Suitelet</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteBundles/Bundle 297487/createSpiderLogs.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_flo_create_spider_logs">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>F</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>AUDIT</loglevel>
+      <runasrole></runasrole>
+      <status>TESTING</status>
+      <title>Strongpoint Create Spider Logs</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

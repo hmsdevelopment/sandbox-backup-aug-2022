@@ -1,0 +1,30 @@
+<scheduledscript scriptid="customscript_flo_clean_customizations">
+  <defaultfunction>detectNewCustomization</defaultfunction>
+  <description>Delete old customizations after get flag a inactive</description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint Clean Customization</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteBundles/Bundle 297487/FLODetectChange.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy1">
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>Strongpoint Clean Customization</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2014-10-01</startdate>
+          <starttime>22:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+  <libraries>
+    <library>
+      <scriptfile>[/SuiteBundles/Bundle 297487/FLOValidateLicense.js]</scriptfile>
+    </library>
+  </libraries>
+</scheduledscript>

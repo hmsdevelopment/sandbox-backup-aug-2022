@@ -1,0 +1,31 @@
+<workflowactionscript scriptid="customscript_spider_record_wf">
+  <defaultfunction>processFile</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Strongpoint Spider Record WF</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <returnrecordtype></returnrecordtype>
+  <returntype>TEXT</returntype>
+  <scriptfile>[/SuiteBundles/Bundle 297487/FloParseRecordListingActionWF.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_spider_record_wf">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <recordtype>[scriptid=customrecord_flo_spider_files]</recordtype>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+    </scriptdeployment>
+  </scriptdeployments>
+  <libraries>
+    <library>
+      <scriptfile>[/SuiteBundles/Bundle 297487/FLORemoveInactiveReferencesFromCust.js]</scriptfile>
+    </library>
+  </libraries>
+</workflowactionscript>

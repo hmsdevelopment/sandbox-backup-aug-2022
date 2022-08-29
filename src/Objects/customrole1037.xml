@@ -1,0 +1,17 @@
+<role scriptid="customrole1037">
+  <centertype>[scriptid=custcenter3]</centertype>
+  <coreadminpermission>F</coreadminpermission>
+  <employeerestriction>NONE</employeerestriction>
+  <employeeselectionunrestricted>T</employeeselectionunrestricted>
+  <isinactive>F</isinactive>
+  <ispartnerrole>T</ispartnerrole>
+  <issalesrole>T</issalesrole>
+  <issinglesignononly>F</issinglesignononly>
+  <issupportrole>T</issupportrole>
+  <iswebserviceonlyrole>F</iswebserviceonlyrole>
+  <name>Night Phone Operators</name>
+  <restrictbydevice>F</restrictbydevice>
+  <restricttimeandexpenses>F</restricttimeandexpenses>
+  <tfaduration>0</tfaduration>
+  <tfarequired>OFF</tfarequired>
+</role>

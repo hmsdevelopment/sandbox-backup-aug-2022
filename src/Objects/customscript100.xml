@@ -1,0 +1,39 @@
+<scheduledscript scriptid="customscript100">
+  <defaultfunction>processHMSSAConfirmations</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>processHMSSAConfirmations</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/processHMSSAConfirmations_v1.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy1">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>SCHEDULED</status>
+      <title>depProcessHMSSAConfirmations</title>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat>PT15M</repeat>
+          <startdate>2014-03-28</startdate>
+          <starttime>04:00:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy2">
+      <isdeployed>T</isdeployed>
+      <loglevel>AUDIT</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>processHMSSAConfirmations</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2014-04-04</startdate>
+          <starttime>22:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

@@ -1,0 +1,26 @@
+<suitelet scriptid="customscript_hms_update_field_sl">
+  <defaultfunction>updatePropRecord</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>HMS Update Field SL</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/HMS_Update_Fields_Using_Suitelet.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_hms_update_field_sl">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>HMS Update Field SL</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

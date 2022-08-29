@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE pdf PUBLIC "-//big.faceless.org//report" "report-1.1.dtd">
+<pdf>
+<head></head>
+<body>
+<h2>Advanced PDF Template to Discover BFO Global Environment Information Passed from NetSuite</h2>
+<h2>Crafted by Marty Zigman</h2>
+<div><img src="https://www.prolecto.com/assets/footer/casual-cropped-marty-zigman-20121025-small.jpg"></img></div>
+<div><img src="https://www.prolecto.com/assets/footer/prolecto_logo_360x41_2007.jpg"></img></div>
+<p>Template Version: ${.version}</p>
+<p>Template Name: ${.template_name}</p>
+List (.data_model)
+<table>
+	<#assign keys = .data_model?keys>
+	<#list keys as key>
+		<tr>
+			<td>Key: ${key}</td>
+			<td>Value: ${.data_model[key]}</td>
+		</tr>
+	</#list>
+</table>
+List (.namespace)
+<table>
+	<#assign keys = .namespace?keys>
+	<#list keys as key>
+		<tr>
+			<td>Key: ${key};</td>
+		</tr>
+	</#list>
+</table>
+
+List (.main)
+<table>
+	<#assign keys = .main?keys>
+	<#list keys as key>
+		<tr>
+			<td>Key: ${key};</td>
+		</tr>
+	</#list>
+</table>
+</body>
+</pdf>

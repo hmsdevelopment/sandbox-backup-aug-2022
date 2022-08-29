@@ -1,0 +1,463 @@
+<savedcsvimport scriptid="custimport_11_1309901_697">
+  <charencoding>windows-1252</charencoding>
+  <columndelimiter>COMMA</columndelimiter>
+  <customrecord>[scriptid=customrecord_property_record]</customrecord>
+  <datahandling>UPDATE</datahandling>
+  <decimaldelimiter>PERIOD</decimaldelimiter>
+  <description>Records that were in Netsuite, then exported and cleaned up, and now re-imported.</description>
+  <entryform>[scriptid=custform_2_1309901_378]</entryform>
+  <ignorereadonly>T</ignorereadonly>
+  <importname>Property Import from Netsuite</importname>
+  <logsystemnotescustfields>F</logsystemnotescustfields>
+  <multiselectdelimiter>^</multiselectdelimiter>
+  <overwritemissingfields>F</overwritemissingfields>
+  <overwritesublists>F</overwritesublists>
+  <recordtype>CUSTOMRECORD</recordtype>
+  <runserversuitescript>F</runserversuitescript>
+  <usemultithread>F</usemultithread>
+  <validatemandatorycustfields>T</validatemandatorycustfields>
+  <audience>
+    <allemployees>F</allemployees>
+    <allpartners>F</allpartners>
+    <allroles>F</allroles>
+    <globaledit>F</globaledit>
+    <ispublic>F</ispublic>
+    <roles></roles>
+  </audience>
+  <filemappings>
+    <filemapping>
+      <file>CUSTOMRECORD</file>
+    </filemapping>
+  </filemappings>
+  <recordmappings>
+    <recordmapping>
+      <record>CUSTOMRECORD</record>
+      <fieldmappings>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord10]</field>
+          <columnreference>
+            <column>County</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord11]</field>
+          <columnreference>
+            <column>School District</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord15]</field>
+          <columnreference>
+            <column>MLS Region 1</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord16]</field>
+          <columnreference>
+            <column>MLS Region 2</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord17]</field>
+          <columnreference>
+            <column>Administrative Contact</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord18]</field>
+          <columnreference>
+            <column>Administrative Contact&apos;s Email</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord19]</field>
+          <columnreference>
+            <column>Administrative Contact&apos;s Phone Number</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord31]</field>
+          <columnreference>
+            <column>Street</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord39]</field>
+          <columnreference>
+            <column>Subdivision Showing Instructions</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord41]</field>
+          <columnreference>
+            <column>Division Showing Instructions</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_actual_closing_date]</field>
+          <columnreference>
+            <column>Actual Closing Date</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_broker_office_id_mlsregion2]</field>
+          <columnreference>
+            <column>Cooperating Real Estate Broker ID MLS 2</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_buyers_last_name]</field>
+          <columnreference>
+            <column>Buyer&apos;s Last Name</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_city]</field>
+          <columnreference>
+            <column>City</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_closing_date_mls_region1]</field>
+          <columnreference>
+            <column>Closing Notification Date MLS Region 1</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_closing_date_mls_region2]</field>
+          <columnreference>
+            <column>Closing Notification Date MLS Region 2</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_construction_status_contract]</field>
+          <columnreference>
+            <column>Construction Status at Contract</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_construction_status_listing]</field>
+          <columnreference>
+            <column>Construction Status at Listing</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_current_construction]</field>
+          <columnreference>
+            <column>Current Construction Status</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_current_list_price]</field>
+          <columnreference>
+            <column>Current List Price</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_elevation]</field>
+          <columnreference>
+            <column>Elevation</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_entered_mls]</field>
+          <columnreference>
+            <column>Entered into MLS</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_estimated_closing_date]</field>
+          <columnreference>
+            <column>Estimated Closing Date</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_estimated_completion_date]</field>
+          <columnreference>
+            <column>Estimated Completion Date</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_estimated_under_roof_date]</field>
+          <columnreference>
+            <column>Estimated Under Roof Date</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_expiration_date]</field>
+          <columnreference>
+            <column>Expiration Date</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_floorplan]</field>
+          <columnreference>
+            <column>Floorplan</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_house_number]</field>
+          <columnreference>
+            <column>House Number</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_hud1]</field>
+          <columnreference>
+            <column>HUD1</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_list_date]</field>
+          <columnreference>
+            <column>List Date</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_listing_date_mls_region1]</field>
+          <columnreference>
+            <column>Listing Notification Date MLS Region 1</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_listing_date_mls_region2]</field>
+          <columnreference>
+            <column>Listing Notification Date MLS Region 2</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_lot_number]</field>
+          <columnreference>
+            <column>Lot Number</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_mls_number_region1]</field>
+          <columnreference>
+            <column>MLS Number - Region 1</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_mls_number_region2]</field>
+          <columnreference>
+            <column>MLS Number - Region 2</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_original_listing_price]</field>
+          <columnreference>
+            <column>Original List Price</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_pending_date_mls_region1]</field>
+          <columnreference>
+            <column>Pending Notification Date MLS Region 1</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_pending_date_mls_region2]</field>
+          <columnreference>
+            <column>Pending Notification Date MLS Region 2</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_property_bsr_team]</field>
+          <columnreference>
+            <column>BSR Team or Individual Sales Rep</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_property_bsr_team_members]</field>
+          <columnreference>
+            <column>Team Members</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_property_bsr_team_type]</field>
+          <columnreference>
+            <column>BSR Team Type</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_property_date_const_update]</field>
+          <columnreference>
+            <column>Date of Last Construction Update</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_property_status]</field>
+          <columnreference>
+            <column>Property Status</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_purchase_contract]</field>
+          <columnreference>
+            <column>Purchase Contract</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>CUSTRECORD_SELLING_PRICE</field>
+          <columnreference>
+            <column>Selling Price</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_square_feet]</field>
+          <columnreference>
+            <column>Square Feet</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_time_zone]</field>
+          <columnreference>
+            <column>Time Zone</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecord_zip_code]</field>
+          <columnreference>
+            <column>Zip Code</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>[scriptid=customrecord_property_record.custrecordcustrecordsubdname]</field>
+          <columnreference>
+            <column>Subdivision Name</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>EXTERNALID</field>
+          <columnreference>
+            <column>External ID</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>ID</field>
+          <columnreference>
+            <column>Internal ID</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>ISINACTIVE</field>
+          <columnreference>
+            <column>Inactive</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+        <fieldmapping>
+          <field>NAME</field>
+          <columnreference>
+            <column>Name</column>
+            <file>CUSTOMRECORD</file>
+            <type>NAME</type>
+          </columnreference>
+        </fieldmapping>
+      </fieldmappings>
+    </recordmapping>
+  </recordmappings>
+</savedcsvimport>
